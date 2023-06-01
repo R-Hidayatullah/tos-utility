@@ -8,4 +8,19 @@ External Link :
 <br>
 https://nocodenolife.org/forum/topic/136-ipf-suite/
 <br>
-http://web.archive.org/web/*/http://dl.dropboxusercontent.com/u/60681258/xr*
+http://web.archive.org/web/20140816034951/https://dl.dropboxusercontent.com/u/60681258/xr/xac.txt
+<br>
+http://web.archive.org/web/20140816034951/https://dl.dropboxusercontent.com/u/60681258/xr/xsm.txt
+<br>
+http://web.archive.org/web/20140816034951/https://dl.dropboxusercontent.com/u/60681258/xr/xmf.txt
+<br>
+http://web.archive.org/web/20140816034951/https://dl.dropboxusercontent.com/u/60681258/xr/xpm.txt
+<br>
+<br>
+Link for XRConverter
+<br>
+http://web.archive.org/web/20140816034959/https://dl.dropboxusercontent.com/u/60681258/xr/XRConverters-v0.2.1.zip
+<br>
+Source Code XRConverter
+<br>
+http://web.archive.org/web/20140816034951/https://dl.dropboxusercontent.com/u/60681258/xr/XRConverters-v0.2.1%20src.zip
