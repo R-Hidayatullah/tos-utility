@@ -1,0 +1,117 @@
+//------------------------------------------------
+//--- 010 Editor v13.0.1 Binary Template
+//
+//      File: 
+//   Authors: 
+//   Version: 
+//   Purpose: 
+//  Category: 
+// File Mask: 
+//  ID Bytes: 
+//   History: 
+//------------------------------------------------
+LittleEndian();
+
+typedef struct{
+byte magic[4];
+byte majorVersion;
+byte minorVersion;
+byte bBigEndian;
+byte pad;
+}Xsm;
+
+Xsm xsm;
+
+typedef struct{
+int32 chunkType;
+int32 length;
+int32 version;
+}Chunk;
+
+Chunk chunk;
+
+typedef struct{
+float unused;
+float fMaxAcceptableError;
+int32 fps;
+byte exporterMajorVersion;
+byte exporterMinorVersion;
+byte pad[2];
+int32 sourceAppsize;
+byte sourceApp[sourceAppsize];
+int32 origFileNamesize;
+byte origFileName[origFileNamesize];
+int32 exportDatesize;
+byte exportDate[exportDatesize];
+}Metadata;
+
+Metadata metadata;
+
+typedef struct{
+float x;
+float y;
+float z;
+}Vec3d;
+
+typedef struct{
+int16 x;
+int16 y;
+int16 z;
+int16 w;
+}Quat16;
+
+typedef struct{
+Vec3d pos;
+float fTime;
+}PosKey;
+
+
+typedef struct{
+Quat16 rot;
+float fTime;
+}RotKey;
+
+
+typedef struct{
+Vec3d scale;
+float fTime;
+}ScaleKey;
+
+
+typedef struct{
+Quat16 rot;
+float fTime;
+}ScaleRotKey;
+
+typedef struct{
+Quat16 poseRot;
+Quat16 bindPoseRot;
+Quat16 poseScaleRot;
+Quat16 bindPoseScaleRot;
+Vec3d posePos;
+Vec3d poseScale;
+Vec3d bindPosePos;
+Vec3d bindPoseScale;
+int32 numPosKeys;
+int32 numRotKeys;
+int32 numScaleKeys;
+int32 numScaleRotKeys;
+float fMaxError;
+int32 namelength;
+byte name[namelength]<optimize=false>;
+PosKey poskey[numPosKeys]<optimize=false>;
+RotKey rotkey[numRotKeys]<optimize=false>;
+ScaleKey scalekey[numScaleKeys]<optimize=false>;
+ScaleRotKey scalerotkey[numScaleRotKeys]<optimize=false>;
+}SkeletalSubMotion;
+
+typedef struct{
+int32 numSubMotions;
+SkeletalSubMotion submotion[numSubMotions]<optimize=false>;
+
+}BoneAnimation;
+
+int padding;
+
+Chunk chunk2;
+BoneAnimation bone;

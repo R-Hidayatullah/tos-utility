@@ -1,0 +1,273 @@
+//------------------------------------------------
+//--- 010 Editor v13.0.1 Binary Template
+//
+//      File: 
+//   Authors: 
+//   Version: 
+//   Purpose: 
+//  Category: 
+// File Mask: 
+//  ID Bytes: 
+//   History: 
+//------------------------------------------------
+LittleEndian();
+
+
+typedef struct{
+float x;
+float y;
+float z;
+}Vec3d;
+
+typedef struct{
+float x;
+float y;
+float z;
+float w;
+}Vec4d;
+
+typedef struct{
+float x;
+float y;
+float z;
+float w;
+}Quat;
+
+typedef struct{
+Vec4d col1;
+Vec4d col2;
+Vec4d col3;
+Vec4d pos;
+}Mat44;
+
+
+typedef struct{
+byte magic[4];
+byte majorVersion;
+byte minorVersion;
+byte bBigEndian;
+byte multiplyOrder;
+}Header;
+
+Header header;
+
+typedef struct{
+int32 type;
+int32 length;
+int32 version;
+}Chunk;
+Chunk chunkMetadata;
+
+
+typedef struct{
+uint32 repositionMask;
+int32 repositioningNode;
+byte exporterMajorVersion;
+byte exporterMinorVersion;
+byte unused[2];
+float retargetRootOffset;
+int32 sourceApplen;
+byte sourceApp[sourceApplen]<optimize=false>;
+int32 origFileNamelen;
+byte origFileName[origFileNamelen]<optimize=false>;
+int32 exportDatelen;
+byte exportDate[exportDatelen]<optimize=false>;
+int32 actorNamelen;
+byte actorName[actorNamelen]<optimize=false>;
+}Metadata;
+
+Metadata metadata;
+
+typedef struct{
+        Quat rotation;
+        Quat scaleRotation;
+        Vec3d position;
+        Vec3d scale;
+        float unused[3];
+        int32 pad1;
+        int32 pad2;
+        int32 parentNodeId;
+        int32 numChildNodes;
+        int32 bIncludeInBoundsCalc;
+        Mat44 transform;
+        float fImportanceFactor;
+        int32 length;
+        byte name[length];
+}NodeData;
+
+
+typedef struct{
+    int32 numNodes;
+    int32 numRootNodes;
+NodeData node[numNodes]<optimize=false>;
+}NodeHierarchy;
+
+Chunk chunkNodeHierarchy;
+NodeHierarchy nodehierarchy;
+
+Chunk chunkMaterialTotal;
+
+typedef struct{
+int32 numTotalMaterials;
+int32 numStandardMaterials;
+int32 numFxMaterials;
+}MaterialTotal;
+
+MaterialTotal materialtotal;
+
+Chunk chunkMaterialDefinition;
+
+typedef struct{
+float amount;
+float uOffset;
+float vOffset;
+float uTiling;
+float vTiling;
+float rotationInRadians;
+int16 materialId;
+byte mapType;
+byte unused;
+int32 sizeTexture;
+byte texture[sizeTexture];
+}Layer;
+
+typedef struct{
+Vec4d ambientColor;
+Vec4d diffuseColor;
+Vec4d specularColor;
+Vec4d emissiveColor;
+float shine;
+float shineStrength;
+float opacity;
+float ior;
+byte bDoubleSided;
+byte bWireframe;
+byte unused;
+byte numLayers;
+int32 sizeName;
+byte name[sizeName];
+
+Layer layer[numLayers]<optimize=false>;
+}MaterialDefinition;
+
+MaterialDefinition materialdefinition;
+
+
+typedef struct{
+int32 sizeName;
+byte name[sizeName];
+int32 value;
+}IntProperties;
+
+typedef struct{
+int32 sizeName;
+byte name[sizeName];
+float value;
+}FloatProperties;
+
+typedef struct{
+int32 sizeName;
+byte name[sizeName];
+byte value;
+}BoolProperties;
+
+typedef struct{
+int32 sizeName;
+byte name[sizeName];
+int32 sizeName2;
+byte name2[sizeName2];
+}StringProperties;
+
+typedef struct{
+Chunk chunk5ShaderMaterial;
+int32 unknownvalue1;
+int32 unknownvalue2;
+int32 unknownvalue3;
+int32 unknownvalue4;
+int32 unknownvalue5;
+int32 unknownvalue6;
+int32 sizeName;
+byte name[sizeName];
+int32 sizeName2;
+byte name2[sizeName2];
+IntProperties intproperty[unknownvalue1]<optimize=false>;
+FloatProperties floatproperty[unknownvalue2]<optimize=false>;
+BoolProperties boolproperty[unknownvalue4]<optimize=false>;
+int32 sizePad1;
+byte pad1[sizePad1];
+StringProperties stringproperty;
+}ShaderMaterial;
+
+ShaderMaterial shadermaterial[2]<optimize=false>;
+
+
+typedef struct{
+int32 type;
+int32 attribSize;
+byte bKeepOriginals;
+byte bIsScaleFactor;
+byte pad[2];
+byte data[numVertices*attribSize]<optimize=false>;
+}VerticesAttribute;
+
+typedef struct{
+int32 numIndices;
+int32 numVertices;
+int32 materialId;
+int32 numBones;
+int32 relativeIndices[numIndices]<optimize=false>;
+int32 boneIds[numBones]<optimize=false>;
+}SubMesh;
+
+typedef struct{
+int32 nodeId;
+int32 numInfluenceRanges;
+int32 numVertices;
+int32 numIndices;
+int32 numSubMeshes;
+int32 numAttribLayers;
+byte isCollisionMesh;
+byte pad1[3];
+VerticesAttribute verticesattribute[numAttribLayers]<optimize=false>;
+SubMesh submesh[numSubMeshes]<optimize=false>;
+}Mesh;
+
+typedef struct{
+Chunk chunkMesh;
+Mesh mesh;
+}MeshData;
+
+MeshData meshdata[1]<optimize=false>;
+
+Chunk chunkSkinning;
+
+typedef struct{
+float fWeight;
+int16 boneId;
+byte pad1[2];
+}InfluenceData;
+
+typedef struct{
+int32 firstInfluenceIndex;
+int32 numInfluences;
+}InfluenceRange;
+
+typedef struct{
+int32 nodeId;
+int32 numLocalBones;
+int32 numInfluences;
+byte bIsForCollisionMesh;
+byte pad1[3];
+InfluenceData influencedata[numInfluences]<optimize=false>;
+if(bIsForCollisionMesh>0){
+//InfluenceRange influencerange                                             WIP
+}
+
+if(bIsForCollisionMesh==0){
+
+InfluenceRange influencerange[1491]<optimize=false>; // find value in meshdata[index].mesh.numInfluenceRanges
+}
+}Skinning;
+
+Skinning skinning;
+
