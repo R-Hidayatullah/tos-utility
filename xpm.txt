@@ -1,0 +1,39 @@
+string = uint32 len, char[len]
+
+file:
+    byte magic[4] = 58 50 4D 20 ("XPM ")
+    byte majorVersion = 1
+    byte minorVersion = 0
+    byte bBigEndian
+    byte pad
+
+    chunk[...]
+        int32 chunkType
+        int32 length
+        int32 version
+        byte data[length]
+
+chunk 65: metadata (v1)
+    int32 fps
+    byte exporterMajorVersion
+    byte exporterMinorVersion
+    byte pad[2]
+    string sourceApp
+    string origFilePath
+    string exportDate
+    string motionName
+
+chunk 66: deformation animation (v1)
+    int32 numMorphTargetAnims
+    MorphTargetAnim[numMorphTargetAnims]:
+        float fPoseWeight
+        float fMinWeight
+        float fMaxWeight
+        int32 phonemeSetBitmask (see .xac)
+        int32 numKeys
+        string morphTargetName
+        
+        Key[numKeys]:
+            float fTime
+            uint16 amount (/ 65535)
+            byte pad[2]

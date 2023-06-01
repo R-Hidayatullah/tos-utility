@@ -1,0 +1,79 @@
+.xmf files contain non-NPC meshes: ships, station parts, asteroids etc. They can be somewhat animated through .ani files
+(moving/rotating/scaling the entire mesh over time), but do not contain bones or morph targets. They are quite close to
+DirectX: their content, once decompressed, can be directly copied to a DirectX vertex or index buffer.
+
+Each file consists of a header, a number of buffer descriptions, and an equal number of buffer contents. A buffer can be
+a vertex buffer (vertex positions/normals/texture coordinates/...) or an index buffer (indices into the vertex buffer
+which determine the polygons). There can be one vertex buffer that stores all attributes of all vertices, or multiple
+vertex buffers where each buffer stores one particular attribute for all vertices.
+
+Collision meshes (*-collision.xmf) must have exactly one vertex attribute, namely D3DDECLUSAGE_POSITION (0) stored as
+D3DDECLTYPE_FLOAT3 (2). This attribute must be stored in the type/usageIndex/format fields of the DataBufferDesc structure,
+not in the VertexDeclElement array. Not following this rule causes the game to crash.
+
+
+byte magic[4]             = "XUMF"  // Xu Mesh File
+byte version              = 3
+byte bBigEndian           = 0
+byte dataBufferDescOffset = 0x40    // file offset of first data buffer desc
+byte pad
+byte numDataBuffers                 // typically 2, but may be more. there is always one index buffer and one or more vertex buffers.
+                                    // if there are multiple vertex buffers, these merely define additional attributes for the same
+                                    // vertices, not more vertices.
+
+byte dataBufferDescSize             // size of one data buffer description. has a maximum value of 0xBC (= sizeof(DataBufferDesc)), but some files use less,
+                                    // in which case the remaining DataBufferDesc fields should be set to 0.
+byte numMaterials
+byte materialSize         = 0x88    // size of one material assignment
+byte pad[10]
+int32 primitiveType       = 4       // D3DPRIMITIVETYPE; determines how the index buffer is used to draw polygons. 4 = triangle list
+
+byte pad[dataBufferDescOffset-0x1A]
+
+DataBufferDesc[numDataBuffers]      // describes a DirectX 9 vertex or index buffer
+
+    int32 type                      // 0x1E -> index buffer, otherwise vertex buffer
+                                    // For vertex buffers with numVertexElements = 0, indicates the usage of a single implicit element. The type
+                                    // should be mapped to a D3DDECLUSAGE as follows:
+                                    //   type    D3DDECLUSAGE
+                                    //   ------------------------
+                                    //   0, 1    POSITION
+                                    //   2, 3    NORMAL
+                                    //   4       TANGENT
+                                    //   5       BINORMAL
+                                    //   8       COLOR
+                                    //   20      PSIZE
+                                    //   others  TEXCOORD
+    
+    int32 usageIndex                // for vertex buffers with numVertexElements = 0, indicates the usage index of the single implicit element
+    int32 dataOffset                // file offset = dataBufferDescOffset + numDataBuffers*dataBufferDescSize + numMaterials*materialSize + dataOffset
+    int32 bCompressed               // if 1, the data is compressed using zlib's compress() function and can be uncompressed with uncompress()
+    byte pad[4]
+    int32 format                    // for index buffers, this is the index format: 0x1E -> 16-bit indices, 0x1F -> 32-bit indices.
+                                    // for vertex buffers with numVertexElements = 0, this is the type (D3DDECLTYPE) of the single implicit element.
+                                    // otherwise 0x20.
+    
+    int32 compressedDataSize        // size of the buffer data in the file. equal to uncompressed size if bCompressed = 0
+    int32 itemsPerSection           // number of vertices/indices
+    int32 itemSize                  // size in bytes of a single vertex/index
+    int32 numSections = 1
+    byte pad[16]
+    int32 numVertexElements         // for the vertex buffer, number of elements in the DirectX vertex declaration. May be 0,
+                                    // in which case a single declaration is built using type, usageIndex and format.
+    
+    VertexDeclElement[16]           // fixed size array, only the first numVertexElements items are used. each item is mapped to a D3DVERTEXELEMENT9
+        int32 type                  // D3DDECLTYPE
+        byte usage                  // D3DDECLUSAGE
+        byte usageIndex
+        byte pad[2]
+
+Material[numMaterials]
+    int32 firstIndex                // index of the first index in the index buffer which the material applies to (multiple of 3)
+    int32 numIndices                // number of indices, starting at firstIndex, which the material applies to (multiple of 3)
+                                    // the sum of the numIndices of all Materials should be equal to the itemsPerSection of the index buffer
+    
+    char name[128]                  // materialCollection + "." + materialName as found in material_library.xml
+
+for each data buffer:
+    byte bufferData[compressedDataSize]     // content of the DirectX vertex/index buffer, zlib-compressed if bCompressed = 1.
+                                            // the uncompressed size is numSections * itemsPerSection * itemSize.

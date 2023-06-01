@@ -1,0 +1,64 @@
+vec3d = float x, float y, float z
+quat16 = int16 x, int16 y, int16 z, int16 w; fX = x / 32767
+string = uint32 len, char[len]
+
+file:
+    byte magic[4] = 58 53 4D 20 ("XSM ")
+    byte majorVersion = 1
+    byte minorVersion = 0
+    byte bBigEndian
+    byte pad
+
+    chunk[...]
+        int32 chunkType
+        int32 length
+        int32 version
+        byte data[length]
+
+chunk C9: metadata (v2)
+    float unused = 1.0f
+    float fMaxAcceptableError
+    int32 fps
+    byte exporterMajorVersion
+    byte exporterMinorVersion
+    byte pad[2]
+    string sourceApp
+    string origFileName
+    string exportDate
+    string motionName
+
+chunk CA: bone animation (v2)
+    int32 numSubMotions
+    SkeletalSubMotion[numSubMotions]:
+        quat16 poseRot
+        quat16 bindPoseRot
+        quat16 poseScaleRot
+        quat16 bindPoseScaleRot
+        vec3D posePos
+        vec3D poseScale
+        vec3D bindPosePos
+        vec3D bindPoseScale
+        int32 numPosKeys
+        int32 numRotKeys
+        int32 numScaleKeys
+        int32 numScaleRotKeys
+        float fMaxError
+        string nodeName
+        
+        // fTime of first item in each array must be 0
+        
+        PosKey[numPosKeys]:
+            vec3d pos
+            float fTime
+        
+        RotKey[numRotKeys]:
+            quat16 rot
+            float fTime
+        
+        ScaleKey[numScaleKeys]:
+            vec3d scale
+            float fTime
+        
+        ScaleRotKey[numScaleRotKeys]:
+            quat16 rot
+            float fTime
