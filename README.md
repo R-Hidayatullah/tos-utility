@@ -2,7 +2,8 @@
 Tree of Savior collection utility
 This is only TOS template for 010 Editor and TOS file specification.
 
-
+![TOS Image](maps/worldmap2_mainmap.jpg)
+Tree of Savior Main Map
 
 External Link : 
 <br>
