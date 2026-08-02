@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serverlist>
+	<!-- session::loginInfo::LoadServerList reads Server%d_IP/Server%d_Port
+	     starting at 0 and stops at the first index that is missing or whose
+	     IP is "None". Port 7001 was advertised here and the server has never
+	     listened on it; it binds 2000 (barrack), 7002 (zone) and 9001/9002
+	     (social). Login worked anyway only because this client dials
+	     Server1 for CB_LOGIN (see docs/11). -->
+	<server GROUP_ID="1001" TRAFFIC="0" ENTER_LIMIT="100" NAME="[Local] tosemu" Server0_IP="127.0.0.1" Server0_Port="2000" Server1_IP="127.0.0.1" Server1_Port="7002"/>
+</serverlist>

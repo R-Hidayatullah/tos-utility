@@ -1,0 +1,12 @@
+ServiceNation=GLOBAL
+Dictionary=YES
+UseNexonSSO=NO
+UseNexonGLM=NO
+UseNexonLauncher=NO
+UseNGS=NO
+UseNPS=NO
+UseSteamClient=NO
+UseXigncode=NO
+UseLiveXigncode=NO
+UseNISMS_TESTURL=NO
+UseNISMS_ONLY_OFFER=YES

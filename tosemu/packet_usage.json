@@ -1,0 +1,4252 @@
+{
+ "19": {
+  "name": "BC_LOGINOK",
+  "size": 156,
+  "uses": {
+   "12": [
+    {
+     "callee": "sub_140B2BF00",
+     "arg": 0,
+     "type": "_QWORD",
+     "w": 8,
+     "ptr": false
+    },
+    {
+     "callee": "sub_140B08C10",
+     "arg": 0,
+     "type": "_QWORD",
+     "w": 8,
+     "ptr": false
+    }
+   ],
+   "20": [
+    {
+     "callee": "sub_14008FE50",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "76": [
+    {
+     "callee": "sub_140B2BF90",
+     "arg": 0,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "80": [
+    {
+     "callee": "sub_140B2BF20",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "148": [
+    {
+     "callee": "sub_140B2BF80",
+     "arg": 0,
+     "type": "_QWORD",
+     "w": 8,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "25": {
+  "name": "BC_COMMANDER_CREATE",
+  "size": 618,
+  "uses": {
+   "538": [
+    {
+     "callee": "sub_14011D690",
+     "arg": 1,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ],
+   "542": [
+    {
+     "callee": "sub_140120670",
+     "arg": 1,
+     "type": "unsigned __int16",
+     "w": 2,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "26": {
+  "name": "BC_COMMANDER_DESTROY",
+  "size": 11,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_14011D690",
+     "arg": 1,
+     "type": "_BYTE",
+     "w": 1,
+     "ptr": false,
+     "via": "v5"
+    },
+    {
+     "callee": "sub_140B0A1A0",
+     "arg": 1,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "27": {
+  "name": "BC_START_GAMEOK",
+  "size": 37,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140B2C2B0",
+     "arg": 0,
+     "type": "_DWORD",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "14": [
+    {
+     "callee": "sub_140B2C2B0",
+     "arg": 1,
+     "type": "_DWORD",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "18": [
+    {
+     "callee": "sub_140B2C2B0",
+     "arg": 2,
+     "type": "_DWORD",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "22": [
+    {
+     "callee": "sub_140B2C2B0",
+     "arg": 3,
+     "type": "_DWORD",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "26": [
+    {
+     "callee": "sub_140B2C2B0",
+     "arg": 4,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ],
+   "27": [
+    {
+     "callee": "sub_140AD72B0",
+     "arg": 0,
+     "type": "_QWORD",
+     "w": 8,
+     "ptr": false
+    }
+   ],
+   "36": [
+    {
+     "callee": "sub_1401330A0",
+     "arg": 0,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "29": {
+  "name": "BC_MESSAGE",
+  "size": 0,
+  "uses": {
+   "12": [
+    {
+     "callee": "sub_140134170",
+     "arg": 0,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ],
+   "13": [
+    {
+     "callee": "sub_140134170",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "17": [
+    {
+     "callee": "sub_140134170",
+     "arg": 2,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "53": [
+    {
+     "callee": "sub_140134170",
+     "arg": 3,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ]
+  }
+ },
+ "3005": {
+  "name": "ZC_CONNECT_FAILED",
+  "size": 0,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140B88B90",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_140B87AA0",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_140B88160",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_1405D3B10",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_1401E1D70",
+     "arg": 2,
+     "type": "int",
+     "w": 4,
+     "ptr": false
+    },
+    {
+     "callee": "sub_140A9C4D0",
+     "arg": 0,
+     "type": "unsigned __int16",
+     "w": 2,
+     "ptr": false
+    },
+    {
+     "callee": "sub_140BEE460",
+     "arg": 0,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    },
+    {
+     "callee": "sub_140BEE460",
+     "arg": 0,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    },
+    {
+     "callee": "sub_140C03800",
+     "arg": 0,
+     "type": "_QWORD",
+     "w": 8,
+     "ptr": false
+    },
+    {
+     "callee": "sub_140BF2D50",
+     "arg": 0,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    },
+    {
+     "callee": "sub_140BF2D00",
+     "arg": 0,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    },
+    {
+     "callee": "sub_140BF5730",
+     "arg": 0,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    },
+    {
+     "callee": "sub_140BF5720",
+     "arg": 0,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    },
+    {
+     "cmp": "==",
+     "const": 1
+    }
+   ],
+   "12": [
+    {
+     "callee": "memcpy",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "memcpy",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_1402D6180",
+     "arg": 1,
+     "type": "_OWORD",
+     "w": 16,
+     "ptr": false,
+     "via": "v230"
+    },
+    {
+     "callee": "sub_1402D6180",
+     "arg": 1,
+     "type": "_OWORD",
+     "w": 16,
+     "ptr": false,
+     "via": "v230"
+    },
+    {
+     "callee": "sub_1402D6180",
+     "arg": 1,
+     "type": "_OWORD",
+     "w": 16,
+     "ptr": false,
+     "via": "v230"
+    },
+    {
+     "callee": "sub_1402D6180",
+     "arg": 1,
+     "type": "_OWORD",
+     "w": 16,
+     "ptr": false,
+     "via": "v230"
+    },
+    {
+     "callee": "sub_1402D6180",
+     "arg": 0,
+     "type": "_OWORD",
+     "w": 16,
+     "ptr": false,
+     "via": "v230"
+    },
+    {
+     "callee": "sub_140867FA0",
+     "arg": 0,
+     "type": "_OWORD",
+     "w": 16,
+     "ptr": false,
+     "via": "v230"
+    },
+    {
+     "callee": "sub_140C03950",
+     "arg": 1,
+     "type": "_OWORD",
+     "w": 16,
+     "ptr": false,
+     "via": "v230"
+    },
+    {
+     "callee": "sub_1402D6180",
+     "arg": 0,
+     "type": "_OWORD",
+     "w": 16,
+     "ptr": false,
+     "via": "v230"
+    },
+    {
+     "callee": "sub_140867E00",
+     "arg": 0,
+     "type": "_OWORD",
+     "w": 16,
+     "ptr": false,
+     "via": "v230"
+    },
+    {
+     "callee": "sub_1402D6180",
+     "arg": 0,
+     "type": "_OWORD",
+     "w": 16,
+     "ptr": false,
+     "via": "v230"
+    },
+    {
+     "callee": "sub_140867FA0",
+     "arg": 0,
+     "type": "_OWORD",
+     "w": 16,
+     "ptr": false,
+     "via": "v230"
+    },
+    {
+     "callee": "sub_1402D6180",
+     "arg": 0,
+     "type": "_OWORD",
+     "w": 16,
+     "ptr": false,
+     "via": "v230"
+    },
+    {
+     "callee": "sub_140867FA0",
+     "arg": 0,
+     "type": "_OWORD",
+     "w": 16,
+     "ptr": false,
+     "via": "v230"
+    },
+    {
+     "callee": "sub_1402D6180",
+     "arg": 0,
+     "type": "_OWORD",
+     "w": 16,
+     "ptr": false,
+     "via": "v230"
+    },
+    {
+     "callee": "sub_140867FA0",
+     "arg": 0,
+     "type": "_OWORD",
+     "w": 16,
+     "ptr": false,
+     "via": "v230"
+    }
+   ],
+   "14": [
+    {
+     "callee": "sub_140B88B90",
+     "arg": 2,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_140B88160",
+     "arg": 2,
+     "type": "_QWORD",
+     "w": 8,
+     "ptr": false
+    },
+    {
+     "callee": "sub_140BF2D50",
+     "arg": 1,
+     "type": "_QWORD",
+     "w": 8,
+     "ptr": false
+    },
+    {
+     "callee": "sub_140BF2D00",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "16": [
+    {
+     "callee": "sub_140AA12C0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_1408A83A0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "18": [
+    {
+     "callee": "sub_140B87AA0",
+     "arg": 2,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_140AF3D70",
+     "arg": 4,
+     "type": "_DWORD",
+     "w": 4,
+     "ptr": false
+    },
+    {
+     "callee": "sub_140C03800",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "20": [
+    {
+     "callee": "sub_140B87AA0",
+     "arg": 3,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "21": [
+    {
+     "callee": "sub_140B87AA0",
+     "arg": 4,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "22": [
+    {
+     "callee": "sub_140B88B90",
+     "arg": 3,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_140B88160",
+     "arg": 3,
+     "type": "unsigned __int16",
+     "w": 2,
+     "ptr": false
+    },
+    {
+     "callee": "sub_140AF3D70",
+     "arg": 5,
+     "type": "_DWORD",
+     "w": 4,
+     "ptr": false
+    },
+    {
+     "callee": "sub_140C03800",
+     "arg": 2,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "37": [
+    {
+     "callee": "sub_140B87AA0",
+     "arg": 5,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "44": [
+    {
+     "callee": "sub_140C03450",
+     "arg": 0,
+     "type": "_QWORD",
+     "w": 8,
+     "ptr": false,
+     "via": "v166"
+    },
+    {
+     "callee": "sub_140C034E0",
+     "arg": 0,
+     "type": "_QWORD",
+     "w": 8,
+     "ptr": false,
+     "via": "v166"
+    },
+    {
+     "callee": "sub_140C03950",
+     "arg": 0,
+     "type": "_QWORD",
+     "w": 8,
+     "ptr": false,
+     "via": "v166"
+    }
+   ],
+   "52": [
+    {
+     "callee": "sub_140C034E0",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "56": [
+    {
+     "cmp": ">",
+     "const": 0
+    }
+   ],
+   "138": [
+    {
+     "callee": "sub_1405D3190",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "150": [
+    {
+     "callee": "sub_140216940",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3012": {
+  "name": "ZC_MESSAGE",
+  "size": 0,
+  "uses": {
+   "12": [
+    {
+     "callee": "sub_140134170",
+     "arg": 0,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ],
+   "13": [
+    {
+     "callee": "sub_140134170",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "17": [
+    {
+     "callee": "sub_140134170",
+     "arg": 2,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "53": [
+    {
+     "callee": "sub_140134170",
+     "arg": 3,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ]
+  }
+ },
+ "3014": {
+  "name": "ZC_START_GAME",
+  "size": 51,
+  "uses": {
+   "22": [
+    {
+     "callee": "sub_140AD8800",
+     "arg": 1,
+     "type": "_QWORD",
+     "w": 8,
+     "ptr": false
+    }
+   ],
+   "30": [
+    {
+     "callee": "sub_1400BDDC0",
+     "arg": 1,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ],
+   "31": [
+    {
+     "callee": "strnlen",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "memcpy",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "memcpy",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ]
+  }
+ },
+ "3101": {
+  "name": "ZC_ENTER_PC",
+  "size": 623,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140B62AF0",
+     "arg": 0,
+     "type": "_OWORD",
+     "w": 16,
+     "ptr": false,
+     "via": "v6"
+    },
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "_OWORD",
+     "w": 16,
+     "ptr": false,
+     "via": "v6"
+    }
+   ],
+   "53": [
+    {
+     "callee": "sub_1401D71D0",
+     "arg": 0,
+     "type": "_QWORD",
+     "w": 8,
+     "ptr": false,
+     "via": "v11"
+    }
+   ],
+   "65": [
+    {
+     "callee": "DWORD2",
+     "arg": 0,
+     "type": "_QWORD",
+     "w": 8,
+     "ptr": false,
+     "via": "v14"
+    }
+   ],
+   "84": [
+    {
+     "callee": "sub_140B62AF0",
+     "arg": 1,
+     "type": "_DWORD",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "88": [
+    {
+     "callee": "sub_140B62AF0",
+     "arg": 2,
+     "type": "_DWORD",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "92": [
+    {
+     "callee": "sub_140B62AF0",
+     "arg": 3,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ],
+   "93": [
+    {
+     "callee": "sub_14011DF90",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "613": [
+    {
+     "callee": "sub_140AD0AE0",
+     "arg": 1,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ],
+   "621": [
+    {
+     "callee": "sub_140B511B0",
+     "arg": 2,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "622": [
+    {
+     "callee": "sub_140B62AF0",
+     "arg": 4,
+     "type": "_BYTE",
+     "w": 1,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3102": {
+  "name": "ZC_ENTER_MONSTER",
+  "size": 0,
+  "uses": {
+   "12": [
+    {
+     "callee": "sub_140B62240",
+     "arg": 0,
+     "type": "_DWORD",
+     "w": 4,
+     "ptr": false,
+     "via": "v20"
+    },
+    {
+     "callee": "sub_140E2AD10",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_140B62670",
+     "arg": 0,
+     "type": "_DWORD",
+     "w": 4,
+     "ptr": false,
+     "via": "v20"
+    },
+    {
+     "callee": "sub_140E2AD10",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "37": [
+    {
+     "cmp": "==",
+     "const": 1
+    }
+   ],
+   "58": [
+    {
+     "callee": "sub_14060A540",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_140216940",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    },
+    {
+     "callee": "sub_14069FBE0",
+     "arg": 0,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "94": [
+    {
+     "callee": "sub_14060B430",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "1374": [
+    {
+     "callee": "sub_140B62240",
+     "arg": 1,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false,
+     "via": "v6"
+    },
+    {
+     "callee": "sub_140B62670",
+     "arg": 1,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false,
+     "via": "v6"
+    }
+   ],
+   "1375": [
+    {
+     "callee": "sub_140B62240",
+     "arg": 2,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ],
+   "1380": [
+    {
+     "callee": "sub_140E2AD10",
+     "arg": 0,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false,
+     "via": "result"
+    },
+    {
+     "callee": "sub_140E2AD10",
+     "arg": 0,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false,
+     "via": "result"
+    }
+   ]
+  }
+ },
+ "3105": {
+  "name": "ZC_ENTER_ITEM",
+  "size": 107,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140B62480",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "14": [
+    {
+     "callee": "sub_140B62480",
+     "arg": 2,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "26": [
+    {
+     "callee": "sub_140B62480",
+     "arg": 1,
+     "type": "_QWORD",
+     "w": 8,
+     "ptr": false,
+     "via": "v5"
+    }
+   ],
+   "38": [
+    {
+     "callee": "sub_140B62480",
+     "arg": 3,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ]
+  }
+ },
+ "3107": {
+  "name": "ZC_MOVE_PATH",
+  "size": 43,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AD5920",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "42": [
+    {
+     "callee": "sub_140AD4820",
+     "arg": 4,
+     "type": "_BYTE",
+     "w": 1,
+     "ptr": false
+    },
+    {
+     "callee": "sub_140AD4820",
+     "arg": 4,
+     "type": "_BYTE",
+     "w": 1,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3108": {
+  "name": "ZC_MOVE_POS",
+  "size": 50,
+  "uses": {
+   "42": [
+    {
+     "callee": "sub_140AD49B0",
+     "arg": 4,
+     "type": "_DWORD",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "46": [
+    {
+     "callee": "sub_140AD49B0",
+     "arg": 5,
+     "type": "_BYTE",
+     "w": 1,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3109": {
+  "name": "ZC_MOVE_BEZIER",
+  "size": 79,
+  "uses": {
+   "50": [
+    {
+     "callee": "sub_140AD4690",
+     "arg": 4,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "62": [
+    {
+     "callee": "sub_140AD4690",
+     "arg": 5,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "74": [
+    {
+     "callee": "sub_140AD4690",
+     "arg": 7,
+     "type": "_BYTE",
+     "w": 1,
+     "ptr": false
+    }
+   ],
+   "75": [
+    {
+     "callee": "sub_140AD4690",
+     "arg": 6,
+     "type": "_DWORD",
+     "w": 4,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3110": {
+  "name": "ZC_MOVE_DIR",
+  "size": 76,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_140AD7290",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "26": [
+    {
+     "callee": "sub_140AD4750",
+     "arg": 2,
+     "type": "_QWORD",
+     "w": 8,
+     "ptr": false
+    }
+   ],
+   "34": [
+    {
+     "callee": "sub_140AD4750",
+     "arg": 4,
+     "type": "_BYTE",
+     "w": 1,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3111": {
+  "name": "ZC_EXPECTED_STOPPOS",
+  "size": 39,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_140AD7290",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_140AD4120",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "14": [
+    {
+     "callee": "sub_140AD4120",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "26": [
+    {
+     "callee": "sub_140AD4120",
+     "arg": 2,
+     "type": "_QWORD",
+     "w": 8,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3112": {
+  "name": "ZC_MSPD",
+  "size": 26,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "18": [
+    {
+     "callee": "sub_140216D60",
+     "arg": 0,
+     "type": "_QWORD",
+     "w": 8,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3113": {
+  "name": "ZC_MOVE_SPEED",
+  "size": 31,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "22": [
+    {
+     "cmp": "==",
+     "const": 1
+    }
+   ],
+   "23": [
+    {
+     "callee": "sub_140216D60",
+     "arg": 0,
+     "type": "_QWORD",
+     "w": 8,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3114": {
+  "name": "ZC_MOVE_STOP",
+  "size": 27,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_140AD4A10",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_140AD5960",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_140AD7290",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "14": [
+    {
+     "callee": "sub_140AD4A10",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ]
+  }
+ },
+ "3115": {
+  "name": "ZC_REST_SIT",
+  "size": 16,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "14": [
+    {
+     "callee": "sub_140AAEB30",
+     "arg": 1,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ],
+   "15": [
+    {
+     "cmp": "==",
+     "const": 1
+    }
+   ]
+  }
+ },
+ "3116": {
+  "name": "ZC_JUMP",
+  "size": 71,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AD5920",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_140AD4270",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "18": [
+    {
+     "callee": "sub_140AD4270",
+     "arg": 2,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3117": {
+  "name": "ZC_JUMP_DIR",
+  "size": 63,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AD4630",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "14": [
+    {
+     "callee": "sub_140AD4630",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "26": [
+    {
+     "callee": "sub_140AD4630",
+     "arg": 2,
+     "type": "_QWORD",
+     "w": 8,
+     "ptr": false
+    }
+   ],
+   "34": [
+    {
+     "callee": "sub_140AD4630",
+     "arg": 3,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3119": {
+  "name": "ZC_SKILL_JUMP",
+  "size": 42,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AD5920",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_140AD4BA0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "18": [
+    {
+     "callee": "sub_140AD4BA0",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "30": [
+    {
+     "callee": "sub_140AD4BA0",
+     "arg": 2,
+     "type": "_QWORD",
+     "w": 8,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3120": {
+  "name": "ZC_SET_POS",
+  "size": 27,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AD4AE0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "14": [
+    {
+     "callee": "sub_140AD4AE0",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_1400EF330",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ]
+  }
+ },
+ "3124": {
+  "name": "ZC_CHAT",
+  "size": 0,
+  "uses": {
+   "10": [
+    {
+     "cmp": "<",
+     "const": 0
+    }
+   ],
+   "12": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "180": [
+    {
+     "callee": "sub_140B2B450",
+     "arg": 0,
+     "type": "unsigned __int16",
+     "w": 2,
+     "ptr": false
+    },
+    {
+     "callee": "sub_140B2B450",
+     "arg": 0,
+     "type": "unsigned __int16",
+     "w": 2,
+     "ptr": false
+    }
+   ],
+   "212": [
+    {
+     "cmp": "==",
+     "const": 1
+    }
+   ],
+   "213": [
+    {
+     "callee": "sub_14008FE50",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "277": [
+    {
+     "callee": "memcpy",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ]
+  }
+ },
+ "3126": {
+  "name": "ZC_STANCE_CHANGE",
+  "size": 18,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_140AD7290",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "14": [
+    {
+     "callee": "sub_140B56040",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3127": {
+  "name": "ZC_ADD_HP",
+  "size": 26,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "18": [
+    {
+     "cmp": ">",
+     "const": 0
+    }
+   ]
+  }
+ },
+ "3128": {
+  "name": "ZC_SKILL_CAST_CANCEL",
+  "size": 14,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140C2A530",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ]
+  }
+ },
+ "3129": {
+  "name": "ZC_SKILL_CAST",
+  "size": 42,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140C2A4C0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "18": [
+    {
+     "callee": "sub_140C2A4C0",
+     "arg": 4,
+     "type": "_DWORD",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "22": [
+    {
+     "callee": "sub_140C2A4C0",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "30": [
+    {
+     "callee": "sub_140C2A4C0",
+     "arg": 2,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ]
+  }
+ },
+ "3130": {
+  "name": "ZC_SKILL_READY",
+  "size": 54,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AD5920",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_140C2A7C0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "14": [
+    {
+     "callee": "sub_140C2A7C0",
+     "arg": 3,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "30": [
+    {
+     "callee": "sub_140C2A7C0",
+     "arg": 2,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "42": [
+    {
+     "callee": "sub_140C2A7C0",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ]
+  }
+ },
+ "3131": {
+  "name": "ZC_SKILL_DISABLE",
+  "size": 19,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "14": [
+    {
+     "callee": "sub_140B56A70",
+     "arg": 1,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3133": {
+  "name": "ZC_SKILL_MELEE_TARGET",
+  "size": 0,
+  "uses": {
+   "12": [
+    {
+     "callee": "sub_140C2A760",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "16": [
+    {
+     "callee": "sub_140BAA140",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "56": [
+    {
+     "callee": "sub_140C2A760",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "60": [
+    {
+     "callee": "sub_140BAA140",
+     "arg": 2,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ],
+   "61": [
+    {
+     "callee": "sub_140BAA140",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ]
+  }
+ },
+ "3134": {
+  "name": "ZC_SKILL_MELEE_GROUND",
+  "size": 0,
+  "uses": {
+   "12": [
+    {
+     "callee": "sub_140C2A700",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "16": [
+    {
+     "callee": "sub_140BAA140",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "56": [
+    {
+     "callee": "sub_140C2A700",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "68": [
+    {
+     "callee": "sub_140BAA140",
+     "arg": 2,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ],
+   "69": [
+    {
+     "callee": "sub_140C2A700",
+     "arg": 2,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ],
+   "70": [
+    {
+     "callee": "sub_140BAA140",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ]
+  }
+ },
+ "3135": {
+  "name": "ZC_SKILL_FORCE_TARGET",
+  "size": 0,
+  "uses": {
+   "12": [
+    {
+     "callee": "sub_140C2A5D0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "16": [
+    {
+     "callee": "sub_140BAA140",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "44": [
+    {
+     "callee": "sub_140BAA140",
+     "arg": 3,
+     "type": "_DWORD",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "56": [
+    {
+     "callee": "sub_140C2A5D0",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_140BAA140",
+     "arg": 4,
+     "type": "_DWORD",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "60": [
+    {
+     "callee": "sub_140C2A5D0",
+     "arg": 2,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "72": [
+    {
+     "callee": "sub_140BAA140",
+     "arg": 2,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ],
+   "73": [
+    {
+     "callee": "sub_140BAA140",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ]
+  }
+ },
+ "3136": {
+  "name": "ZC_SKILL_FORCE_GROUND",
+  "size": 0,
+  "uses": {
+   "12": [
+    {
+     "callee": "sub_140C2A550",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "16": [
+    {
+     "callee": "sub_140BAA140",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "44": [
+    {
+     "callee": "sub_140BAA140",
+     "arg": 3,
+     "type": "_DWORD",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "56": [
+    {
+     "callee": "sub_140C2A550",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_140BAA140",
+     "arg": 4,
+     "type": "_DWORD",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "60": [
+    {
+     "callee": "sub_140C2A550",
+     "arg": 2,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "72": [
+    {
+     "callee": "sub_140C2A550",
+     "arg": 3,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "84": [
+    {
+     "callee": "sub_140BAA140",
+     "arg": 2,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ],
+   "85": [
+    {
+     "callee": "sub_140BAA140",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ]
+  }
+ },
+ "3137": {
+  "name": "ZC_SKILL_HIT_INFO",
+  "size": 0,
+  "uses": {
+   "12": [
+    {
+     "callee": "sub_140BAA140",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "16": [
+    {
+     "callee": "sub_140BAA140",
+     "arg": 2,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ],
+   "17": [
+    {
+     "callee": "sub_140BAA140",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ]
+  }
+ },
+ "3138": {
+  "name": "ZC_BUFF_LIST",
+  "size": 0,
+  "uses": {
+   "12": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "16": [
+    {
+     "callee": "sub_140B5A9A0",
+     "arg": 2,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ],
+   "17": [
+    {
+     "callee": "sub_140B5A9A0",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ]
+  }
+ },
+ "3139": {
+  "name": "ZC_BUFF_ADD",
+  "size": 0,
+  "uses": {
+   "12": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "20": [
+    {
+     "callee": "sub_140B5A630",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ]
+  }
+ },
+ "3140": {
+  "name": "ZC_BUFF_UPDATE",
+  "size": 0,
+  "uses": {
+   "12": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "16": [
+    {
+     "callee": "sub_140B5B370",
+     "arg": 2,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "20": [
+    {
+     "callee": "sub_140B5B370",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ]
+  }
+ },
+ "3141": {
+  "name": "ZC_BUFF_REMOVE",
+  "size": 24,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "14": [
+    {
+     "callee": "sub_140B5F420",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "18": [
+    {
+     "callee": "sub_140B5F420",
+     "arg": 3,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ],
+   "19": [
+    {
+     "callee": "sub_140B5F420",
+     "arg": 2,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3142": {
+  "name": "ZC_BUFF_CLEAR",
+  "size": 15,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "14": [
+    {
+     "callee": "sub_140B5A6B0",
+     "arg": 1,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3145": {
+  "name": "ZC_ROTATE",
+  "size": 28,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AD5920",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "14": [
+    {
+     "callee": "sub_140C28890",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "22": [
+    {
+     "callee": "sub_140C28890",
+     "arg": 2,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3147": {
+  "name": "ZC_HEAD_ROTATE",
+  "size": 23,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AD5920",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ]
+  }
+ },
+ "3150": {
+  "name": "ZC_POSE",
+  "size": 39,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "14": [
+    {
+     "callee": "sub_140216940",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "38": [
+    {
+     "callee": "sub_140AB6210",
+     "arg": 4,
+     "type": "_BYTE",
+     "w": 1,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3151": {
+  "name": "ZC_DEAD",
+  "size": 0,
+  "uses": {
+   "12": [
+    {
+     "callee": "sub_140B61C60",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "16": [
+    {
+     "callee": "sub_140B61C60",
+     "arg": 1,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ],
+   "17": [
+    {
+     "callee": "sub_140B61C60",
+     "arg": 2,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ],
+   "18": [
+    {
+     "callee": "sub_140B61C60",
+     "arg": 3,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ],
+   "19": [
+    {
+     "callee": "sub_140B61C60",
+     "arg": 4,
+     "type": "_BYTE",
+     "w": 1,
+     "ptr": false
+    }
+   ],
+   "20": [
+    {
+     "callee": "sub_140AD0470",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "32": [
+    {
+     "callee": "sub_140B61C60",
+     "arg": 6,
+     "type": "_DWORD",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "36": [
+    {
+     "callee": "sub_140B61C60",
+     "arg": 5,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ]
+  }
+ },
+ "3152": {
+  "name": "ZC_RESURRECT",
+  "size": 22,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140B63280",
+     "arg": 0,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    },
+    {
+     "callee": "sub_140AD7290",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "14": [
+    {
+     "callee": "sub_140B63280",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "18": [
+    {
+     "callee": "sub_140B63280",
+     "arg": 2,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3153": {
+  "name": "ZC_CHANGE_RELATION",
+  "size": 15,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ]
+  }
+ },
+ "3154": {
+  "name": "ZC_RESURRECT_DIALOG",
+  "size": 527,
+  "uses": {
+   "10": [
+    {
+     "cmp": "!=",
+     "const": 255
+    }
+   ]
+  }
+ },
+ "3158": {
+  "name": "ZC_CAUTION_DAMAGE_INFO",
+  "size": 19,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140C29220",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "15": [
+    {
+     "callee": "sub_140C29220",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3160": {
+  "name": "ZC_KNOCKBACK_INFO",
+  "size": 74,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140C297F0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "14": [
+    {
+     "callee": "sub_140C297F0",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ]
+  }
+ },
+ "3161": {
+  "name": "ZC_KNOCKDOWN_INFO",
+  "size": 75,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140C29820",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "14": [
+    {
+     "callee": "sub_140C29820",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "74": [
+    {
+     "callee": "sub_140C29820",
+     "arg": 2,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3206": {
+  "name": "ZC_ITEM_INVENTORY_LIST",
+  "size": 0,
+  "uses": {
+   "12": [
+    {
+     "callee": "sub_140B6B240",
+     "arg": 2,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3207": {
+  "name": "ZC_ITEM_INVENTORY_DIVISION_LIST",
+  "size": 0,
+  "uses": {
+   "12": [
+    {
+     "callee": "sub_140B6B440",
+     "arg": 2,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "16": [
+    {
+     "callee": "sub_140B6B440",
+     "arg": 3,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3210": {
+  "name": "ZC_ITEM_ADD",
+  "size": 0,
+  "uses": {
+   "32": [
+    {
+     "callee": "sub_1401D9BC0",
+     "arg": 0,
+     "type": "_DWORD",
+     "w": 4,
+     "ptr": false,
+     "via": "v13"
+    }
+   ],
+   "36": [
+    {
+     "callee": "sub_1401D9BC0",
+     "arg": 4,
+     "type": "_WORD",
+     "w": 2,
+     "ptr": false,
+     "via": "v8"
+    }
+   ],
+   "38": [
+    {
+     "callee": "sub_1401D9BC0",
+     "arg": 2,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ],
+   "39": [
+    {
+     "cmp": "<=",
+     "const": 0
+    }
+   ],
+   "43": [
+    {
+     "callee": "sub_1401D9BC0",
+     "arg": 1,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    },
+    {
+     "cmp": "==",
+     "const": 6
+    }
+   ],
+   "45": [
+    {
+     "callee": "sub_1401D9BC0",
+     "arg": 5,
+     "type": "_BYTE",
+     "w": 1,
+     "ptr": false,
+     "via": "v9"
+    }
+   ]
+  }
+ },
+ "3211": {
+  "name": "ZC_ITEM_REMOVE",
+  "size": 28,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_1401E1D70",
+     "arg": 1,
+     "type": "_QWORD",
+     "w": 8,
+     "ptr": false
+    }
+   ],
+   "18": [
+    {
+     "callee": "sub_1401E1D70",
+     "arg": 2,
+     "type": "_QWORD",
+     "w": 8,
+     "ptr": false
+    }
+   ],
+   "26": [
+    {
+     "callee": "sub_1401E1D70",
+     "arg": 3,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ],
+   "27": [
+    {
+     "callee": "sub_1401E1D70",
+     "arg": 0,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3212": {
+  "name": "ZC_ITEM_USE",
+  "size": 18,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "14": [
+    {
+     "callee": "sub_1406CC740",
+     "arg": 0,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3215": {
+  "name": "ZC_SKILL_LIST",
+  "size": 0,
+  "uses": {
+   "16": [
+    {
+     "callee": "sub_140C5A390",
+     "arg": 3,
+     "type": "unsigned __int16",
+     "w": 2,
+     "ptr": false,
+     "via": "v5"
+    }
+   ]
+  }
+ },
+ "3222": {
+  "name": "ZC_EXP_UP_BY_MONSTER",
+  "size": 38,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AC3420",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "34": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ]
+  }
+ },
+ "3223": {
+  "name": "ZC_PC_LEVELUP",
+  "size": 18,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140B64DC0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "14": [
+    {
+     "callee": "sub_140B64DC0",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3225": {
+  "name": "ZC_MAX_EXP_CHANGED",
+  "size": 38,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140B64F20",
+     "arg": 2,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "14": [
+    {
+     "callee": "sub_140B64F20",
+     "arg": 0,
+     "type": "_QWORD",
+     "w": 8,
+     "ptr": false
+    }
+   ],
+   "22": [
+    {
+     "callee": "sub_140B64F20",
+     "arg": 1,
+     "type": "_QWORD",
+     "w": 8,
+     "ptr": false
+    }
+   ],
+   "30": [
+    {
+     "callee": "sub_140B64F20",
+     "arg": 3,
+     "type": "_QWORD",
+     "w": 8,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3227": {
+  "name": "ZC_UPDATE_SP",
+  "size": 19,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_140AD7290",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "14": [
+    {
+     "callee": "sub_140B55FA0",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3229": {
+  "name": "ZC_UPDATE_MHP",
+  "size": 18,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_140AD7290",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ]
+  }
+ },
+ "3240": {
+  "name": "ZC_DIALOG_NUMBERRANGE",
+  "size": 0,
+  "uses": {
+   "16": [
+    {
+     "callee": "sub_140867FA0",
+     "arg": 1,
+     "type": "_OWORD",
+     "w": 16,
+     "ptr": false,
+     "via": "v15"
+    }
+   ]
+  }
+ },
+ "3242": {
+  "name": "ZC_ADDON_MSG",
+  "size": 0,
+  "uses": {
+   "12": [
+    {
+     "callee": "memcpy",
+     "arg": 2,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3243": {
+  "name": "ZC_ADDON_EVENT_MSG",
+  "size": 0,
+  "uses": {
+   "12": [
+    {
+     "callee": "memcpy",
+     "arg": 2,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ],
+   "13": [
+    {
+     "callee": "memcpy",
+     "arg": 2,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ],
+   "14": [
+    {
+     "callee": "memcpy",
+     "arg": 2,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ],
+   "15": [
+    {
+     "callee": "invalid_parameter",
+     "arg": 3,
+     "type": "_DWORD",
+     "w": 4,
+     "ptr": false,
+     "via": "v6"
+    }
+   ]
+  }
+ },
+ "3245": {
+  "name": "ZC_PLAY_SOUND",
+  "size": 24,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "14": [
+    {
+     "callee": "sub_1406F2550",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false,
+     "via": "v4"
+    }
+   ],
+   "18": [
+    {
+     "callee": "sub_140C379E0",
+     "arg": 3,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ],
+   "23": [
+    {
+     "callee": "sub_140C379E0",
+     "arg": 5,
+     "type": "_BYTE",
+     "w": 1,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3246": {
+  "name": "ZC_STOP_SOUND",
+  "size": 18,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "14": [
+    {
+     "callee": "sub_1406F2550",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false,
+     "via": "v4"
+    }
+   ]
+  }
+ },
+ "3247": {
+  "name": "ZC_PLAY_MUSICQUEUE",
+  "size": 21,
+  "uses": {
+   "14": [
+    {
+     "callee": "sub_1406F2550",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "18": [
+    {
+     "cmp": "!=",
+     "const": 1
+    }
+   ],
+   "20": [
+    {
+     "cmp": "==",
+     "const": 1
+    },
+    {
+     "cmp": "!=",
+     "const": 1
+    }
+   ]
+  }
+ },
+ "3248": {
+  "name": "ZC_STOP_MUSICQUEUE",
+  "size": 18,
+  "uses": {
+   "14": [
+    {
+     "callee": "sub_1406F2550",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3249": {
+  "name": "ZC_PLAY_ANI",
+  "size": 30,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "14": [
+    {
+     "callee": "sub_1406F2550",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "18": [
+    {
+     "callee": "sub_140AFF320",
+     "arg": 3,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ],
+   "19": [
+    {
+     "callee": "sub_140AFF320",
+     "arg": 6,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ],
+   "20": [
+    {
+     "cmp": "<=",
+     "const": 0
+    }
+   ],
+   "28": [
+    {
+     "callee": "sub_140AFF320",
+     "arg": 10,
+     "type": "_BYTE",
+     "w": 1,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3250": {
+  "name": "ZC_PLAY_FIX_ANI",
+  "size": 34,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "14": [
+    {
+     "callee": "sub_1406F2550",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "19": [
+    {
+     "cmp": "!=",
+     "const": 1
+    }
+   ],
+   "20": [
+    {
+     "cmp": "<=",
+     "const": 0
+    }
+   ]
+  }
+ },
+ "3251": {
+  "name": "ZC_PLAY_ANI_SELFISH",
+  "size": 23,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "18": [
+    {
+     "callee": "sub_1406F2550",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "22": [
+    {
+     "callee": "sub_140AFF320",
+     "arg": 3,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3252": {
+  "name": "ZC_CHANGE_ANI",
+  "size": 48,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "30": [
+    {
+     "callee": "sub_140AFF320",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "46": [
+    {
+     "callee": "sub_140AFF320",
+     "arg": 3,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3260": {
+  "name": "ZC_PLAY_ALARMSOUND",
+  "size": 87,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "14": [
+    {
+     "callee": "memcmp",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "83": [
+    {
+     "cmp": ">",
+     "const": 0
+    }
+   ]
+  }
+ },
+ "3262": {
+  "name": "ZC_PLAY_EXP_TEXT",
+  "size": 18,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "14": [
+    {
+     "callee": "sub_140C37440",
+     "arg": 1,
+     "type": "float",
+     "w": 4,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3263": {
+  "name": "ZC_PLAY_NAVI_EFFECT",
+  "size": 154,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "14": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "18": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "86": [
+    {
+     "callee": "sub_140C37910",
+     "arg": 4,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "150": [
+    {
+     "callee": "sub_140C37910",
+     "arg": 5,
+     "type": "_DWORD",
+     "w": 4,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3264": {
+  "name": "ZC_UPDATE_ALL_STATUS",
+  "size": 34,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_140AD7290",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "18": [
+    {
+     "callee": "sub_140B56150",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "26": [
+    {
+     "callee": "sub_140B56150",
+     "arg": 2,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3266": {
+  "name": "ZC_DUMP_PROPERTY",
+  "size": 0,
+  "uses": {
+   "12": [
+    {
+     "callee": "sub_140073990",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ]
+  }
+ },
+ "3267": {
+  "name": "ZC_SHOUT",
+  "size": 0,
+  "uses": {
+   "10": [
+    {
+     "cmp": "!=",
+     "const": 82
+    }
+   ],
+   "82": [
+    {
+     "callee": "memcpy",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ]
+  }
+ },
+ "3271": {
+  "name": "ZC_EXCHANGE_REQUEST_RECEIVED",
+  "size": 75,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140326480",
+     "arg": 2,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ]
+  }
+ },
+ "3275": {
+  "name": "ZC_EXCHANGE_START",
+  "size": 76,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_1401D93E0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "75": [
+    {
+     "callee": "sub_1401D93E0",
+     "arg": 1,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3277": {
+  "name": "ZC_EXCHANGE_OFFER_ACK",
+  "size": 0,
+  "uses": {
+   "12": [
+    {
+     "callee": "sub_1401D8C20",
+     "arg": 0,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ],
+   "13": [
+    {
+     "callee": "sub_1401D8C20",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "37": [
+    {
+     "callee": "sub_1401D8C20",
+     "arg": 3,
+     "type": "unsigned __int16",
+     "w": 2,
+     "ptr": false
+    }
+   ],
+   "39": [
+    {
+     "callee": "sub_1401D8C20",
+     "arg": 2,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ]
+  }
+ },
+ "3279": {
+  "name": "ZC_EXCHANGE_AGREE_ACK",
+  "size": 11,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_1401D8B70",
+     "arg": 0,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3281": {
+  "name": "ZC_EXCHANGE_FINALAGREE_ACK",
+  "size": 11,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_1401D9060",
+     "arg": 0,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3285": {
+  "name": "ZC_COOLDOWN_LIST",
+  "size": 0,
+  "uses": {
+   "12": [
+    {
+     "callee": "sub_140A69770",
+     "arg": 0,
+     "type": "_QWORD",
+     "w": 8,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3286": {
+  "name": "ZC_COOLDOWN_CHANGED",
+  "size": 31,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140A69770",
+     "arg": 0,
+     "type": "_QWORD",
+     "w": 8,
+     "ptr": false
+    }
+   ],
+   "18": [
+    {
+     "callee": "sub_140C07840",
+     "arg": 1,
+     "type": "_DWORD",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "22": [
+    {
+     "callee": "sub_140C07840",
+     "arg": 2,
+     "type": "_DWORD",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "26": [
+    {
+     "callee": "sub_140C07840",
+     "arg": 4,
+     "type": "_DWORD",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "30": [
+    {
+     "callee": "sub_140C07840",
+     "arg": 3,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3287": {
+  "name": "ZC_OVERHEAT_CHANGED",
+  "size": 46,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140A69770",
+     "arg": 0,
+     "type": "_QWORD",
+     "w": 8,
+     "ptr": false
+    }
+   ],
+   "18": [
+    {
+     "callee": "sub_140C07840",
+     "arg": 1,
+     "type": "_DWORD",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "22": [
+    {
+     "callee": "sub_140C07840",
+     "arg": 2,
+     "type": "_DWORD",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "26": [
+    {
+     "callee": "sub_140C07840",
+     "arg": 4,
+     "type": "_DWORD",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "34": [
+    {
+     "callee": "sub_140C07840",
+     "arg": 5,
+     "type": "_BYTE",
+     "w": 1,
+     "ptr": false
+    }
+   ],
+   "38": [
+    {
+     "callee": "sub_140C07840",
+     "arg": 6,
+     "type": "_DWORD",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "42": [
+    {
+     "callee": "sub_140C07840",
+     "arg": 7,
+     "type": "_DWORD",
+     "w": 4,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3401": {
+  "name": "ZC_SHOP_POINT_UPDATE",
+  "size": 58,
+  "uses": {
+   "54": [
+    {
+     "callee": "sub_140C501D0",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3514": {
+  "name": "ZC_PC_MOVE_STOP",
+  "size": 63,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AD7290",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_140AD4A10",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "14": [
+    {
+     "callee": "sub_140AD4A10",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "nullsub_62",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "18": [
+    {
+     "callee": "sub_140AACB60",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ]
+  }
+ },
+ "3672": {
+  "name": "ZC_ADVENTURE_BOOK_INFO",
+  "size": 0,
+  "uses": {
+   "12": [
+    {
+     "callee": "sub_140A65000",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    },
+    {
+     "callee": "sub_140A65000",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    },
+    {
+     "callee": "sub_140A65000",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    },
+    {
+     "callee": "sub_140A65000",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "16": [
+    {
+     "callee": "sub_140A64AC0",
+     "arg": 0,
+     "type": "unsigned __int16",
+     "w": 2,
+     "ptr": false,
+     "via": "v6"
+    }
+   ],
+   "21": [
+    {
+     "cmp": "==",
+     "const": 1
+    }
+   ]
+  }
+ },
+ "3684": {
+  "name": "ZC_ATTENDANCE_RECEIPT_REWARD",
+  "size": 0,
+  "uses": {
+   "28": [
+    {
+     "callee": "sub_140BE6AB0",
+     "arg": 2,
+     "type": "_OWORD",
+     "w": 16,
+     "ptr": false,
+     "via": "v15"
+    }
+   ],
+   "44": [
+    {
+     "callee": "sub_140BE6AB0",
+     "arg": 0,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false,
+     "via": "v8"
+    },
+    {
+     "callee": "sub_140BE6F00",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    },
+    {
+     "callee": "sub_140BE7100",
+     "arg": 0,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "48": [
+    {
+     "callee": "sub_140BE6F00",
+     "arg": 2,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "52": [
+    {
+     "cmp": "==",
+     "const": 1
+    }
+   ],
+   "54": [
+    {
+     "callee": "sub_140BE6F00",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ]
+  }
+ },
+ "3762": {
+  "name": "ZC_ERROR_INFO",
+  "size": 0,
+  "uses": {
+   "12": [
+    {
+     "callee": "strncmp",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_140AA1040",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_140AA12C0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "76": [
+    {
+     "callee": "sub_140AA12C0",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3851": {
+  "name": "ZC_EQUIP_GEM_INFO",
+  "size": 0,
+  "uses": {
+   "13": [
+    {
+     "callee": "sub_140646690",
+     "arg": 0,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false,
+     "via": "result"
+    },
+    {
+     "callee": "sub_140646690",
+     "arg": 0,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false,
+     "via": "result"
+    }
+   ]
+  }
+ },
+ "3877": {
+  "name": "ZC_ADDONUI_MSG",
+  "size": 0,
+  "uses": {
+   "12": [
+    {
+     "callee": "memcpy",
+     "arg": 2,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ],
+   "13": [
+    {
+     "callee": "sub_140868600",
+     "arg": 3,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    },
+    {
+     "callee": "sub_140868600",
+     "arg": 3,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "17": [
+    {
+     "callee": "sub_140868600",
+     "arg": 2,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    },
+    {
+     "callee": "sub_140868600",
+     "arg": 2,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "3935": {
+  "name": "ZC_MYTHIC_DUNGEON_RANK_INFO",
+  "size": 0,
+  "uses": {
+   "12": [
+    {
+     "callee": "sub_140C15730",
+     "arg": 2,
+     "type": "unsigned __int16",
+     "w": 2,
+     "ptr": false
+    },
+    {
+     "callee": "sub_140C155C0",
+     "arg": 0,
+     "type": "unsigned __int16",
+     "w": 2,
+     "ptr": false
+    }
+   ],
+   "14": [
+    {
+     "callee": "sub_140C155C0",
+     "arg": 2,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "22": [
+    {
+     "callee": "sub_140C15730",
+     "arg": 1,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ],
+   "23": [
+    {
+     "callee": "sub_140C155C0",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "27": [
+    {
+     "callee": "sub_140C155C0",
+     "arg": 3,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "31": [
+    {
+     "callee": "sub_140C15730",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ]
+  }
+ },
+ "4007": {
+  "name": "ZC_ANCIENT_CARD_EVOLVE",
+  "size": 0,
+  "uses": {
+   "12": [
+    {
+     "callee": "sub_140BEC810",
+     "arg": 2,
+     "type": "_QWORD",
+     "w": 8,
+     "ptr": false,
+     "via": "v6"
+    }
+   ]
+  }
+ },
+ "4030": {
+  "name": "ZC_UDP_MOVE_INFO",
+  "size": 79,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_140AD7290",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_140AD7290",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "18": [
+    {
+     "callee": "nullsub_62",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_140AACB60",
+     "arg": 1,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ]
+  }
+ },
+ "4035": {
+  "name": "ZC_SET_CHATBALLOON_SKIN",
+  "size": 34,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    },
+    {
+     "callee": "sub_140AD7290",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "14": [
+    {
+     "callee": "sub_140216940",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    },
+    {
+     "callee": "sub_14060B9B0",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "4047": {
+  "name": "ZC_RES_DAMAGEFONT_SKIN",
+  "size": 30,
+  "uses": {
+   "22": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "26": [
+    {
+     "callee": "sub_140216940",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    },
+    {
+     "callee": "sub_140C63DB0",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "4050": {
+  "name": "ZC_RES_DAMAGEEFFECT_SKIN",
+  "size": 30,
+  "uses": {
+   "22": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ],
+   "26": [
+    {
+     "callee": "sub_140216940",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    },
+    {
+     "callee": "sub_140C63DA0",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "4059": {
+  "name": "ZC_OVERHEAT_RESET_TIME",
+  "size": 26,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140A69770",
+     "arg": 0,
+     "type": "_QWORD",
+     "w": 8,
+     "ptr": false
+    }
+   ],
+   "18": [
+    {
+     "callee": "sub_140C07AE0",
+     "arg": 1,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ],
+   "22": [
+    {
+     "callee": "sub_140C07AE0",
+     "arg": 2,
+     "type": "unsigned int",
+     "w": 4,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "4090": {
+  "name": "ZC_MONSTER_CANCEL_CASTING_UI",
+  "size": 26,
+  "uses": {
+   "22": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "_DWORD",
+     "w": 4,
+     "ptr": false,
+     "via": "v8"
+    }
+   ]
+  }
+ },
+ "4189": {
+  "name": "ZC_SET_SOUND_MUTE",
+  "size": 16,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "_DWORD",
+     "w": 4,
+     "ptr": false,
+     "via": "v4"
+    }
+   ],
+   "14": [
+    {
+     "callee": "sub_140C3A1F0",
+     "arg": 1,
+     "type": "unsigned __int8",
+     "w": 1,
+     "ptr": false
+    }
+   ]
+  }
+ },
+ "4190": {
+  "name": "ZC_SET_MUSIC_MUTE",
+  "size": 16,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "_DWORD",
+     "w": 4,
+     "ptr": false,
+     "via": "v5"
+    }
+   ],
+   "14": [
+    {
+     "cmp": "==",
+     "const": 1
+    }
+   ]
+  }
+ },
+ "4216": {
+  "name": "ZC_UPDATE_FAINT",
+  "size": 30,
+  "uses": {
+   "10": [
+    {
+     "callee": "sub_140AC71B0",
+     "arg": 0,
+     "type": "ptr",
+     "w": 0,
+     "ptr": true
+    }
+   ]
+  }
+ },
+ "4231": {
+  "name": "ZC_COOLDOWN_CHANGED_BATCH",
+  "size": 0,
+  "uses": {
+   "12": [
+    {
+     "callee": "sub_140A69770",
+     "arg": 0,
+     "type": "_QWORD",
+     "w": 8,
+     "ptr": false,
+     "via": "v5"
+    }
+   ],
+   "24": [
+    {
+     "callee": "sub_140C07840",
+     "arg": 3,
+     "type": "_BYTE",
+     "w": 1,
+     "ptr": false,
+     "via": "v4"
+    }
+   ]
+  }
+ }
+}

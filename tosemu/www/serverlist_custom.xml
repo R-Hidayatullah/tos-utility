@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serverlist>
+	<!-- Keep in step with ../serverlist.xml. Server0_Port was 7001, which the
+	     server does not bind; it binds 2000 (barrack) and 7002 (zone). -->
+
+	<server GROUP_ID="1001" TRAFFIC="0" ENTER_LIMIT="100" NAME="[Local] tosemu" Server0_IP="127.0.0.1" Server0_Port="2000" Server1_IP="127.0.0.1" Server1_Port="7002"/>
+</serverlist>

@@ -1,0 +1,111 @@
+# Curated packet field names. HAND-MAINTAINED -- name_fields.py reads this and
+# never writes it.
+#
+# These outrank everything the generator infers, because they came from
+# rebuilding captured replies byte-for-byte rather than from a heuristic. They
+# are also the only source for client->server packets: the client parses what
+# it receives and builds what it sends, so there is no reader handler to
+# decompile for any CZ_/CB_ opcode (docs/08-struct-extraction.md).
+#
+# columns:  opcode  offset  type  name  fmt  source
+#
+#   offset  from the start of the packet, header included -- the same base the
+#           hex panel counts from. Client packets carry a 22-byte header, not
+#           10, so their body offsets start at 0x16 (docs/07).
+#   type    u8 u16 u32 u64 i8 i16 i32 i64 f32 f64  |  f32[N] str[N] bytes[N]
+#           N = 0 means "to the end of the packet", which is how a trailing
+#           NUL-terminated text field is written (ZC_CHAT, CZ_CHAT).
+#   fmt     how the viewer renders the value, blank for plain:
+#             hex   0x0000339CC -- handles, colours, ids read as hex
+#             bool  a flag the protocol only ever sets to 0 or 1
+#             time  a float on the server clock (docs/05)
+#             text  NUL-terminated, show as a string
+#             ip    u32 formatted %d.%d.%d.%d from its bytes (docs/09)
+#   source  where the name came from; shown in the pane's origin column
+
+# ---- movement -------------------------------------- docs/02, verified
+# The client packets carry no handle: the zone knows who is asking. Every echo
+# inserts it at +0x0A and passes the same floats straight back.
+3166	22	f32[3]	pos		docs/02
+3166	34	f32[2]	dir		docs/02
+3166	42	f32	client_speed		docs/02 dropped by the zone
+3166	72	u8	moving	bool	docs/02
+
+3110	10	u32	handle	hex	docs/02
+3110	14	f32[3]	pos		docs/02
+3110	26	f32[2]	dir		docs/02
+3110	34	u8	moving	bool	docs/02
+3110	35	f32	speed		docs/02 35.0 throughout that session, 48.0 in the 2026-08-01 one
+3110	39	f32	server_time	time	docs/02
+3110	67	u32	stance		docs/02 zone-side, 6 while moving
+3110	75	u8	one		docs/02 always 1
+
+3172	23	f32[3]	pos		docs/02 one pad byte more than CZ_KEYBOARD_MOVE
+3172	35	f32[2]	dir		docs/02
+
+3514	10	u32	handle	hex	docs/02
+3514	14	f32[3]	pos		docs/02
+3514	26	u8	one	bool	docs/02
+3514	27	f32[2]	dir		docs/02
+3514	35	f32	server_time	time	docs/02
+
+3184	26	f32[2]	dir		docs/02
+3145	10	u32	handle	hex	docs/02
+3145	14	f32[2]	dir		docs/02
+3145	22	u8	one	bool	docs/02
+
+3168	23	f32[3]	pos		docs/02
+3168	35	f32[2]	dir		docs/02
+3116	10	u32	handle	hex	docs/02
+3116	14	f32	jump_power		docs/02 constant 350.0
+3116	23	f32[3]	pos		docs/02
+3116	35	f32[2]	dir		docs/02
+3116	43	f32	server_time	time	docs/02
+
+# ---- chat ------------------------------------------ docs/03, byte-exact
+3188	22	u16	size		docs/03 NOT at +0x0A -- see docs/07
+3188	24	str[0]	text	text	docs/03
+
+3124	10	u16	size		docs/03
+3124	12	u32	handle	hex	docs/03
+3124	16	str[64]	name	text	docs/03
+3124	80	str[64]	team_name	text	docs/03
+3124	146	u16	class_id	hex	docs/03
+3124	148	u16	job_id	hex	docs/03
+3124	152	u8	channel		docs/03 8 = say
+3124	156	u8	one	bool	docs/03
+3124	158	u8	unk_9E	hex	docs/03 0x1A observed
+3124	180	u32	unk_B4	hex	docs/03 0x03E9
+3124	184	u32	unk_B8	hex	docs/03 0x01CC
+3124	188	u32	name_colour	hex	docs/03 RGBA
+3124	192	u16	class_a	hex	docs/03
+3124	194	u16	class_b	hex	docs/03
+3124	196	u16	class_c	hex	docs/03
+3124	212	u8	one_D4	bool	docs/03
+3124	213	str[64]	balloon_skin	text	docs/03 what puts the text at 277
+3124	277	str[0]	text	text	docs/03
+
+# ---- world entry and the clock --------------------- docs/05
+3014	10	f32	time_factor		docs/05
+3014	14	f32	game_start	time	docs/05 the anchor every echo sits on
+3014	18	f32	unk_12	time	docs/05 ~15 s later, unexplained
+3014	22	u64	filetime	hex	docs/05 wall clock
+3014	30	str[0]	wall_clock	text	docs/05
+
+# ---- map change ------------------------------------ docs/09
+3003	10	u8	reason		docs/09 0 in the capture
+3007	10	u32	zone_id		docs/09 stored for the reconnect, NOT the map
+3007	14	u32	server_ip	ip	docs/09
+3007	18	u16	server_port		docs/09
+3007	22	u32	map_id		docs/09 the destination -- see the correction
+3007	26	f32	cam_x		docs/09
+3007	30	f32	cam_y		docs/09
+3007	34	f32	zoom_min		docs/09
+3007	38	f32	zoom_max		docs/09
+3007	42	f32	zoom_start		docs/09
+3007	46	i32	unk_2E		docs/09
+3007	50	i32	unk_32		docs/09
+3007	54	i32	unk_36		docs/09
+3007	60	u16	direction		docs/09
+3007	62	u8	channel		docs/09
+3007	63	u64	character_id	hex	docs/09

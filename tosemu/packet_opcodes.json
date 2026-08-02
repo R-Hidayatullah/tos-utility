@@ -1,0 +1,7538 @@
+[
+ {
+  "opcode": 3,
+  "hex": "0x0003",
+  "name": "CB_LOGIN",
+  "size": 570
+ },
+ {
+  "opcode": 4,
+  "hex": "0x0004",
+  "name": "CB_LOGIN_BY_PASSPORT",
+  "size": 1242
+ },
+ {
+  "opcode": 5,
+  "hex": "0x0005",
+  "name": "CB_LOGOUT",
+  "size": 22
+ },
+ {
+  "opcode": 6,
+  "hex": "0x0006",
+  "name": "CB_START_BARRACK",
+  "size": 87
+ },
+ {
+  "opcode": 7,
+  "hex": "0x0007",
+  "name": "CB_COMMANDER_CREATE",
+  "size": 117
+ },
+ {
+  "opcode": 8,
+  "hex": "0x0008",
+  "name": "BC_COMMANDER_CREATE_SLOTID",
+  "size": 11
+ },
+ {
+  "opcode": 9,
+  "hex": "0x0009",
+  "name": "CB_COMMANDER_DESTROY",
+  "size": 30
+ },
+ {
+  "opcode": 10,
+  "hex": "0x000A",
+  "name": "CB_CHECK_CLIENT_INTEGRITY",
+  "size": 86
+ },
+ {
+  "opcode": 11,
+  "hex": "0x000B",
+  "name": "CB_CLIENT_INTEGRITY_FAIL",
+  "size": 1047
+ },
+ {
+  "opcode": 12,
+  "hex": "0x000C",
+  "name": "CB_START_GAME",
+  "size": 26
+ },
+ {
+  "opcode": 13,
+  "hex": "0x000D",
+  "name": "CB_BARRACKNAME_CHECK",
+  "size": 344
+ },
+ {
+  "opcode": 14,
+  "hex": "0x000E",
+  "name": "BC_BARRACKNAME_CHECK_RESULT",
+  "size": 334
+ },
+ {
+  "opcode": 15,
+  "hex": "0x000F",
+  "name": "CB_BARRACKNAME_CHANGE",
+  "size": 86
+ },
+ {
+  "opcode": 16,
+  "hex": "0x0010",
+  "name": "CB_COMMANDER_MOVE",
+  "size": 43
+ },
+ {
+  "opcode": 17,
+  "hex": "0x0011",
+  "name": "CB_COMPANION_MOVE",
+  "size": 50
+ },
+ {
+  "opcode": 18,
+  "hex": "0x0012",
+  "name": "CB_ECHO",
+  "size": 42
+ },
+ {
+  "opcode": 19,
+  "hex": "0x0013",
+  "name": "BC_LOGINOK",
+  "size": 156
+ },
+ {
+  "opcode": 20,
+  "hex": "0x0014",
+  "name": "BC_CYOU_LOGIN_FAIL",
+  "size": 10
+ },
+ {
+  "opcode": 21,
+  "hex": "0x0015",
+  "name": "BC_LOGIN_PACKET_RECEIVED",
+  "size": 10
+ },
+ {
+  "opcode": 22,
+  "hex": "0x0016",
+  "name": "BC_LOGOUTOK",
+  "size": 10
+ },
+ {
+  "opcode": 23,
+  "hex": "0x0017",
+  "name": "BC_COMMANDER_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 24,
+  "hex": "0x0018",
+  "name": "BC_SPLIT_COMMANDER_INFO_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 25,
+  "hex": "0x0019",
+  "name": "BC_COMMANDER_CREATE",
+  "size": 618
+ },
+ {
+  "opcode": 26,
+  "hex": "0x001A",
+  "name": "BC_COMMANDER_DESTROY",
+  "size": 11
+ },
+ {
+  "opcode": 27,
+  "hex": "0x001B",
+  "name": "BC_START_GAMEOK",
+  "size": 37
+ },
+ {
+  "opcode": 28,
+  "hex": "0x001C",
+  "name": "BC_SINGLE_INFO",
+  "size": 457
+ },
+ {
+  "opcode": 29,
+  "hex": "0x001D",
+  "name": "BC_MESSAGE",
+  "size": 0
+ },
+ {
+  "opcode": 30,
+  "hex": "0x001E",
+  "name": "BC_ECHO",
+  "size": 30
+ },
+ {
+  "opcode": 31,
+  "hex": "0x001F",
+  "name": "BC_MYPAGE_MAP",
+  "size": 0
+ },
+ {
+  "opcode": 32,
+  "hex": "0x0020",
+  "name": "BC_BARRACKNAME_CHANGE",
+  "size": 79
+ },
+ {
+  "opcode": 50,
+  "hex": "0x0032",
+  "name": "BC_IES_MODIFY_INFO",
+  "size": 0
+ },
+ {
+  "opcode": 51,
+  "hex": "0x0033",
+  "name": "BC_IES_MODIFY_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 52,
+  "hex": "0x0034",
+  "name": "CB_IES_REVISION_DELETE",
+  "size": 0
+ },
+ {
+  "opcode": 53,
+  "hex": "0x0035",
+  "name": "BC_IES_REVISION_DELETE",
+  "size": 0
+ },
+ {
+  "opcode": 54,
+  "hex": "0x0036",
+  "name": "CB_SCREENSHOT_HASH",
+  "size": 54
+ },
+ {
+  "opcode": 55,
+  "hex": "0x0037",
+  "name": "CB_REQ_CHANNEL_TRAFFIC",
+  "size": 26
+ },
+ {
+  "opcode": 56,
+  "hex": "0x0038",
+  "name": "CB_VISIT",
+  "size": 88
+ },
+ {
+  "opcode": 57,
+  "hex": "0x0039",
+  "name": "CB_BUY_THEMA",
+  "size": 34
+ },
+ {
+  "opcode": 58,
+  "hex": "0x003A",
+  "name": "BC_ACCOUNT_PROP",
+  "size": 0
+ },
+ {
+  "opcode": 59,
+  "hex": "0x003B",
+  "name": "CB_CURRENT_BARRACK",
+  "size": 51
+ },
+ {
+  "opcode": 60,
+  "hex": "0x003C",
+  "name": "BC_NORMAL",
+  "size": 0
+ },
+ {
+  "opcode": 61,
+  "hex": "0x003D",
+  "name": "CB_POSE",
+  "size": 27
+ },
+ {
+  "opcode": 62,
+  "hex": "0x003E",
+  "name": "CB_PLACE_CMD",
+  "size": 58
+ },
+ {
+  "opcode": 63,
+  "hex": "0x003F",
+  "name": "CB_CHAT",
+  "size": 0
+ },
+ {
+  "opcode": 64,
+  "hex": "0x0040",
+  "name": "BC_CHAT",
+  "size": 0
+ },
+ {
+  "opcode": 65,
+  "hex": "0x0041",
+  "name": "CB_ECHO_NORMAL",
+  "size": 0
+ },
+ {
+  "opcode": 66,
+  "hex": "0x0042",
+  "name": "CB_REQ_SLOT_PRICE",
+  "size": 22
+ },
+ {
+  "opcode": 67,
+  "hex": "0x0043",
+  "name": "BC_REQ_SLOT_PRICE",
+  "size": 14
+ },
+ {
+  "opcode": 68,
+  "hex": "0x0044",
+  "name": "CB_CHANGE_BARRACK_LAYER",
+  "size": 34
+ },
+ {
+  "opcode": 69,
+  "hex": "0x0045",
+  "name": "CB_CHANGE_BARRACK_TARGET_LAYER",
+  "size": 35
+ },
+ {
+  "opcode": 70,
+  "hex": "0x0046",
+  "name": "CB_SELECT_BARRACK_LAYER",
+  "size": 26
+ },
+ {
+  "opcode": 71,
+  "hex": "0x0047",
+  "name": "BC_LAYER_CHANGE_SYSTEM_MESSAGE",
+  "size": 78
+ },
+ {
+  "opcode": 72,
+  "hex": "0x0048",
+  "name": "CB_JUMP",
+  "size": 31
+ },
+ {
+  "opcode": 73,
+  "hex": "0x0049",
+  "name": "BC_JUMP",
+  "size": 31
+ },
+ {
+  "opcode": 74,
+  "hex": "0x004A",
+  "name": "BC_SERVER_ENTRY",
+  "size": 22
+ },
+ {
+  "opcode": 75,
+  "hex": "0x004B",
+  "name": "CB_PET_PC",
+  "size": 38
+ },
+ {
+  "opcode": 76,
+  "hex": "0x004C",
+  "name": "CB_PET_COMMAND",
+  "size": 39
+ },
+ {
+  "opcode": 77,
+  "hex": "0x004D",
+  "name": "CB_REQ_CHANGE_POSTBOX_STATE",
+  "size": 35
+ },
+ {
+  "opcode": 78,
+  "hex": "0x004E",
+  "name": "CB_REQ_GET_POSTBOX_ITEM",
+  "size": 1063
+ },
+ {
+  "opcode": 79,
+  "hex": "0x004F",
+  "name": "CB_REQ_GET_POSTBOX_ITEM_LIST",
+  "size": 191
+ },
+ {
+  "opcode": 80,
+  "hex": "0x0050",
+  "name": "CB_REQ_POSTBOX_PAGE",
+  "size": 26
+ },
+ {
+  "opcode": 81,
+  "hex": "0x0051",
+  "name": "BC_WAIT_QUEUE_ORDER",
+  "size": 14
+ },
+ {
+  "opcode": 82,
+  "hex": "0x0052",
+  "name": "CB_CANCEL_SERVER_WAIT_QUEUE",
+  "size": 22
+ },
+ {
+  "opcode": 83,
+  "hex": "0x0053",
+  "name": "CB_GEMSCOOL_PCINFO",
+  "size": 1302
+ },
+ {
+  "opcode": 84,
+  "hex": "0x0054",
+  "name": "CB_NOT_AUTHORIZED_ADDON_LIST",
+  "size": 1051
+ },
+ {
+  "opcode": 85,
+  "hex": "0x0055",
+  "name": "CB_DEBUG_LOG_FILE",
+  "size": 0
+ },
+ {
+  "opcode": 86,
+  "hex": "0x0056",
+  "name": "BC_FAIL_TO_GET_AUTHCODE",
+  "size": 10
+ },
+ {
+  "opcode": 87,
+  "hex": "0x0057",
+  "name": "CB_CLIENT_REMOTE_LOG",
+  "size": 2584
+ },
+ {
+  "opcode": 88,
+  "hex": "0x0058",
+  "name": "CB_CHECK_MARKET_REGISTERED",
+  "size": 30
+ },
+ {
+  "opcode": 89,
+  "hex": "0x0059",
+  "name": "BC_RETURN_PC_MARKET_REGISTERED",
+  "size": 20
+ },
+ {
+  "opcode": 90,
+  "hex": "0x005A",
+  "name": "BC_CHARACTER_SLOT_SWAP_SUCCESS",
+  "size": 10
+ },
+ {
+  "opcode": 91,
+  "hex": "0x005B",
+  "name": "CB_CHARACTER_SWAP_SLOT",
+  "size": 38
+ },
+ {
+  "opcode": 92,
+  "hex": "0x005C",
+  "name": "BC_CHARACTER_SLOT_SWAP_FAIL",
+  "size": 10
+ },
+ {
+  "opcode": 93,
+  "hex": "0x005D",
+  "name": "BC_DISCONNECT_PACKET_LOG_COUNT",
+  "size": 14
+ },
+ {
+  "opcode": 94,
+  "hex": "0x005E",
+  "name": "CB_REQ_POSTBOX_REFRESH",
+  "size": 22
+ },
+ {
+  "opcode": 95,
+  "hex": "0x005F",
+  "name": "CB_TEAM_DESTROY",
+  "size": 22
+ },
+ {
+  "opcode": 96,
+  "hex": "0x0060",
+  "name": "BC_REQ_SYSTEMINFO",
+  "size": 19
+ },
+ {
+  "opcode": 97,
+  "hex": "0x0061",
+  "name": "CB_RESPONSE_SYSTEMINFO",
+  "size": 0
+ },
+ {
+  "opcode": 98,
+  "hex": "0x0062",
+  "name": "CB_OS_INFO",
+  "size": 24
+ },
+ {
+  "opcode": 99,
+  "hex": "0x0063",
+  "name": "CB_REQ_MOVE_ACCOUNT_DATA",
+  "size": 62
+ },
+ {
+  "opcode": 100,
+  "hex": "0x0064",
+  "name": "BC_FAILED_MOVE_ACCOUNT_DATA",
+  "size": 20
+ },
+ {
+  "opcode": 101,
+  "hex": "0x0065",
+  "name": "BC_SUCCESS_MOVE_ACCOUNT_DATA",
+  "size": 10
+ },
+ {
+  "opcode": 102,
+  "hex": "0x0066",
+  "name": "BC_CHECK_MOVE_ACCOUNT_DATA",
+  "size": 14
+ },
+ {
+  "opcode": 103,
+  "hex": "0x0067",
+  "name": "CB_RELOAD_BARRACK_CAHR_INFO",
+  "size": 22
+ },
+ {
+  "opcode": 104,
+  "hex": "0x0068",
+  "name": "CB_SELECTED_LANGUAGE",
+  "size": 24
+ },
+ {
+  "opcode": 3001,
+  "hex": "0x0BB9",
+  "name": "CZ_CONNECT",
+  "size": 1269
+ },
+ {
+  "opcode": 3002,
+  "hex": "0x0BBA",
+  "name": "ZC_CONNECT_OK",
+  "size": 0
+ },
+ {
+  "opcode": 3003,
+  "hex": "0x0BBB",
+  "name": "ZC_MOVE_ZONE",
+  "size": 11
+ },
+ {
+  "opcode": 3004,
+  "hex": "0x0BBC",
+  "name": "CZ_MOVE_ZONE_OK",
+  "size": 22
+ },
+ {
+  "opcode": 3005,
+  "hex": "0x0BBD",
+  "name": "ZC_CONNECT_FAILED",
+  "size": 0
+ },
+ {
+  "opcode": 3006,
+  "hex": "0x0BBE",
+  "name": "CZ_GAME_READY",
+  "size": 22
+ },
+ {
+  "opcode": 3007,
+  "hex": "0x0BBF",
+  "name": "ZC_MOVE_ZONE_OK",
+  "size": 69
+ },
+ {
+  "opcode": 3008,
+  "hex": "0x0BC0",
+  "name": "CZ_LOGOUT",
+  "size": 23
+ },
+ {
+  "opcode": 3009,
+  "hex": "0x0BC1",
+  "name": "CZ_MOVE_BARRACK",
+  "size": 31
+ },
+ {
+  "opcode": 3010,
+  "hex": "0x0BC2",
+  "name": "ZC_MOVE_BARRACK",
+  "size": 10
+ },
+ {
+  "opcode": 3011,
+  "hex": "0x0BC3",
+  "name": "ZC_LOGOUT_OK",
+  "size": 10
+ },
+ {
+  "opcode": 3012,
+  "hex": "0x0BC4",
+  "name": "ZC_MESSAGE",
+  "size": 0
+ },
+ {
+  "opcode": 3013,
+  "hex": "0x0BC5",
+  "name": "ZC_RESET_VIEW",
+  "size": 10
+ },
+ {
+  "opcode": 3014,
+  "hex": "0x0BC6",
+  "name": "ZC_START_GAME",
+  "size": 51
+ },
+ {
+  "opcode": 3015,
+  "hex": "0x0BC7",
+  "name": "ZC_QUIET",
+  "size": 11
+ },
+ {
+  "opcode": 3101,
+  "hex": "0x0C1D",
+  "name": "ZC_ENTER_PC",
+  "size": 623
+ },
+ {
+  "opcode": 3102,
+  "hex": "0x0C1E",
+  "name": "ZC_ENTER_MONSTER",
+  "size": 0
+ },
+ {
+  "opcode": 3103,
+  "hex": "0x0C1F",
+  "name": "ZC_ENTER_DUMMYPC",
+  "size": 576
+ },
+ {
+  "opcode": 3104,
+  "hex": "0x0C20",
+  "name": "ZC_UPDATED_DUMMYPC",
+  "size": 534
+ },
+ {
+  "opcode": 3105,
+  "hex": "0x0C21",
+  "name": "ZC_ENTER_ITEM",
+  "size": 107
+ },
+ {
+  "opcode": 3106,
+  "hex": "0x0C22",
+  "name": "ZC_LEAVE",
+  "size": 16
+ },
+ {
+  "opcode": 3107,
+  "hex": "0x0C23",
+  "name": "ZC_MOVE_PATH",
+  "size": 43
+ },
+ {
+  "opcode": 3108,
+  "hex": "0x0C24",
+  "name": "ZC_MOVE_POS",
+  "size": 50
+ },
+ {
+  "opcode": 3109,
+  "hex": "0x0C25",
+  "name": "ZC_MOVE_BEZIER",
+  "size": 79
+ },
+ {
+  "opcode": 3110,
+  "hex": "0x0C26",
+  "name": "ZC_MOVE_DIR",
+  "size": 76
+ },
+ {
+  "opcode": 3111,
+  "hex": "0x0C27",
+  "name": "ZC_EXPECTED_STOPPOS",
+  "size": 39
+ },
+ {
+  "opcode": 3112,
+  "hex": "0x0C28",
+  "name": "ZC_MSPD",
+  "size": 26
+ },
+ {
+  "opcode": 3113,
+  "hex": "0x0C29",
+  "name": "ZC_MOVE_SPEED",
+  "size": 31
+ },
+ {
+  "opcode": 3114,
+  "hex": "0x0C2A",
+  "name": "ZC_MOVE_STOP",
+  "size": 27
+ },
+ {
+  "opcode": 3115,
+  "hex": "0x0C2B",
+  "name": "ZC_REST_SIT",
+  "size": 16
+ },
+ {
+  "opcode": 3116,
+  "hex": "0x0C2C",
+  "name": "ZC_JUMP",
+  "size": 71
+ },
+ {
+  "opcode": 3117,
+  "hex": "0x0C2D",
+  "name": "ZC_JUMP_DIR",
+  "size": 63
+ },
+ {
+  "opcode": 3118,
+  "hex": "0x0C2E",
+  "name": "ZC_ORDER_SKILL_JUMP",
+  "size": 14
+ },
+ {
+  "opcode": 3119,
+  "hex": "0x0C2F",
+  "name": "ZC_SKILL_JUMP",
+  "size": 42
+ },
+ {
+  "opcode": 3120,
+  "hex": "0x0C30",
+  "name": "ZC_SET_POS",
+  "size": 27
+ },
+ {
+  "opcode": 3121,
+  "hex": "0x0C31",
+  "name": "ZC_FILE_MOVE",
+  "size": 50
+ },
+ {
+  "opcode": 3122,
+  "hex": "0x0C32",
+  "name": "ZC_UPDATED_PCAPPEARANCE",
+  "size": 534
+ },
+ {
+  "opcode": 3123,
+  "hex": "0x0C33",
+  "name": "ZC_UPDATED_MONSTERAPPEARANCE",
+  "size": 0
+ },
+ {
+  "opcode": 3124,
+  "hex": "0x0C34",
+  "name": "ZC_CHAT",
+  "size": 0
+ },
+ {
+  "opcode": 3125,
+  "hex": "0x0C35",
+  "name": "ZC_CHAT_WITH_TEXTCODE",
+  "size": 18
+ },
+ {
+  "opcode": 3126,
+  "hex": "0x0C36",
+  "name": "ZC_STANCE_CHANGE",
+  "size": 18
+ },
+ {
+  "opcode": 3127,
+  "hex": "0x0C37",
+  "name": "ZC_ADD_HP",
+  "size": 26
+ },
+ {
+  "opcode": 3128,
+  "hex": "0x0C38",
+  "name": "ZC_SKILL_CAST_CANCEL",
+  "size": 14
+ },
+ {
+  "opcode": 3129,
+  "hex": "0x0C39",
+  "name": "ZC_SKILL_CAST",
+  "size": 42
+ },
+ {
+  "opcode": 3130,
+  "hex": "0x0C3A",
+  "name": "ZC_SKILL_READY",
+  "size": 54
+ },
+ {
+  "opcode": 3131,
+  "hex": "0x0C3B",
+  "name": "ZC_SKILL_DISABLE",
+  "size": 19
+ },
+ {
+  "opcode": 3132,
+  "hex": "0x0C3C",
+  "name": "ZC_SKILL_USE_CANCEL",
+  "size": 14
+ },
+ {
+  "opcode": 3133,
+  "hex": "0x0C3D",
+  "name": "ZC_SKILL_MELEE_TARGET",
+  "size": 0
+ },
+ {
+  "opcode": 3134,
+  "hex": "0x0C3E",
+  "name": "ZC_SKILL_MELEE_GROUND",
+  "size": 0
+ },
+ {
+  "opcode": 3135,
+  "hex": "0x0C3F",
+  "name": "ZC_SKILL_FORCE_TARGET",
+  "size": 0
+ },
+ {
+  "opcode": 3136,
+  "hex": "0x0C40",
+  "name": "ZC_SKILL_FORCE_GROUND",
+  "size": 0
+ },
+ {
+  "opcode": 3137,
+  "hex": "0x0C41",
+  "name": "ZC_SKILL_HIT_INFO",
+  "size": 0
+ },
+ {
+  "opcode": 3138,
+  "hex": "0x0C42",
+  "name": "ZC_BUFF_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3139,
+  "hex": "0x0C43",
+  "name": "ZC_BUFF_ADD",
+  "size": 0
+ },
+ {
+  "opcode": 3140,
+  "hex": "0x0C44",
+  "name": "ZC_BUFF_UPDATE",
+  "size": 0
+ },
+ {
+  "opcode": 3141,
+  "hex": "0x0C45",
+  "name": "ZC_BUFF_REMOVE",
+  "size": 24
+ },
+ {
+  "opcode": 3142,
+  "hex": "0x0C46",
+  "name": "ZC_BUFF_CLEAR",
+  "size": 15
+ },
+ {
+  "opcode": 3143,
+  "hex": "0x0C47",
+  "name": "CZ_BUFF_REMOVE",
+  "size": 26
+ },
+ {
+  "opcode": 3144,
+  "hex": "0x0C48",
+  "name": "CZ_INTE_WARP",
+  "size": 26
+ },
+ {
+  "opcode": 3145,
+  "hex": "0x0C49",
+  "name": "ZC_ROTATE",
+  "size": 28
+ },
+ {
+  "opcode": 3146,
+  "hex": "0x0C4A",
+  "name": "ZC_ROTATE_RESERVED",
+  "size": 22
+ },
+ {
+  "opcode": 3147,
+  "hex": "0x0C4B",
+  "name": "ZC_HEAD_ROTATE",
+  "size": 23
+ },
+ {
+  "opcode": 3148,
+  "hex": "0x0C4C",
+  "name": "ZC_TARGET_ROTATE",
+  "size": 22
+ },
+ {
+  "opcode": 3149,
+  "hex": "0x0C4D",
+  "name": "ZC_QUICK_ROTATE",
+  "size": 22
+ },
+ {
+  "opcode": 3150,
+  "hex": "0x0C4E",
+  "name": "ZC_POSE",
+  "size": 39
+ },
+ {
+  "opcode": 3151,
+  "hex": "0x0C4F",
+  "name": "ZC_DEAD",
+  "size": 0
+ },
+ {
+  "opcode": 3152,
+  "hex": "0x0C50",
+  "name": "ZC_RESURRECT",
+  "size": 22
+ },
+ {
+  "opcode": 3153,
+  "hex": "0x0C51",
+  "name": "ZC_CHANGE_RELATION",
+  "size": 15
+ },
+ {
+  "opcode": 3154,
+  "hex": "0x0C52",
+  "name": "ZC_RESURRECT_DIALOG",
+  "size": 527
+ },
+ {
+  "opcode": 3155,
+  "hex": "0x0C53",
+  "name": "ZC_HIT_INFO",
+  "size": 82
+ },
+ {
+  "opcode": 3156,
+  "hex": "0x0C54",
+  "name": "ZC_HEAL_INFO",
+  "size": 38
+ },
+ {
+  "opcode": 3158,
+  "hex": "0x0C56",
+  "name": "ZC_CAUTION_DAMAGE_INFO",
+  "size": 19
+ },
+ {
+  "opcode": 3159,
+  "hex": "0x0C57",
+  "name": "ZC_CAUTION_DAMAGE_RELEASE",
+  "size": 14
+ },
+ {
+  "opcode": 3160,
+  "hex": "0x0C58",
+  "name": "ZC_KNOCKBACK_INFO",
+  "size": 74
+ },
+ {
+  "opcode": 3161,
+  "hex": "0x0C59",
+  "name": "ZC_KNOCKDOWN_INFO",
+  "size": 75
+ },
+ {
+  "opcode": 3162,
+  "hex": "0x0C5A",
+  "name": "CZ_RESURRECT",
+  "size": 31
+ },
+ {
+  "opcode": 3163,
+  "hex": "0x0C5B",
+  "name": "ZC_RESURRECT_SAVE_POINT_ACK",
+  "size": 11
+ },
+ {
+  "opcode": 3164,
+  "hex": "0x0C5C",
+  "name": "ZC_RESURRECT_HERE_ACK",
+  "size": 11
+ },
+ {
+  "opcode": 3165,
+  "hex": "0x0C5D",
+  "name": "CZ_CLICK_TRIGGER",
+  "size": 27
+ },
+ {
+  "opcode": 3166,
+  "hex": "0x0C5E",
+  "name": "CZ_KEYBOARD_MOVE",
+  "size": 73
+ },
+ {
+  "opcode": 3167,
+  "hex": "0x0C5F",
+  "name": "CZ_EXPECTED_STOP_POS",
+  "size": 43
+ },
+ {
+  "opcode": 3168,
+  "hex": "0x0C60",
+  "name": "CZ_JUMP",
+  "size": 71
+ },
+ {
+  "opcode": 3169,
+  "hex": "0x0C61",
+  "name": "CZ_DASHRUN",
+  "size": 24
+ },
+ {
+  "opcode": 3170,
+  "hex": "0x0C62",
+  "name": "CZ_SKILL_JUMP_REQ",
+  "size": 42
+ },
+ {
+  "opcode": 3171,
+  "hex": "0x0C63",
+  "name": "CZ_MOVE_PATH",
+  "size": 36
+ },
+ {
+  "opcode": 3172,
+  "hex": "0x0C64",
+  "name": "CZ_MOVE_STOP",
+  "size": 71
+ },
+ {
+  "opcode": 3173,
+  "hex": "0x0C65",
+  "name": "CZ_UPDATE_POS",
+  "size": 72
+ },
+ {
+  "opcode": 3174,
+  "hex": "0x0C66",
+  "name": "CZ_REST_SIT",
+  "size": 22
+ },
+ {
+  "opcode": 3175,
+  "hex": "0x0C67",
+  "name": "CZ_ON_AIR",
+  "size": 22
+ },
+ {
+  "opcode": 3176,
+  "hex": "0x0C68",
+  "name": "CZ_ON_GROUND",
+  "size": 22
+ },
+ {
+  "opcode": 3177,
+  "hex": "0x0C69",
+  "name": "CZ_MOVEMENT_INFO",
+  "size": 63
+ },
+ {
+  "opcode": 3178,
+  "hex": "0x0C6A",
+  "name": "CZ_SKILL_TARGET",
+  "size": 33
+ },
+ {
+  "opcode": 3179,
+  "hex": "0x0C6B",
+  "name": "CZ_SKILL_TARGET_ANI",
+  "size": 37
+ },
+ {
+  "opcode": 3180,
+  "hex": "0x0C6C",
+  "name": "CZ_SKILL_GROUND",
+  "size": 79
+ },
+ {
+  "opcode": 3181,
+  "hex": "0x0C6D",
+  "name": "CZ_SKILL_SELF",
+  "size": 48
+ },
+ {
+  "opcode": 3182,
+  "hex": "0x0C6E",
+  "name": "CZ_SKILL_CANCEL",
+  "size": 24
+ },
+ {
+  "opcode": 3183,
+  "hex": "0x0C6F",
+  "name": "CZ_HOLD",
+  "size": 23
+ },
+ {
+  "opcode": 3184,
+  "hex": "0x0C70",
+  "name": "CZ_ROTATE",
+  "size": 34
+ },
+ {
+  "opcode": 3185,
+  "hex": "0x0C71",
+  "name": "CZ_HEAD_ROTATE",
+  "size": 34
+ },
+ {
+  "opcode": 3186,
+  "hex": "0x0C72",
+  "name": "CZ_TARGET_ROTATE",
+  "size": 30
+ },
+ {
+  "opcode": 3187,
+  "hex": "0x0C73",
+  "name": "CZ_POSE",
+  "size": 47
+ },
+ {
+  "opcode": 3188,
+  "hex": "0x0C74",
+  "name": "CZ_CHAT",
+  "size": 0
+ },
+ {
+  "opcode": 3189,
+  "hex": "0x0C75",
+  "name": "CZ_SELF_CHAT",
+  "size": 0
+ },
+ {
+  "opcode": 3190,
+  "hex": "0x0C76",
+  "name": "CZ_CHAT_LOG",
+  "size": 0
+ },
+ {
+  "opcode": 3191,
+  "hex": "0x0C77",
+  "name": "CZ_SHOUT",
+  "size": 0
+ },
+ {
+  "opcode": 3192,
+  "hex": "0x0C78",
+  "name": "CZ_ITEM_DROP",
+  "size": 34
+ },
+ {
+  "opcode": 3193,
+  "hex": "0x0C79",
+  "name": "CZ_ITEM_DELETE",
+  "size": 38
+ },
+ {
+  "opcode": 3194,
+  "hex": "0x0C7A",
+  "name": "CZ_ITEM_USE",
+  "size": 34
+ },
+ {
+  "opcode": 3195,
+  "hex": "0x0C7B",
+  "name": "CZ_ITEM_USE_TO_ITEM",
+  "size": 42
+ },
+ {
+  "opcode": 3196,
+  "hex": "0x0C7C",
+  "name": "CZ_ITEM_USE_TO_GROUND",
+  "size": 42
+ },
+ {
+  "opcode": 3197,
+  "hex": "0x0C7D",
+  "name": "CZ_ITEM_BUY",
+  "size": 0
+ },
+ {
+  "opcode": 3198,
+  "hex": "0x0C7E",
+  "name": "CZ_ITEM_SELL",
+  "size": 0
+ },
+ {
+  "opcode": 3199,
+  "hex": "0x0C7F",
+  "name": "CZ_ITEM_EQUIP",
+  "size": 31
+ },
+ {
+  "opcode": 3200,
+  "hex": "0x0C80",
+  "name": "CZ_ITEM_UNEQUIP",
+  "size": 23
+ },
+ {
+  "opcode": 3201,
+  "hex": "0x0C81",
+  "name": "CZ_REQ_DELETE_EXPIRED_ITEMS",
+  "size": 30
+ },
+ {
+  "opcode": 3202,
+  "hex": "0x0C82",
+  "name": "ZC_CHECK_INVINDEX",
+  "size": 34
+ },
+ {
+  "opcode": 3203,
+  "hex": "0x0C83",
+  "name": "CZ_PREMIUM_ENCHANTCHIP",
+  "size": 38
+ },
+ {
+  "opcode": 3204,
+  "hex": "0x0C84",
+  "name": "CZ_PREMIUM_GACHACUBE",
+  "size": 22
+ },
+ {
+  "opcode": 3205,
+  "hex": "0x0C85",
+  "name": "CZ_PREMIUM_GACHACUBE_LEGEND",
+  "size": 23
+ },
+ {
+  "opcode": 3206,
+  "hex": "0x0C86",
+  "name": "ZC_ITEM_INVENTORY_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3207,
+  "hex": "0x0C87",
+  "name": "ZC_ITEM_INVENTORY_DIVISION_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3208,
+  "hex": "0x0C88",
+  "name": "ZC_ITEM_INVENTORY_INDEX_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3209,
+  "hex": "0x0C89",
+  "name": "ZC_ITEM_EQUIP_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3210,
+  "hex": "0x0C8A",
+  "name": "ZC_ITEM_ADD",
+  "size": 0
+ },
+ {
+  "opcode": 3211,
+  "hex": "0x0C8B",
+  "name": "ZC_ITEM_REMOVE",
+  "size": 28
+ },
+ {
+  "opcode": 3212,
+  "hex": "0x0C8C",
+  "name": "ZC_ITEM_USE",
+  "size": 18
+ },
+ {
+  "opcode": 3213,
+  "hex": "0x0C8D",
+  "name": "ZC_ITEM_USE_TO_GROUND",
+  "size": 26
+ },
+ {
+  "opcode": 3214,
+  "hex": "0x0C8E",
+  "name": "ZC_QUICK_SLOT_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3215,
+  "hex": "0x0C8F",
+  "name": "ZC_SKILL_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3216,
+  "hex": "0x0C90",
+  "name": "ZC_SKILL_ADD",
+  "size": 0
+ },
+ {
+  "opcode": 3217,
+  "hex": "0x0C91",
+  "name": "ZC_SKILL_REMOVE",
+  "size": 18
+ },
+ {
+  "opcode": 3218,
+  "hex": "0x0C92",
+  "name": "ZC_ABILITY_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3219,
+  "hex": "0x0C93",
+  "name": "CZ_DISPEL_DEBUFF_TOGGLE",
+  "size": 26
+ },
+ {
+  "opcode": 3220,
+  "hex": "0x0C94",
+  "name": "CZ_JUNGTAN_TOGGLE",
+  "size": 36
+ },
+ {
+  "opcode": 3221,
+  "hex": "0x0C95",
+  "name": "ZC_EXP_UP",
+  "size": 34
+ },
+ {
+  "opcode": 3222,
+  "hex": "0x0C96",
+  "name": "ZC_EXP_UP_BY_MONSTER",
+  "size": 38
+ },
+ {
+  "opcode": 3223,
+  "hex": "0x0C97",
+  "name": "ZC_PC_LEVELUP",
+  "size": 18
+ },
+ {
+  "opcode": 3224,
+  "hex": "0x0C98",
+  "name": "ZC_PC_STAT_AVG",
+  "size": 34
+ },
+ {
+  "opcode": 3225,
+  "hex": "0x0C99",
+  "name": "ZC_MAX_EXP_CHANGED",
+  "size": 38
+ },
+ {
+  "opcode": 3226,
+  "hex": "0x0C9A",
+  "name": "ZC_TEXT",
+  "size": 0
+ },
+ {
+  "opcode": 3227,
+  "hex": "0x0C9B",
+  "name": "ZC_UPDATE_SP",
+  "size": 19
+ },
+ {
+  "opcode": 3228,
+  "hex": "0x0C9C",
+  "name": "ZC_RESTORATION",
+  "size": 16
+ },
+ {
+  "opcode": 3229,
+  "hex": "0x0C9D",
+  "name": "ZC_UPDATE_MHP",
+  "size": 18
+ },
+ {
+  "opcode": 3230,
+  "hex": "0x0C9E",
+  "name": "CZ_DIALOG_ACK",
+  "size": 26
+ },
+ {
+  "opcode": 3231,
+  "hex": "0x0C9F",
+  "name": "CZ_DIALOG_SELECT",
+  "size": 23
+ },
+ {
+  "opcode": 3232,
+  "hex": "0x0CA0",
+  "name": "CZ_DIALOG_STRINGINPUT",
+  "size": 150
+ },
+ {
+  "opcode": 3233,
+  "hex": "0x0CA1",
+  "name": "ZC_DIALOG_OK",
+  "size": 0
+ },
+ {
+  "opcode": 3234,
+  "hex": "0x0CA2",
+  "name": "ZC_DIALOG_NEXT",
+  "size": 0
+ },
+ {
+  "opcode": 3235,
+  "hex": "0x0CA3",
+  "name": "ZC_DIALOG_SELECT",
+  "size": 0
+ },
+ {
+  "opcode": 3236,
+  "hex": "0x0CA4",
+  "name": "ZC_DIALOG_ITEM_SELECT",
+  "size": 0
+ },
+ {
+  "opcode": 3237,
+  "hex": "0x0CA5",
+  "name": "ZC_DIALOG_CLOSE",
+  "size": 10
+ },
+ {
+  "opcode": 3238,
+  "hex": "0x0CA6",
+  "name": "ZC_DIALOG_TRADE",
+  "size": 43
+ },
+ {
+  "opcode": 3239,
+  "hex": "0x0CA7",
+  "name": "ZC_DIALOG_COMMON_TRADE",
+  "size": 43
+ },
+ {
+  "opcode": 3240,
+  "hex": "0x0CA8",
+  "name": "ZC_DIALOG_NUMBERRANGE",
+  "size": 0
+ },
+ {
+  "opcode": 3241,
+  "hex": "0x0CA9",
+  "name": "ZC_DIALOG_STRINGINPUT",
+  "size": 0
+ },
+ {
+  "opcode": 3242,
+  "hex": "0x0CAA",
+  "name": "ZC_ADDON_MSG",
+  "size": 0
+ },
+ {
+  "opcode": 3243,
+  "hex": "0x0CAB",
+  "name": "ZC_ADDON_EVENT_MSG",
+  "size": 0
+ },
+ {
+  "opcode": 3244,
+  "hex": "0x0CAC",
+  "name": "CZ_UI_EVENT",
+  "size": 0
+ },
+ {
+  "opcode": 3245,
+  "hex": "0x0CAD",
+  "name": "ZC_PLAY_SOUND",
+  "size": 24
+ },
+ {
+  "opcode": 3246,
+  "hex": "0x0CAE",
+  "name": "ZC_STOP_SOUND",
+  "size": 18
+ },
+ {
+  "opcode": 3247,
+  "hex": "0x0CAF",
+  "name": "ZC_PLAY_MUSICQUEUE",
+  "size": 21
+ },
+ {
+  "opcode": 3248,
+  "hex": "0x0CB0",
+  "name": "ZC_STOP_MUSICQUEUE",
+  "size": 18
+ },
+ {
+  "opcode": 3249,
+  "hex": "0x0CB1",
+  "name": "ZC_PLAY_ANI",
+  "size": 30
+ },
+ {
+  "opcode": 3250,
+  "hex": "0x0CB2",
+  "name": "ZC_PLAY_FIX_ANI",
+  "size": 34
+ },
+ {
+  "opcode": 3251,
+  "hex": "0x0CB3",
+  "name": "ZC_PLAY_ANI_SELFISH",
+  "size": 23
+ },
+ {
+  "opcode": 3252,
+  "hex": "0x0CB4",
+  "name": "ZC_CHANGE_ANI",
+  "size": 48
+ },
+ {
+  "opcode": 3253,
+  "hex": "0x0CB5",
+  "name": "CZ_MOVE_CAMP",
+  "size": 30
+ },
+ {
+  "opcode": 3254,
+  "hex": "0x0CB6",
+  "name": "CZ_CAMPINFO",
+  "size": 30
+ },
+ {
+  "opcode": 3255,
+  "hex": "0x0CB7",
+  "name": "ZC_CAMPINFO",
+  "size": 22
+ },
+ {
+  "opcode": 3256,
+  "hex": "0x0CB8",
+  "name": "ZC_FIX_ANIM",
+  "size": 78
+ },
+ {
+  "opcode": 3257,
+  "hex": "0x0CB9",
+  "name": "ZC_MOVE_ANIM",
+  "size": 16
+ },
+ {
+  "opcode": 3258,
+  "hex": "0x0CBA",
+  "name": "ZC_STD_ANIM",
+  "size": 15
+ },
+ {
+  "opcode": 3260,
+  "hex": "0x0CBC",
+  "name": "ZC_PLAY_ALARMSOUND",
+  "size": 87
+ },
+ {
+  "opcode": 3261,
+  "hex": "0x0CBD",
+  "name": "ZC_STOP_ALARMSOUND",
+  "size": 14
+ },
+ {
+  "opcode": 3262,
+  "hex": "0x0CBE",
+  "name": "ZC_PLAY_EXP_TEXT",
+  "size": 18
+ },
+ {
+  "opcode": 3263,
+  "hex": "0x0CBF",
+  "name": "ZC_PLAY_NAVI_EFFECT",
+  "size": 154
+ },
+ {
+  "opcode": 3264,
+  "hex": "0x0CC0",
+  "name": "ZC_UPDATE_ALL_STATUS",
+  "size": 34
+ },
+ {
+  "opcode": 3265,
+  "hex": "0x0CC1",
+  "name": "ZC_OBJECT_PROPERTY",
+  "size": 0
+ },
+ {
+  "opcode": 3266,
+  "hex": "0x0CC2",
+  "name": "ZC_DUMP_PROPERTY",
+  "size": 0
+ },
+ {
+  "opcode": 3267,
+  "hex": "0x0CC3",
+  "name": "ZC_SHOUT",
+  "size": 0
+ },
+ {
+  "opcode": 3268,
+  "hex": "0x0CC4",
+  "name": "ZC_SHOUT_FAILED",
+  "size": 11
+ },
+ {
+  "opcode": 3269,
+  "hex": "0x0CC5",
+  "name": "CZ_EXCHANGE_REQUEST",
+  "size": 26
+ },
+ {
+  "opcode": 3270,
+  "hex": "0x0CC6",
+  "name": "ZC_EXCHANGE_REQUEST_ACK",
+  "size": 76
+ },
+ {
+  "opcode": 3271,
+  "hex": "0x0CC7",
+  "name": "ZC_EXCHANGE_REQUEST_RECEIVED",
+  "size": 75
+ },
+ {
+  "opcode": 3272,
+  "hex": "0x0CC8",
+  "name": "CZ_EXCHANGE_ACCEPT",
+  "size": 22
+ },
+ {
+  "opcode": 3273,
+  "hex": "0x0CC9",
+  "name": "CZ_EXCHANGE_DECLINE",
+  "size": 22
+ },
+ {
+  "opcode": 3274,
+  "hex": "0x0CCA",
+  "name": "ZC_EXCHANGE_DECLINE_ACK",
+  "size": 10
+ },
+ {
+  "opcode": 3275,
+  "hex": "0x0CCB",
+  "name": "ZC_EXCHANGE_START",
+  "size": 76
+ },
+ {
+  "opcode": 3276,
+  "hex": "0x0CCC",
+  "name": "CZ_EXCHANGE_OFFER",
+  "size": 42
+ },
+ {
+  "opcode": 3277,
+  "hex": "0x0CCD",
+  "name": "ZC_EXCHANGE_OFFER_ACK",
+  "size": 0
+ },
+ {
+  "opcode": 3278,
+  "hex": "0x0CCE",
+  "name": "CZ_EXCHANGE_AGREE",
+  "size": 22
+ },
+ {
+  "opcode": 3279,
+  "hex": "0x0CCF",
+  "name": "ZC_EXCHANGE_AGREE_ACK",
+  "size": 11
+ },
+ {
+  "opcode": 3280,
+  "hex": "0x0CD0",
+  "name": "CZ_EXCHANGE_FINALAGREE",
+  "size": 22
+ },
+ {
+  "opcode": 3281,
+  "hex": "0x0CD1",
+  "name": "ZC_EXCHANGE_FINALAGREE_ACK",
+  "size": 11
+ },
+ {
+  "opcode": 3282,
+  "hex": "0x0CD2",
+  "name": "CZ_EXCHANGE_CANCEL",
+  "size": 22
+ },
+ {
+  "opcode": 3283,
+  "hex": "0x0CD3",
+  "name": "ZC_EXCHANGE_CANCEL_ACK",
+  "size": 10
+ },
+ {
+  "opcode": 3284,
+  "hex": "0x0CD4",
+  "name": "ZC_EXCHANGE_SUCCESS",
+  "size": 10
+ },
+ {
+  "opcode": 3285,
+  "hex": "0x0CD5",
+  "name": "ZC_COOLDOWN_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3286,
+  "hex": "0x0CD6",
+  "name": "ZC_COOLDOWN_CHANGED",
+  "size": 31
+ },
+ {
+  "opcode": 3287,
+  "hex": "0x0CD7",
+  "name": "ZC_OVERHEAT_CHANGED",
+  "size": 46
+ },
+ {
+  "opcode": 3288,
+  "hex": "0x0CD8",
+  "name": "ZC_TEST_AGENT",
+  "size": 22
+ },
+ {
+  "opcode": 3289,
+  "hex": "0x0CD9",
+  "name": "ZC_TIME_FACTOR",
+  "size": 14
+ },
+ {
+  "opcode": 3290,
+  "hex": "0x0CDA",
+  "name": "ZC_PARTY_ENTER",
+  "size": 0
+ },
+ {
+  "opcode": 3291,
+  "hex": "0x0CDB",
+  "name": "ZC_PARTY_OUT",
+  "size": 28
+ },
+ {
+  "opcode": 3292,
+  "hex": "0x0CDC",
+  "name": "CZ_PARTY_OUT",
+  "size": 22
+ },
+ {
+  "opcode": 3293,
+  "hex": "0x0CDD",
+  "name": "ZC_PARTY_DESTROY",
+  "size": 19
+ },
+ {
+  "opcode": 3294,
+  "hex": "0x0CDE",
+  "name": "ZC_PARTY_INFO",
+  "size": 0
+ },
+ {
+  "opcode": 3295,
+  "hex": "0x0CDF",
+  "name": "ZC_PARTY_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3296,
+  "hex": "0x0CE0",
+  "name": "ZC_PARTY_INST_INFO",
+  "size": 0
+ },
+ {
+  "opcode": 3297,
+  "hex": "0x0CE1",
+  "name": "ZC_CHANGE_EQUIP_DURABILITY",
+  "size": 15
+ },
+ {
+  "opcode": 3298,
+  "hex": "0x0CE2",
+  "name": "ZC_UPDATE_REPRESENTATION_CLASS",
+  "size": 22
+ },
+ {
+  "opcode": 3299,
+  "hex": "0x0CE3",
+  "name": "CZ_DIALOG_TX",
+  "size": 0
+ },
+ {
+  "opcode": 3300,
+  "hex": "0x0CE4",
+  "name": "CZ_REQ_RECIPE",
+  "size": 0
+ },
+ {
+  "opcode": 3301,
+  "hex": "0x0CE5",
+  "name": "ZC_CUSTOM_DIALOG",
+  "size": 79
+ },
+ {
+  "opcode": 3302,
+  "hex": "0x0CE6",
+  "name": "ZC_SESSION_OBJECTS",
+  "size": 0
+ },
+ {
+  "opcode": 3303,
+  "hex": "0x0CE7",
+  "name": "ZC_SESSION_OBJ_ADD",
+  "size": 0
+ },
+ {
+  "opcode": 3304,
+  "hex": "0x0CE8",
+  "name": "ZC_SESSION_OBJ_REMOVE",
+  "size": 14
+ },
+ {
+  "opcode": 3305,
+  "hex": "0x0CE9",
+  "name": "ZC_SESSION_OBJ_TIME",
+  "size": 18
+ },
+ {
+  "opcode": 3306,
+  "hex": "0x0CEA",
+  "name": "CZ_S_OBJ_VALUE_C",
+  "size": 38
+ },
+ {
+  "opcode": 3307,
+  "hex": "0x0CEB",
+  "name": "CZ_REQ_NORMAL_TX",
+  "size": 57
+ },
+ {
+  "opcode": 3308,
+  "hex": "0x0CEC",
+  "name": "ZC_COMMANDER_LOADER_INFO",
+  "size": 0
+ },
+ {
+  "opcode": 3309,
+  "hex": "0x0CED",
+  "name": "ZC_MOVE_SINGLE_ZONE",
+  "size": 22
+ },
+ {
+  "opcode": 3310,
+  "hex": "0x0CEE",
+  "name": "ZC_BACKTO_ORIGINAL_SERVER",
+  "size": 12
+ },
+ {
+  "opcode": 3311,
+  "hex": "0x0CEF",
+  "name": "CZ_BACKTO_ORIGINAL_SERVER",
+  "size": 24
+ },
+ {
+  "opcode": 3312,
+  "hex": "0x0CF0",
+  "name": "CZ_REQ_NORMAL_TX_NUMARG",
+  "size": 0
+ },
+ {
+  "opcode": 3313,
+  "hex": "0x0CF1",
+  "name": "ZC_UI_OPEN",
+  "size": 43
+ },
+ {
+  "opcode": 3314,
+  "hex": "0x0CF2",
+  "name": "ZC_ENABLE_CONTROL",
+  "size": 79
+ },
+ {
+  "opcode": 3315,
+  "hex": "0x0CF3",
+  "name": "ZC_CHANGE_CAMERA",
+  "size": 35
+ },
+ {
+  "opcode": 3316,
+  "hex": "0x0CF4",
+  "name": "ZC_MONSTER_SDR_CHANGED",
+  "size": 15
+ },
+ {
+  "opcode": 3317,
+  "hex": "0x0CF5",
+  "name": "ZC_MOVE_IGNORE_COLLISION",
+  "size": 34
+ },
+ {
+  "opcode": 3318,
+  "hex": "0x0CF6",
+  "name": "ZC_CHANGE_CAMERA_ZOOM",
+  "size": 42
+ },
+ {
+  "opcode": 3319,
+  "hex": "0x0CF7",
+  "name": "ZC_PLAY_SKILL_ANI",
+  "size": 86
+ },
+ {
+  "opcode": 3320,
+  "hex": "0x0CF8",
+  "name": "ZC_PLAY_SKILL_CAST_ANI",
+  "size": 34
+ },
+ {
+  "opcode": 3321,
+  "hex": "0x0CF9",
+  "name": "CZ_REQ_ITEM_GET",
+  "size": 26
+ },
+ {
+  "opcode": 3322,
+  "hex": "0x0CFA",
+  "name": "ZC_ITEM_GET",
+  "size": 22
+ },
+ {
+  "opcode": 3323,
+  "hex": "0x0CFB",
+  "name": "CZ_GUARD",
+  "size": 31
+ },
+ {
+  "opcode": 3324,
+  "hex": "0x0CFC",
+  "name": "ZC_GUARD",
+  "size": 23
+ },
+ {
+  "opcode": 3325,
+  "hex": "0x0CFD",
+  "name": "ZC_STAMINA",
+  "size": 14
+ },
+ {
+  "opcode": 3326,
+  "hex": "0x0CFE",
+  "name": "ZC_ADD_STAMINA",
+  "size": 14
+ },
+ {
+  "opcode": 3327,
+  "hex": "0x0CFF",
+  "name": "ZC_GM_ORDER",
+  "size": 14
+ },
+ {
+  "opcode": 3328,
+  "hex": "0x0D00",
+  "name": "ZC_MYPC_ENTER",
+  "size": 28
+ },
+ {
+  "opcode": 3329,
+  "hex": "0x0D01",
+  "name": "ZC_LOCK_KEY",
+  "size": 79
+ },
+ {
+  "opcode": 3330,
+  "hex": "0x0D02",
+  "name": "ZC_SAVE_INFO",
+  "size": 10
+ },
+ {
+  "opcode": 3331,
+  "hex": "0x0D03",
+  "name": "CZ_SAVE_INFO",
+  "size": 0
+ },
+ {
+  "opcode": 3332,
+  "hex": "0x0D04",
+  "name": "ZC_OPTION_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3333,
+  "hex": "0x0D05",
+  "name": "ZC_SKILLMAP_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3334,
+  "hex": "0x0D06",
+  "name": "CZ_GIVEITEM_TO_DUMMYPC",
+  "size": 34
+ },
+ {
+  "opcode": 3335,
+  "hex": "0x0D07",
+  "name": "CZ_FOOD_TABLE_TITLE",
+  "size": 91
+ },
+ {
+  "opcode": 3336,
+  "hex": "0x0D08",
+  "name": "CZ_USE_TP_AND_ENTER_INDUN",
+  "size": 534
+ },
+ {
+  "opcode": 3337,
+  "hex": "0x0D09",
+  "name": "CZ_USE_RANKRESET_ITEM",
+  "size": 32
+ },
+ {
+  "opcode": 3338,
+  "hex": "0x0D0A",
+  "name": "CZ_REQ_RANKRESET_SYSTEM",
+  "size": 26
+ },
+ {
+  "opcode": 3339,
+  "hex": "0x0D0B",
+  "name": "CZ_REQ_MULTIPLE_RANKRESET_SYSTEM",
+  "size": 34
+ },
+ {
+  "opcode": 3340,
+  "hex": "0x0D0C",
+  "name": "ZC_SET_LAYER",
+  "size": 15
+ },
+ {
+  "opcode": 3341,
+  "hex": "0x0D0D",
+  "name": "ZC_CREATE_LAYERBOX",
+  "size": 42
+ },
+ {
+  "opcode": 3342,
+  "hex": "0x0D0E",
+  "name": "ZC_RESET_BOX",
+  "size": 15
+ },
+ {
+  "opcode": 3343,
+  "hex": "0x0D0F",
+  "name": "ZC_CREATE_SCROLLLOCKBOX",
+  "size": 42
+ },
+ {
+  "opcode": 3344,
+  "hex": "0x0D10",
+  "name": "ZC_REMOVE_SCROLLLOCKBOX",
+  "size": 14
+ },
+ {
+  "opcode": 3345,
+  "hex": "0x0D11",
+  "name": "CZ_DYNAMIC_CASTING_START",
+  "size": 53
+ },
+ {
+  "opcode": 3346,
+  "hex": "0x0D12",
+  "name": "CZ_DYNAMIC_CASTING_END",
+  "size": 34
+ },
+ {
+  "opcode": 3347,
+  "hex": "0x0D13",
+  "name": "ZC_CASTING_SPEED",
+  "size": 26
+ },
+ {
+  "opcode": 3348,
+  "hex": "0x0D14",
+  "name": "CZ_SKILL_CANCEL_SCRIPT",
+  "size": 26
+ },
+ {
+  "opcode": 3349,
+  "hex": "0x0D15",
+  "name": "ZC_LEAVE_TRIGGER",
+  "size": 10
+ },
+ {
+  "opcode": 3350,
+  "hex": "0x0D16",
+  "name": "ZC_BORN",
+  "size": 14
+ },
+ {
+  "opcode": 3351,
+  "hex": "0x0D17",
+  "name": "ZC_ACHIEVE_POINT_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3352,
+  "hex": "0x0D18",
+  "name": "ZC_SPLIT_ACHIEVE_POINT_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3353,
+  "hex": "0x0D19",
+  "name": "ZC_SPLIT_ACHIEVE_SET",
+  "size": 0
+ },
+ {
+  "opcode": 3354,
+  "hex": "0x0D1A",
+  "name": "ZC_ACHIEVE_POINT",
+  "size": 22
+ },
+ {
+  "opcode": 3355,
+  "hex": "0x0D1B",
+  "name": "CZ_ACHIEVE_EQUIP",
+  "size": 26
+ },
+ {
+  "opcode": 3356,
+  "hex": "0x0D1C",
+  "name": "ZC_ACHIEVE_EQUIP",
+  "size": 34
+ },
+ {
+  "opcode": 3357,
+  "hex": "0x0D1D",
+  "name": "CZ_ACHIEVE_REWARD",
+  "size": 27
+ },
+ {
+  "opcode": 3358,
+  "hex": "0x0D1E",
+  "name": "CZ_ACHIEVE_EXCHANGE_EVENT_REWARD",
+  "size": 26
+ },
+ {
+  "opcode": 3359,
+  "hex": "0x0D1F",
+  "name": "CZ_ACHIEVE_LEVEL_REWARD",
+  "size": 26
+ },
+ {
+  "opcode": 3360,
+  "hex": "0x0D20",
+  "name": "CZ_CHANGE_CONFIG",
+  "size": 30
+ },
+ {
+  "opcode": 3361,
+  "hex": "0x0D21",
+  "name": "CZ_CHANGE_CONFIG_STR",
+  "size": 46
+ },
+ {
+  "opcode": 3362,
+  "hex": "0x0D22",
+  "name": "ZC_WORLD_MSG",
+  "size": 91
+ },
+ {
+  "opcode": 3363,
+  "hex": "0x0D23",
+  "name": "ZC_ENABLE_SHOW_ITEM_GET",
+  "size": 12
+ },
+ {
+  "opcode": 3364,
+  "hex": "0x0D24",
+  "name": "ZC_LOGIN_TIME",
+  "size": 18
+ },
+ {
+  "opcode": 3365,
+  "hex": "0x0D25",
+  "name": "ZC_GIVE_EXP_TO_PC",
+  "size": 50
+ },
+ {
+  "opcode": 3366,
+  "hex": "0x0D26",
+  "name": "ZC_LAYER_PC_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3367,
+  "hex": "0x0D27",
+  "name": "ZC_LAYER_PC_SOBJ_PROP",
+  "size": 0
+ },
+ {
+  "opcode": 3368,
+  "hex": "0x0D28",
+  "name": "CZ_CUSTOM_COMMAND",
+  "size": 38
+ },
+ {
+  "opcode": 3369,
+  "hex": "0x0D29",
+  "name": "ZC_LAYER_INFO",
+  "size": 14
+ },
+ {
+  "opcode": 3370,
+  "hex": "0x0D2A",
+  "name": "CZ_CHAT_MACRO",
+  "size": 158
+ },
+ {
+  "opcode": 3371,
+  "hex": "0x0D2B",
+  "name": "ZC_CHAT_MACRO_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3372,
+  "hex": "0x0D2C",
+  "name": "ZC_RULLET_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3373,
+  "hex": "0x0D2D",
+  "name": "ZC_QUICKSLOT_REGISTER",
+  "size": 50
+ },
+ {
+  "opcode": 3374,
+  "hex": "0x0D2E",
+  "name": "CZ_QUICKSLOT_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3375,
+  "hex": "0x0D2F",
+  "name": "CZ_DOUBLE_ITEM_EQUIP",
+  "size": 40
+ },
+ {
+  "opcode": 3376,
+  "hex": "0x0D30",
+  "name": "ZC_TRICK_PACKET",
+  "size": 0
+ },
+ {
+  "opcode": 3377,
+  "hex": "0x0D31",
+  "name": "ZC_COOLDOWN_RATE",
+  "size": 26
+ },
+ {
+  "opcode": 3378,
+  "hex": "0x0D32",
+  "name": "ZC_MAP_REVEAL_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3379,
+  "hex": "0x0D33",
+  "name": "CZ_MAP_REVEAL_INFO",
+  "size": 158
+ },
+ {
+  "opcode": 3380,
+  "hex": "0x0D34",
+  "name": "CZ_MAP_SEARCH_INFO",
+  "size": 67
+ },
+ {
+  "opcode": 3381,
+  "hex": "0x0D35",
+  "name": "ZC_EXEC_CLIENT_SCP",
+  "size": 0
+ },
+ {
+  "opcode": 3382,
+  "hex": "0x0D36",
+  "name": "ZC_SET_NPC_STATE",
+  "size": 22
+ },
+ {
+  "opcode": 3383,
+  "hex": "0x0D37",
+  "name": "ZC_NPC_STATE_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3384,
+  "hex": "0x0D38",
+  "name": "CZ_QUEST_NPC_STATE_CHECK",
+  "size": 26
+ },
+ {
+  "opcode": 3385,
+  "hex": "0x0D39",
+  "name": "ZC_RANK_ACHIEVE_ADD",
+  "size": 18
+ },
+ {
+  "opcode": 3386,
+  "hex": "0x0D3A",
+  "name": "CZ_IES_MODIFY_INFO",
+  "size": 0
+ },
+ {
+  "opcode": 3387,
+  "hex": "0x0D3B",
+  "name": "ZC_IES_MODIFY_INFO",
+  "size": 0
+ },
+ {
+  "opcode": 3388,
+  "hex": "0x0D3C",
+  "name": "ZC_IES_MODIFY_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3389,
+  "hex": "0x0D3D",
+  "name": "CZ_IES_REVISION_DELETE",
+  "size": 0
+ },
+ {
+  "opcode": 3390,
+  "hex": "0x0D3E",
+  "name": "ZC_IES_REVISION_DELETE",
+  "size": 0
+ },
+ {
+  "opcode": 3391,
+  "hex": "0x0D3F",
+  "name": "ZC_EQUIP_ITEM_REMOVE",
+  "size": 22
+ },
+ {
+  "opcode": 3392,
+  "hex": "0x0D40",
+  "name": "ZC_SOLD_ITEM_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3393,
+  "hex": "0x0D41",
+  "name": "ZC_SOLD_ITEM_DIVISION_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3394,
+  "hex": "0x0D42",
+  "name": "CZ_SOLD_ITEM",
+  "size": 31
+ },
+ {
+  "opcode": 3395,
+  "hex": "0x0D43",
+  "name": "CZ_WAREHOUSE_CMD",
+  "size": 48
+ },
+ {
+  "opcode": 3396,
+  "hex": "0x0D44",
+  "name": "CZ_SWAP_ETC_INV_CHANGE_INDEX",
+  "size": 47
+ },
+ {
+  "opcode": 3397,
+  "hex": "0x0D45",
+  "name": "CZ_SORT_INV",
+  "size": 24
+ },
+ {
+  "opcode": 3398,
+  "hex": "0x0D46",
+  "name": "CZ_EXTEND_WAREHOUSE",
+  "size": 23
+ },
+ {
+  "opcode": 3399,
+  "hex": "0x0D47",
+  "name": "CZ_CAST_CONTROL_SHOT",
+  "size": 22
+ },
+ {
+  "opcode": 3400,
+  "hex": "0x0D48",
+  "name": "ZC_PC_PROP_UPDATE",
+  "size": 15
+ },
+ {
+  "opcode": 3401,
+  "hex": "0x0D49",
+  "name": "ZC_SHOP_POINT_UPDATE",
+  "size": 58
+ },
+ {
+  "opcode": 3402,
+  "hex": "0x0D4A",
+  "name": "CZ_SHOP_POINT_GET",
+  "size": 54
+ },
+ {
+  "opcode": 3403,
+  "hex": "0x0D4B",
+  "name": "CZ_CLIENT_DAMAGE",
+  "size": 26
+ },
+ {
+  "opcode": 3404,
+  "hex": "0x0D4C",
+  "name": "CZ_CLIENT_ATTACK",
+  "size": 27
+ },
+ {
+  "opcode": 3405,
+  "hex": "0x0D4D",
+  "name": "ZC_SYSTEM_MSG",
+  "size": 0
+ },
+ {
+  "opcode": 3406,
+  "hex": "0x0D4E",
+  "name": "ZC_FSM_MOVE",
+  "size": 0
+ },
+ {
+  "opcode": 3407,
+  "hex": "0x0D4F",
+  "name": "CZ_QUEST_CHECK_SAVE",
+  "size": 62
+ },
+ {
+  "opcode": 3408,
+  "hex": "0x0D50",
+  "name": "CZ_ACHIEVE_CHASE_SAVE",
+  "size": 42
+ },
+ {
+  "opcode": 3409,
+  "hex": "0x0D51",
+  "name": "ZC_MONSTER_LIFETIME",
+  "size": 18
+ },
+ {
+  "opcode": 3410,
+  "hex": "0x0D52",
+  "name": "ZC_SHARED_MSG",
+  "size": 14
+ },
+ {
+  "opcode": 3411,
+  "hex": "0x0D53",
+  "name": "CZ_REQ_TX_ITEM",
+  "size": 0
+ },
+ {
+  "opcode": 3412,
+  "hex": "0x0D54",
+  "name": "CZ_REQ_TX_ITEM_STRING",
+  "size": 538
+ },
+ {
+  "opcode": 3413,
+  "hex": "0x0D55",
+  "name": "ZC_TEST_DBG",
+  "size": 0
+ },
+ {
+  "opcode": 3414,
+  "hex": "0x0D56",
+  "name": "ZC_MONSTER_DIST",
+  "size": 0
+ },
+ {
+  "opcode": 3415,
+  "hex": "0x0D57",
+  "name": "ZC_RESET_SKILL_FORCEID",
+  "size": 14
+ },
+ {
+  "opcode": 3416,
+  "hex": "0x0D58",
+  "name": "ZC_EMOTICON",
+  "size": 22
+ },
+ {
+  "opcode": 3417,
+  "hex": "0x0D59",
+  "name": "ZC_SHOW_EMOTICON",
+  "size": 22
+ },
+ {
+  "opcode": 3418,
+  "hex": "0x0D5A",
+  "name": "ZC_TREASUREMARK_BY_MAP",
+  "size": 0
+ },
+ {
+  "opcode": 3419,
+  "hex": "0x0D5B",
+  "name": "ZC_SHOW_LOCAL_MAP",
+  "size": 0
+ },
+ {
+  "opcode": 3420,
+  "hex": "0x0D5C",
+  "name": "CZ_FLEE_OBSTACLE",
+  "size": 38
+ },
+ {
+  "opcode": 3421,
+  "hex": "0x0D5D",
+  "name": "ZC_HOLD_MOVE_PATH",
+  "size": 15
+ },
+ {
+  "opcode": 3422,
+  "hex": "0x0D5E",
+  "name": "ZC_ENTER_HOOK",
+  "size": 14
+ },
+ {
+  "opcode": 3423,
+  "hex": "0x0D5F",
+  "name": "ZC_LEAVE_HOOK",
+  "size": 14
+ },
+ {
+  "opcode": 3424,
+  "hex": "0x0D60",
+  "name": "ZC_GROUND_EFFECT",
+  "size": 56
+ },
+ {
+  "opcode": 3425,
+  "hex": "0x0D61",
+  "name": "ZC_FLY",
+  "size": 22
+ },
+ {
+  "opcode": 3426,
+  "hex": "0x0D62",
+  "name": "ZC_FLY_OPTION",
+  "size": 18
+ },
+ {
+  "opcode": 3427,
+  "hex": "0x0D63",
+  "name": "ZC_FLY_MATH",
+  "size": 27
+ },
+ {
+  "opcode": 3428,
+  "hex": "0x0D64",
+  "name": "ZC_FLY_HEIGHT",
+  "size": 18
+ },
+ {
+  "opcode": 3429,
+  "hex": "0x0D65",
+  "name": "ZC_UPDATE_SHIELD",
+  "size": 23
+ },
+ {
+  "opcode": 3430,
+  "hex": "0x0D66",
+  "name": "ZC_SHOW_MODEL",
+  "size": 19
+ },
+ {
+  "opcode": 3431,
+  "hex": "0x0D67",
+  "name": "ZC_SHOW_SCENE_MODEL",
+  "size": 15
+ },
+ {
+  "opcode": 3432,
+  "hex": "0x0D68",
+  "name": "ZC_SKILL_RANGE_DBG",
+  "size": 74
+ },
+ {
+  "opcode": 3433,
+  "hex": "0x0D69",
+  "name": "ZC_SKILL_RANGE_FAN",
+  "size": 50
+ },
+ {
+  "opcode": 3434,
+  "hex": "0x0D6A",
+  "name": "ZC_SKILL_RANGE_SQUARE",
+  "size": 52
+ },
+ {
+  "opcode": 3435,
+  "hex": "0x0D6B",
+  "name": "ZC_SKILL_RANGE_CIRCLE",
+  "size": 40
+ },
+ {
+  "opcode": 3436,
+  "hex": "0x0D6C",
+  "name": "ZC_POS_DBG",
+  "size": 38
+ },
+ {
+  "opcode": 3437,
+  "hex": "0x0D6D",
+  "name": "ZC_TEAMID",
+  "size": 15
+ },
+ {
+  "opcode": 3438,
+  "hex": "0x0D6E",
+  "name": "ZC_PC",
+  "size": 0
+ },
+ {
+  "opcode": 3439,
+  "hex": "0x0D6F",
+  "name": "CZ_LOG",
+  "size": 0
+ },
+ {
+  "opcode": 3440,
+  "hex": "0x0D70",
+  "name": "ZC_MOTIONBLUR",
+  "size": 15
+ },
+ {
+  "opcode": 3441,
+  "hex": "0x0D71",
+  "name": "ZC_PLAY_FORCE",
+  "size": 82
+ },
+ {
+  "opcode": 3442,
+  "hex": "0x0D72",
+  "name": "ZC_CAST_TARGET",
+  "size": 18
+ },
+ {
+  "opcode": 3443,
+  "hex": "0x0D73",
+  "name": "ZC_START_INFO",
+  "size": 0
+ },
+ {
+  "opcode": 3444,
+  "hex": "0x0D74",
+  "name": "ZC_JOB_EXP_UP",
+  "size": 26
+ },
+ {
+  "opcode": 3445,
+  "hex": "0x0D75",
+  "name": "ZC_JOB_PTS",
+  "size": 22
+ },
+ {
+  "opcode": 3446,
+  "hex": "0x0D76",
+  "name": "ZC_ADDITIONAL_SKILL_POINT",
+  "size": 0
+ },
+ {
+  "opcode": 3447,
+  "hex": "0x0D77",
+  "name": "ZC_MON_STAMINA",
+  "size": 26
+ },
+ {
+  "opcode": 3448,
+  "hex": "0x0D78",
+  "name": "CZ_CUSTOM_SCP",
+  "size": 26
+ },
+ {
+  "opcode": 3449,
+  "hex": "0x0D79",
+  "name": "ZC_VIEW_FOCUS",
+  "size": 29
+ },
+ {
+  "opcode": 3450,
+  "hex": "0x0D7A",
+  "name": "ZC_HARDCODED_SKILL",
+  "size": 30
+ },
+ {
+  "opcode": 3451,
+  "hex": "0x0D7B",
+  "name": "CZ_HARDCODED_SKILL",
+  "size": 46
+ },
+ {
+  "opcode": 3452,
+  "hex": "0x0D7C",
+  "name": "ZC_FORCE_MOVE",
+  "size": 34
+ },
+ {
+  "opcode": 3453,
+  "hex": "0x0D7D",
+  "name": "ZC_HSKILL_CONTROL",
+  "size": 26
+ },
+ {
+  "opcode": 3454,
+  "hex": "0x0D7E",
+  "name": "ZC_CANCEL_DEADEVENT",
+  "size": 14
+ },
+ {
+  "opcode": 3455,
+  "hex": "0x0D7F",
+  "name": "ZC_ACTION_PKS",
+  "size": 39
+ },
+ {
+  "opcode": 3456,
+  "hex": "0x0D80",
+  "name": "CZ_HARDCODED_ITEM",
+  "size": 34
+ },
+ {
+  "opcode": 3457,
+  "hex": "0x0D81",
+  "name": "CZ_CANCEL_TRANSFORM_SKILL",
+  "size": 22
+ },
+ {
+  "opcode": 3458,
+  "hex": "0x0D82",
+  "name": "CZ_BRIQUET",
+  "size": 0
+ },
+ {
+  "opcode": 3459,
+  "hex": "0x0D83",
+  "name": "ZC_VIBRATE",
+  "size": 34
+ },
+ {
+  "opcode": 3460,
+  "hex": "0x0D84",
+  "name": "ZC_COUNTER_MOVE",
+  "size": 14
+ },
+ {
+  "opcode": 3461,
+  "hex": "0x0D85",
+  "name": "CZ_COUNTER_ATTACK",
+  "size": 26
+ },
+ {
+  "opcode": 3462,
+  "hex": "0x0D86",
+  "name": "CZ_CLIENT_DIRECT",
+  "size": 42
+ },
+ {
+  "opcode": 3463,
+  "hex": "0x0D87",
+  "name": "ZC_CLIENT_DIRECT",
+  "size": 34
+ },
+ {
+  "opcode": 3464,
+  "hex": "0x0D88",
+  "name": "ZC_OWNER",
+  "size": 18
+ },
+ {
+  "opcode": 3465,
+  "hex": "0x0D89",
+  "name": "ZC_GD_RANK",
+  "size": 14
+ },
+ {
+  "opcode": 3466,
+  "hex": "0x0D8A",
+  "name": "CZ_RUN_BGEVENT",
+  "size": 86
+ },
+ {
+  "opcode": 3467,
+  "hex": "0x0D8B",
+  "name": "ZC_ADD_SKILL_EFFECT",
+  "size": 22
+ },
+ {
+  "opcode": 3468,
+  "hex": "0x0D8C",
+  "name": "ZC_ITEM_DROPABLE",
+  "size": 14
+ },
+ {
+  "opcode": 3469,
+  "hex": "0x0D8D",
+  "name": "CZ_ITEM_DROP_TO_OBJECT",
+  "size": 38
+ },
+ {
+  "opcode": 3470,
+  "hex": "0x0D8E",
+  "name": "ZC_NORMAL",
+  "size": 0
+ },
+ {
+  "opcode": 3471,
+  "hex": "0x0D8F",
+  "name": "CZ_G_QUEST_CHECK",
+  "size": 26
+ },
+ {
+  "opcode": 3472,
+  "hex": "0x0D90",
+  "name": "ZC_MOVE_PATH_MATH",
+  "size": 38
+ },
+ {
+  "opcode": 3473,
+  "hex": "0x0D91",
+  "name": "CZ_MYPAGE_COMMENT_ADD",
+  "size": 290
+ },
+ {
+  "opcode": 3474,
+  "hex": "0x0D92",
+  "name": "CZ_MYPAGE_COMMENT_DELETE",
+  "size": 30
+ },
+ {
+  "opcode": 3475,
+  "hex": "0x0D93",
+  "name": "CZ_GUESTPAGE_COMMENT_ADD",
+  "size": 290
+ },
+ {
+  "opcode": 3476,
+  "hex": "0x0D94",
+  "name": "CZ_GET_TARGET_MYPAGE",
+  "size": 26
+ },
+ {
+  "opcode": 3477,
+  "hex": "0x0D95",
+  "name": "CZ_ON_MYPAGE_MODE",
+  "size": 26
+ },
+ {
+  "opcode": 3478,
+  "hex": "0x0D96",
+  "name": "CZ_RESET_SOCIAL_MODE",
+  "size": 22
+ },
+ {
+  "opcode": 3479,
+  "hex": "0x0D97",
+  "name": "CZ_GET_TARGET_GUESTPAGE",
+  "size": 26
+ },
+ {
+  "opcode": 3480,
+  "hex": "0x0D98",
+  "name": "CZ_ADD_SELLMODE_ITEM",
+  "size": 42
+ },
+ {
+  "opcode": 3481,
+  "hex": "0x0D99",
+  "name": "CZ_DELETE_SELLMODE_ITEM",
+  "size": 30
+ },
+ {
+  "opcode": 3482,
+  "hex": "0x0D9A",
+  "name": "CZ_ON_SELLITEM_MODE",
+  "size": 26
+ },
+ {
+  "opcode": 3483,
+  "hex": "0x0D9B",
+  "name": "ZC_MYPAGE_MAP",
+  "size": 0
+ },
+ {
+  "opcode": 3484,
+  "hex": "0x0D9C",
+  "name": "ZC_GUESTPAGE_MAP",
+  "size": 0
+ },
+ {
+  "opcode": 3485,
+  "hex": "0x0D9D",
+  "name": "ZC_ON_MYPAGE_MODE",
+  "size": 0
+ },
+ {
+  "opcode": 3486,
+  "hex": "0x0D9E",
+  "name": "ZC_RESET_SOCIAL_MODE",
+  "size": 14
+ },
+ {
+  "opcode": 3487,
+  "hex": "0x0D9F",
+  "name": "CZ_ON_ITEMBUY_MODE",
+  "size": 0
+ },
+ {
+  "opcode": 3488,
+  "hex": "0x0DA0",
+  "name": "ZC_ON_BUYITEM_MODE",
+  "size": 0
+ },
+ {
+  "opcode": 3489,
+  "hex": "0x0DA1",
+  "name": "ZC_SHOW_GROUND_ITEM_MARK",
+  "size": 34
+ },
+ {
+  "opcode": 3490,
+  "hex": "0x0DA2",
+  "name": "ZC_HELP_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3491,
+  "hex": "0x0DA3",
+  "name": "ZC_HELP_ADD",
+  "size": 15
+ },
+ {
+  "opcode": 3492,
+  "hex": "0x0DA4",
+  "name": "CZ_CLIENT_HIT_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3493,
+  "hex": "0x0DA5",
+  "name": "ZC_PC_ATKSTATE",
+  "size": 15
+ },
+ {
+  "opcode": 3494,
+  "hex": "0x0DA6",
+  "name": "ZC_SEND_PREMIUM_STATE",
+  "size": 20
+ },
+ {
+  "opcode": 3495,
+  "hex": "0x0DA7",
+  "name": "CZ_HELP_READ_TYPE",
+  "size": 30
+ },
+ {
+  "opcode": 3496,
+  "hex": "0x0DA8",
+  "name": "CZ_MOVE_PATH_END",
+  "size": 22
+ },
+ {
+  "opcode": 3497,
+  "hex": "0x0DA9",
+  "name": "ZC_COLL_DAMAGE",
+  "size": 15
+ },
+ {
+  "opcode": 3498,
+  "hex": "0x0DAA",
+  "name": "CZ_KEYBOARD_BEAT",
+  "size": 22
+ },
+ {
+  "opcode": 3499,
+  "hex": "0x0DAB",
+  "name": "CZ_MOVEHIT_SCP",
+  "size": 34
+ },
+ {
+  "opcode": 3500,
+  "hex": "0x0DAC",
+  "name": "ZC_SYNC_START",
+  "size": 18
+ },
+ {
+  "opcode": 3501,
+  "hex": "0x0DAD",
+  "name": "ZC_SYNC_END",
+  "size": 18
+ },
+ {
+  "opcode": 3502,
+  "hex": "0x0DAE",
+  "name": "ZC_SYNC_EXEC",
+  "size": 14
+ },
+ {
+  "opcode": 3503,
+  "hex": "0x0DAF",
+  "name": "ZC_SYNC_EXEC_BY_SKILL_TIME",
+  "size": 22
+ },
+ {
+  "opcode": 3504,
+  "hex": "0x0DB0",
+  "name": "CZ_STOP_TIMEACTION",
+  "size": 23
+ },
+ {
+  "opcode": 3505,
+  "hex": "0x0DB1",
+  "name": "CZ_REQ_DUMMYPC_INFO",
+  "size": 30
+ },
+ {
+  "opcode": 3506,
+  "hex": "0x0DB2",
+  "name": "CZ_VISIT_BARRACK",
+  "size": 86
+ },
+ {
+  "opcode": 3507,
+  "hex": "0x0DB3",
+  "name": "CZ_SPC_SKILL_POS",
+  "size": 34
+ },
+ {
+  "opcode": 3508,
+  "hex": "0x0DB4",
+  "name": "CZ_CHANGE_HEAD",
+  "size": 86
+ },
+ {
+  "opcode": 3509,
+  "hex": "0x0DB5",
+  "name": "CZ_CHANGE_DESIGNCUT",
+  "size": 86
+ },
+ {
+  "opcode": 3510,
+  "hex": "0x0DB6",
+  "name": "CZ_CREATE_ARROW_CRAFT",
+  "size": 26
+ },
+ {
+  "opcode": 3511,
+  "hex": "0x0DB7",
+  "name": "CZ_EXCHANGE_ANTIQUE",
+  "size": 34
+ },
+ {
+  "opcode": 3512,
+  "hex": "0x0DB8",
+  "name": "CZ_EXCHANGE_WEAPONTYPE",
+  "size": 34
+ },
+ {
+  "opcode": 3513,
+  "hex": "0x0DB9",
+  "name": "CZ_REQ_MINITEXT",
+  "size": 278
+ },
+ {
+  "opcode": 3514,
+  "hex": "0x0DBA",
+  "name": "ZC_PC_MOVE_STOP",
+  "size": 63
+ },
+ {
+  "opcode": 3515,
+  "hex": "0x0DBB",
+  "name": "CZ_STOP_ALLPC",
+  "size": 22
+ },
+ {
+  "opcode": 3516,
+  "hex": "0x0DBC",
+  "name": "CZ_COMPLETE_PRELOAD",
+  "size": 26
+ },
+ {
+  "opcode": 3517,
+  "hex": "0x0DBD",
+  "name": "CZ_MGAME_JOIN_CMD",
+  "size": 58
+ },
+ {
+  "opcode": 3518,
+  "hex": "0x0DBE",
+  "name": "CZ_ADD_HELP",
+  "size": 26
+ },
+ {
+  "opcode": 3519,
+  "hex": "0x0DBF",
+  "name": "ZC_ATTACH_TO_OBJ",
+  "size": 61
+ },
+ {
+  "opcode": 3520,
+  "hex": "0x0DC0",
+  "name": "ZC_DETACH_FROM_OBJ",
+  "size": 18
+ },
+ {
+  "opcode": 3521,
+  "hex": "0x0DC1",
+  "name": "ZC_RUN_FROM",
+  "size": 18
+ },
+ {
+  "opcode": 3522,
+  "hex": "0x0DC2",
+  "name": "ZC_LOOKAT_OBJ",
+  "size": 18
+ },
+ {
+  "opcode": 3523,
+  "hex": "0x0DC3",
+  "name": "CZ_SKILL_CELL_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3524,
+  "hex": "0x0DC4",
+  "name": "CZ_SKILL_TOOL_GROUND_POS",
+  "size": 39
+ },
+ {
+  "opcode": 3525,
+  "hex": "0x0DC5",
+  "name": "CZ_DIRECTION_PROCESS",
+  "size": 34
+ },
+ {
+  "opcode": 3526,
+  "hex": "0x0DC6",
+  "name": "CZ_DIRECTION_MOVE_STATE",
+  "size": 0
+ },
+ {
+  "opcode": 3527,
+  "hex": "0x0DC7",
+  "name": "ZC_TO_ALL_CLIENT",
+  "size": 0
+ },
+ {
+  "opcode": 3528,
+  "hex": "0x0DC8",
+  "name": "ZC_TO_CLIENT",
+  "size": 0
+ },
+ {
+  "opcode": 3529,
+  "hex": "0x0DC9",
+  "name": "CZ_REWARD_CMD",
+  "size": 26
+ },
+ {
+  "opcode": 3530,
+  "hex": "0x0DCA",
+  "name": "CZ_PROPERTY_COMPARE",
+  "size": 28
+ },
+ {
+  "opcode": 3531,
+  "hex": "0x0DCB",
+  "name": "ZC_PROPERTY_COMPARE",
+  "size": 0
+ },
+ {
+  "opcode": 3532,
+  "hex": "0x0DCC",
+  "name": "ZC_PROPERTY_COMPARE_FOR_ACT",
+  "size": 0
+ },
+ {
+  "opcode": 3533,
+  "hex": "0x0DCD",
+  "name": "ZC_PROPERTY_COMPARE_FOR_REP_CLASS",
+  "size": 0
+ },
+ {
+  "opcode": 3534,
+  "hex": "0x0DCE",
+  "name": "ZC_FACTION",
+  "size": 18
+ },
+ {
+  "opcode": 3535,
+  "hex": "0x0DCF",
+  "name": "ZC_SEND_CASH_VALUE",
+  "size": 0
+ },
+ {
+  "opcode": 3536,
+  "hex": "0x0DD0",
+  "name": "ZC_BEGIN_KILL_LOG",
+  "size": 10
+ },
+ {
+  "opcode": 3537,
+  "hex": "0x0DD1",
+  "name": "ZC_END_KILL_LOG",
+  "size": 10
+ },
+ {
+  "opcode": 3538,
+  "hex": "0x0DD2",
+  "name": "ZC_CLEAR_KILL_LOG",
+  "size": 10
+ },
+ {
+  "opcode": 3539,
+  "hex": "0x0DD3",
+  "name": "CZ_NPC_AUCTION_CMD",
+  "size": 42
+ },
+ {
+  "opcode": 3540,
+  "hex": "0x0DD4",
+  "name": "ZC_DIRECTION_APC",
+  "size": 30
+ },
+ {
+  "opcode": 3541,
+  "hex": "0x0DD5",
+  "name": "ZC_BGMODEL_ANIM_INFO",
+  "size": 19
+ },
+ {
+  "opcode": 3542,
+  "hex": "0x0DD6",
+  "name": "ZC_ATTACH_BY_KNOCKBACK",
+  "size": 42
+ },
+ {
+  "opcode": 3543,
+  "hex": "0x0DD7",
+  "name": "CZ_OBJECT_MOVE",
+  "size": 39
+ },
+ {
+  "opcode": 3544,
+  "hex": "0x0DD8",
+  "name": "CZ_CONTROL_OBJECT_ROTATE",
+  "size": 34
+ },
+ {
+  "opcode": 3545,
+  "hex": "0x0DD9",
+  "name": "CZ_SUMMON_COMMAND",
+  "size": 30
+ },
+ {
+  "opcode": 3546,
+  "hex": "0x0DDA",
+  "name": "CZ_VEHICLE_RIDE",
+  "size": 27
+ },
+ {
+  "opcode": 3547,
+  "hex": "0x0DDB",
+  "name": "CZ_REQ_ACHIEVE_RANK_PAGE_INFO",
+  "size": 90
+ },
+ {
+  "opcode": 3548,
+  "hex": "0x0DDC",
+  "name": "ZC_SPC_TRIGGER_EXEC",
+  "size": 34
+ },
+ {
+  "opcode": 3549,
+  "hex": "0x0DDD",
+  "name": "CZ_REQ_MGAME_VIEW",
+  "size": 30
+ },
+ {
+  "opcode": 3550,
+  "hex": "0x0DDE",
+  "name": "CZ_REQ_MGAME_CHAT",
+  "size": 0
+ },
+ {
+  "opcode": 3551,
+  "hex": "0x0DDF",
+  "name": "CZ_TOURNAMENT_GIFT",
+  "size": 30
+ },
+ {
+  "opcode": 3552,
+  "hex": "0x0DE0",
+  "name": "CZ_PARTY_INVITE_ACCEPT",
+  "size": 99
+ },
+ {
+  "opcode": 3553,
+  "hex": "0x0DE1",
+  "name": "CZ_PARTY_INVITE_CANCEL",
+  "size": 103
+ },
+ {
+  "opcode": 3554,
+  "hex": "0x0DE2",
+  "name": "CZ_PARTY_PROP_CHANGE",
+  "size": 159
+ },
+ {
+  "opcode": 3555,
+  "hex": "0x0DE3",
+  "name": "CZ_REQ_MARKET_REGISTER",
+  "size": 70
+ },
+ {
+  "opcode": 3556,
+  "hex": "0x0DE4",
+  "name": "CZ_REQ_MARKET_MINMAX_INFO",
+  "size": 30
+ },
+ {
+  "opcode": 3557,
+  "hex": "0x0DE5",
+  "name": "CZ_REQ_MARKET_BUY",
+  "size": 0
+ },
+ {
+  "opcode": 3558,
+  "hex": "0x0DE6",
+  "name": "CZ_REQ_CABINET_LIST",
+  "size": 22
+ },
+ {
+  "opcode": 3559,
+  "hex": "0x0DE7",
+  "name": "CZ_REQ_GET_CABINET_ITEM",
+  "size": 42
+ },
+ {
+  "opcode": 3560,
+  "hex": "0x0DE8",
+  "name": "CZ_REQ_CANCEL_MARKET_ITEM",
+  "size": 30
+ },
+ {
+  "opcode": 3561,
+  "hex": "0x0DE9",
+  "name": "CZ_INV_ITEM_LOCK",
+  "size": 31
+ },
+ {
+  "opcode": 3562,
+  "hex": "0x0DEA",
+  "name": "CZ_OBJ_RECORD_POS",
+  "size": 0
+ },
+ {
+  "opcode": 3563,
+  "hex": "0x0DEB",
+  "name": "CZ_FORMATION_CMD",
+  "size": 44
+ },
+ {
+  "opcode": 3564,
+  "hex": "0x0DEC",
+  "name": "CZ_REGISTER_AUTOSELLER",
+  "size": 0
+ },
+ {
+  "opcode": 3565,
+  "hex": "0x0DED",
+  "name": "CZ_OPEN_AUTOSELLER",
+  "size": 94
+ },
+ {
+  "opcode": 3566,
+  "hex": "0x0DEE",
+  "name": "CZ_BUY_AUTOSELLER_ITEMS",
+  "size": 0
+ },
+ {
+  "opcode": 3567,
+  "hex": "0x0DEF",
+  "name": "CZ_SELL_MY_AUTOSELLER_ITEMS",
+  "size": 0
+ },
+ {
+  "opcode": 3568,
+  "hex": "0x0DF0",
+  "name": "CZ_PUZZLE_CRAFT",
+  "size": 0
+ },
+ {
+  "opcode": 3569,
+  "hex": "0x0DF1",
+  "name": "CZ_PET_EQUIP",
+  "size": 46
+ },
+ {
+  "opcode": 3570,
+  "hex": "0x0DF2",
+  "name": "CZ_PET_AUTO_ATK",
+  "size": 23
+ },
+ {
+  "opcode": 3571,
+  "hex": "0x0DF3",
+  "name": "ZC_PET_AUTO_ATK",
+  "size": 23
+ },
+ {
+  "opcode": 3572,
+  "hex": "0x0DF4",
+  "name": "ZC_TO_SOMEWHERE_CLIENT",
+  "size": 0
+ },
+ {
+  "opcode": 3573,
+  "hex": "0x0DF5",
+  "name": "CZ_REVEAL_NPC_STATE",
+  "size": 26
+ },
+ {
+  "opcode": 3574,
+  "hex": "0x0DF6",
+  "name": "CZ_CHANGE_CHANNEL",
+  "size": 24
+ },
+ {
+  "opcode": 3575,
+  "hex": "0x0DF7",
+  "name": "CZ_REQ_CHANNEL_TRAFFICS",
+  "size": 24
+ },
+ {
+  "opcode": 3576,
+  "hex": "0x0DF8",
+  "name": "CZ_BUY_PROPERTYSHOP_ITEM",
+  "size": 0
+ },
+ {
+  "opcode": 3577,
+  "hex": "0x0DF9",
+  "name": "CZ_SKILL_USE_HEIGHT",
+  "size": 26
+ },
+ {
+  "opcode": 3578,
+  "hex": "0x0DFA",
+  "name": "CZ_CHANGE_GUILD_NEUTRALITY",
+  "size": 22
+ },
+ {
+  "opcode": 3579,
+  "hex": "0x0DFB",
+  "name": "CZ_SAVE_GUILD_BOARD",
+  "size": 122
+ },
+ {
+  "opcode": 3580,
+  "hex": "0x0DFC",
+  "name": "CZ_DELETE_PARTY_EVENT",
+  "size": 32
+ },
+ {
+  "opcode": 3581,
+  "hex": "0x0DFD",
+  "name": "CZ_PING",
+  "size": 22
+ },
+ {
+  "opcode": 3582,
+  "hex": "0x0DFE",
+  "name": "ZC_PING",
+  "size": 22
+ },
+ {
+  "opcode": 3583,
+  "hex": "0x0DFF",
+  "name": "CZ_REQ_REMAIN_NEXONCASH",
+  "size": 22
+ },
+ {
+  "opcode": 3584,
+  "hex": "0x0E00",
+  "name": "CZ_REQ_OPEN_INGAMESHOP_UI",
+  "size": 22
+ },
+ {
+  "opcode": 3585,
+  "hex": "0x0E01",
+  "name": "CZ_REQ_BUY_INGAMESHOP_ITEM",
+  "size": 90
+ },
+ {
+  "opcode": 3586,
+  "hex": "0x0E02",
+  "name": "CZ_REQ_BUY_ALL_INGAMESHOP_ITEM",
+  "size": 22
+ },
+ {
+  "opcode": 3587,
+  "hex": "0x0E03",
+  "name": "CZ_REQ_PICKUP_CASHITEM",
+  "size": 49
+ },
+ {
+  "opcode": 3588,
+  "hex": "0x0E04",
+  "name": "CZ_REQ_REFUND_CASHITEM",
+  "size": 45
+ },
+ {
+  "opcode": 3589,
+  "hex": "0x0E05",
+  "name": "ZC_XIGNCODE_BUFFER",
+  "size": 536
+ },
+ {
+  "opcode": 3590,
+  "hex": "0x0E06",
+  "name": "CZ_XIGNCODE_BUFFER",
+  "size": 536
+ },
+ {
+  "opcode": 3591,
+  "hex": "0x0E07",
+  "name": "CZ_SYSTEM_LOG_SAVE_TO_MONGODB",
+  "size": 292
+ },
+ {
+  "opcode": 3592,
+  "hex": "0x0E08",
+  "name": "CZ_CHANGE_TITLE",
+  "size": 86
+ },
+ {
+  "opcode": 3593,
+  "hex": "0x0E09",
+  "name": "CZ_PC_COMMENT_CHANGE",
+  "size": 0
+ },
+ {
+  "opcode": 3594,
+  "hex": "0x0E0A",
+  "name": "CZ_AUTTOSELLER_BUYER_CLOSE",
+  "size": 30
+ },
+ {
+  "opcode": 3595,
+  "hex": "0x0E0B",
+  "name": "CZ_REQ_ITEM_LIST",
+  "size": 23
+ },
+ {
+  "opcode": 3596,
+  "hex": "0x0E0C",
+  "name": "CZ_REQ_ACC_WARE_VIS_LOG",
+  "size": 22
+ },
+ {
+  "opcode": 3597,
+  "hex": "0x0E0D",
+  "name": "CZ_HIT_MISSILE",
+  "size": 26
+ },
+ {
+  "opcode": 3598,
+  "hex": "0x0E0E",
+  "name": "CZ_PARTY_JOIN_BY_LINK",
+  "size": 39
+ },
+ {
+  "opcode": 3599,
+  "hex": "0x0E0F",
+  "name": "CZ_PVP_ZONE_CMD",
+  "size": 39
+ },
+ {
+  "opcode": 3600,
+  "hex": "0x0E10",
+  "name": "CZ_PVP_CHAT",
+  "size": 0
+ },
+ {
+  "opcode": 3601,
+  "hex": "0x0E11",
+  "name": "CZ_CARDBATTLE_CMD",
+  "size": 38
+ },
+ {
+  "opcode": 3602,
+  "hex": "0x0E12",
+  "name": "CZ_REQ_UPDATE_CONTENTS_SESSION",
+  "size": 22
+ },
+ {
+  "opcode": 3603,
+  "hex": "0x0E13",
+  "name": "CZ_REQ_FRIENDLY_FIGHT",
+  "size": 27
+ },
+ {
+  "opcode": 3604,
+  "hex": "0x0E14",
+  "name": "CZ_REQ_ANCIENT_FRIENDLY_FIGHT",
+  "size": 27
+ },
+ {
+  "opcode": 3605,
+  "hex": "0x0E15",
+  "name": "CZ_HARDSKILL_POS_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3606,
+  "hex": "0x0E16",
+  "name": "CZ_CART_POSITION",
+  "size": 38
+ },
+ {
+  "opcode": 3607,
+  "hex": "0x0E17",
+  "name": "CZ_REQ_RIDE_CART",
+  "size": 30
+ },
+ {
+  "opcode": 3608,
+  "hex": "0x0E18",
+  "name": "CZ_DUMMYPC_SKILL_POS",
+  "size": 38
+ },
+ {
+  "opcode": 3609,
+  "hex": "0x0E19",
+  "name": "CZ_NGS",
+  "size": 0
+ },
+ {
+  "opcode": 3610,
+  "hex": "0x0E1A",
+  "name": "ZC_NGS",
+  "size": 0
+ },
+ {
+  "opcode": 3611,
+  "hex": "0x0E1B",
+  "name": "CZ_PARTY_MEMBER_SKILL_USE",
+  "size": 0
+ },
+ {
+  "opcode": 3612,
+  "hex": "0x0E1C",
+  "name": "CZ_PARTY_MEMBER_SKILL_ACCEPT",
+  "size": 35
+ },
+ {
+  "opcode": 3613,
+  "hex": "0x0E1D",
+  "name": "CZ_SYSTEM_LOG_TO_SERVER",
+  "size": 1111
+ },
+ {
+  "opcode": 3617,
+  "hex": "0x0E21",
+  "name": "CZ_UDP_RTT_CHECK",
+  "size": 26
+ },
+ {
+  "opcode": 3618,
+  "hex": "0x0E22",
+  "name": "ZC_UDP_RTT_CHECK",
+  "size": 18
+ },
+ {
+  "opcode": 3619,
+  "hex": "0x0E23",
+  "name": "CZ_UDP_RTT_CHECK_ACK",
+  "size": 30
+ },
+ {
+  "opcode": 3620,
+  "hex": "0x0E24",
+  "name": "CZ_HEARTBEAT",
+  "size": 26
+ },
+ {
+  "opcode": 3621,
+  "hex": "0x0E25",
+  "name": "CZ_CANCEL_INDUN_MATCHING",
+  "size": 22
+ },
+ {
+  "opcode": 3622,
+  "hex": "0x0E26",
+  "name": "CZ_CANCEL_INDUN_PARTY_MATCHING",
+  "size": 22
+ },
+ {
+  "opcode": 3623,
+  "hex": "0x0E27",
+  "name": "CZ_REQ_GM_ORDER",
+  "size": 214
+ },
+ {
+  "opcode": 3624,
+  "hex": "0x0E28",
+  "name": "CZ_REQ_GM_ORDER_DUMMY_KICK",
+  "size": 26
+ },
+ {
+  "opcode": 3625,
+  "hex": "0x0E29",
+  "name": "CZ_REPORT_AUTOBOT",
+  "size": 86
+ },
+ {
+  "opcode": 3626,
+  "hex": "0x0E2A",
+  "name": "CZ_REPORT_PVP_ZOOM",
+  "size": 22
+ },
+ {
+  "opcode": 3627,
+  "hex": "0x0E2B",
+  "name": "CZ_PARTY_INVENTORY_LOAD",
+  "size": 24
+ },
+ {
+  "opcode": 3628,
+  "hex": "0x0E2C",
+  "name": "CZ_PARTY_SHARED_QUEST",
+  "size": 290
+ },
+ {
+  "opcode": 3629,
+  "hex": "0x0E2D",
+  "name": "CZ_REQ_MOVE_PARTYINV_TO_ACCOUNT",
+  "size": 0
+ },
+ {
+  "opcode": 3630,
+  "hex": "0x0E2E",
+  "name": "CZ_PVP_COMMAND",
+  "size": 35
+ },
+ {
+  "opcode": 3631,
+  "hex": "0x0E2F",
+  "name": "CZ_REQ_CancelGachaCube",
+  "size": 22
+ },
+ {
+  "opcode": 3632,
+  "hex": "0x0E30",
+  "name": "CZ_WAREHOUSE_TAKE_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3633,
+  "hex": "0x0E31",
+  "name": "CZ_SAVE_AUTO_MACRO",
+  "size": 0
+ },
+ {
+  "opcode": 3634,
+  "hex": "0x0E32",
+  "name": "CZ_REQUEST_LOAD_ITEM_BUY_LIMIT",
+  "size": 22
+ },
+ {
+  "opcode": 3635,
+  "hex": "0x0E33",
+  "name": "CZ_AUTO_STATE",
+  "size": 23
+ },
+ {
+  "opcode": 3636,
+  "hex": "0x0E34",
+  "name": "CZ_RUN_GAMEEXIT_TIMER",
+  "size": 86
+ },
+ {
+  "opcode": 3637,
+  "hex": "0x0E35",
+  "name": "CZ_FIXED_NOTICE_SHOW",
+  "size": 22
+ },
+ {
+  "opcode": 3638,
+  "hex": "0x0E36",
+  "name": "CZ_SAGE_SKILL_GO_FRIEND",
+  "size": 102
+ },
+ {
+  "opcode": 3639,
+  "hex": "0x0E37",
+  "name": "CZ_REQUEST_CHANGE_NAME",
+  "size": 78
+ },
+ {
+  "opcode": 3640,
+  "hex": "0x0E38",
+  "name": "CZ_REQUEST_CHANGE_PET_NAME",
+  "size": 94
+ },
+ {
+  "opcode": 3641,
+  "hex": "0x0E39",
+  "name": "ZC_ADD_BARRACK_CHARACTER_SLOT_SUCCESS",
+  "size": 14
+ },
+ {
+  "opcode": 3642,
+  "hex": "0x0E3A",
+  "name": "CZ_SELF_INVITE_NEWBIE_GUILD",
+  "size": 22
+ },
+ {
+  "opcode": 3643,
+  "hex": "0x0E3B",
+  "name": "CZ_CYOU_CTU_CLIENT_MSG",
+  "size": 1054
+ },
+ {
+  "opcode": 3645,
+  "hex": "0x0E3D",
+  "name": "ZC_CYOU_KICK_USER_EXIT_CLIENT",
+  "size": 10
+ },
+ {
+  "opcode": 3646,
+  "hex": "0x0E3E",
+  "name": "ZC_HOLD_EXP_BOOK_TIME",
+  "size": 37
+ },
+ {
+  "opcode": 3647,
+  "hex": "0x0E3F",
+  "name": "CZ_HOLD_EXP_BOOK_TIME",
+  "size": 26
+ },
+ {
+  "opcode": 3648,
+  "hex": "0x0E40",
+  "name": "ZC_BUFF_UPDATE_TIME",
+  "size": 34
+ },
+ {
+  "opcode": 3649,
+  "hex": "0x0E41",
+  "name": "CZ_SCREENSHOT_HASH",
+  "size": 55
+ },
+ {
+  "opcode": 3650,
+  "hex": "0x0E42",
+  "name": "CZ_REQ_MOVE_TO_INDUN",
+  "size": 31
+ },
+ {
+  "opcode": 3651,
+  "hex": "0x0E43",
+  "name": "CZ_CLEAR_INDUN_REG",
+  "size": 22
+ },
+ {
+  "opcode": 3652,
+  "hex": "0x0E44",
+  "name": "CZ_REQ_REGISTER_TO_INDUN",
+  "size": 26
+ },
+ {
+  "opcode": 3653,
+  "hex": "0x0E45",
+  "name": "CZ_REQ_GUILD_MEMBER_AUTHORITY",
+  "size": 35
+ },
+ {
+  "opcode": 3654,
+  "hex": "0x0E46",
+  "name": "CZ_TPSHOP_RTPP_FOR_TEST",
+  "size": 22
+ },
+ {
+  "opcode": 3655,
+  "hex": "0x0E47",
+  "name": "CZ_REQ_FORGERY",
+  "size": 42
+ },
+ {
+  "opcode": 3656,
+  "hex": "0x0E48",
+  "name": "CZ_REQ_UNDERSTAFF_ENTER_ALLOW",
+  "size": 22
+ },
+ {
+  "opcode": 3657,
+  "hex": "0x0E49",
+  "name": "CZ_REQ_UNDERSTAFF_ENTER_ALLOW_WITH_PARTY",
+  "size": 26
+ },
+ {
+  "opcode": 3658,
+  "hex": "0x0E4A",
+  "name": "CZ_REQ_BUILD_FOODTABLE",
+  "size": 94
+ },
+ {
+  "opcode": 3659,
+  "hex": "0x0E4B",
+  "name": "ZC_PLAY_PAIR_ANIMATION",
+  "size": 341
+ },
+ {
+  "opcode": 3660,
+  "hex": "0x0E4C",
+  "name": "CZ_REQ_FISHING",
+  "size": 35
+ },
+ {
+  "opcode": 3661,
+  "hex": "0x0E4D",
+  "name": "CZ_REQ_GET_FISHING_ITEM",
+  "size": 22
+ },
+ {
+  "opcode": 3662,
+  "hex": "0x0E4E",
+  "name": "ZC_PLAY_ATTACH_MODEL_ANIM",
+  "size": 26
+ },
+ {
+  "opcode": 3663,
+  "hex": "0x0E4F",
+  "name": "CZ_RUN_FUNCTION_DUMP",
+  "size": 0
+ },
+ {
+  "opcode": 3664,
+  "hex": "0x0E50",
+  "name": "ZC_RUN_FUNCTION_DUMP",
+  "size": 0
+ },
+ {
+  "opcode": 3665,
+  "hex": "0x0E51",
+  "name": "ZC_RUN_FUNCTION_DUMP_ERROR",
+  "size": 0
+ },
+ {
+  "opcode": 3666,
+  "hex": "0x0E52",
+  "name": "ZC_RUN_FUNCTION_DUMP_PRINT",
+  "size": 0
+ },
+ {
+  "opcode": 3667,
+  "hex": "0x0E53",
+  "name": "ZC_ATTACH_TO_SLOT",
+  "size": 26
+ },
+ {
+  "opcode": 3668,
+  "hex": "0x0E54",
+  "name": "ZC_FISHING_ITEM_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3669,
+  "hex": "0x0E55",
+  "name": "CZ_REQ_FISHING_RANK",
+  "size": 90
+ },
+ {
+  "opcode": 3670,
+  "hex": "0x0E56",
+  "name": "ZC_ENABLE_ROTATE",
+  "size": 79
+ },
+ {
+  "opcode": 3671,
+  "hex": "0x0E57",
+  "name": "CZ_SYNC_POS",
+  "size": 38
+ },
+ {
+  "opcode": 3672,
+  "hex": "0x0E58",
+  "name": "ZC_ADVENTURE_BOOK_INFO",
+  "size": 0
+ },
+ {
+  "opcode": 3673,
+  "hex": "0x0E59",
+  "name": "CZ_DISCONNECT_REASON_FOR_LOG",
+  "size": 0
+ },
+ {
+  "opcode": 3674,
+  "hex": "0x0E5A",
+  "name": "CZ_REQ_ADVENTURE_BOOK_RANK",
+  "size": 154
+ },
+ {
+  "opcode": 3675,
+  "hex": "0x0E5B",
+  "name": "CZ_REQ_ADVENTURE_BOOK_REWARD",
+  "size": 86
+ },
+ {
+  "opcode": 3676,
+  "hex": "0x0E5C",
+  "name": "CZ_REQ_GUILD_NEUTRALITY_ALARM",
+  "size": 26
+ },
+ {
+  "opcode": 3677,
+  "hex": "0x0E5D",
+  "name": "CZ_REQ_QUEST_COMPLETE",
+  "size": 26
+ },
+ {
+  "opcode": 3678,
+  "hex": "0x0E5E",
+  "name": "CZ_REQ_GUILD_ASSET_LOG",
+  "size": 22
+ },
+ {
+  "opcode": 3679,
+  "hex": "0x0E5F",
+  "name": "ZC_CANCEL_MOUSE_MOVE",
+  "size": 14
+ },
+ {
+  "opcode": 3680,
+  "hex": "0x0E60",
+  "name": "ZC_BROAD_CAST_MY_INFO",
+  "size": 31
+ },
+ {
+  "opcode": 3681,
+  "hex": "0x0E61",
+  "name": "CZ_LOAD_COMPLETE",
+  "size": 22
+ },
+ {
+  "opcode": 3682,
+  "hex": "0x0E62",
+  "name": "ZC_LOAD_COMPLETE",
+  "size": 10
+ },
+ {
+  "opcode": 3683,
+  "hex": "0x0E63",
+  "name": "ZC_UPDATE_CHALLENGE_MODE_WARP_PORTAL_MARK",
+  "size": 24
+ },
+ {
+  "opcode": 3684,
+  "hex": "0x0E64",
+  "name": "ZC_ATTENDANCE_RECEIPT_REWARD",
+  "size": 0
+ },
+ {
+  "opcode": 3685,
+  "hex": "0x0E65",
+  "name": "CZ_ATTENDANCE_REWARD_CLICK",
+  "size": 26
+ },
+ {
+  "opcode": 3686,
+  "hex": "0x0E66",
+  "name": "ZC_ATTENDANCE_REWARD_CHECK_UI_ON",
+  "size": 12
+ },
+ {
+  "opcode": 3687,
+  "hex": "0x0E67",
+  "name": "ZC_CHANGE_DYNAMICCASTING_MAX_CHANGING_TIME",
+  "size": 18
+ },
+ {
+  "opcode": 3688,
+  "hex": "0x0E68",
+  "name": "ZC_DELAYED_ROTATE_MOVE_START",
+  "size": 26
+ },
+ {
+  "opcode": 3689,
+  "hex": "0x0E69",
+  "name": "ZC_DELAYED_ROTATE_MOVE_END",
+  "size": 14
+ },
+ {
+  "opcode": 3690,
+  "hex": "0x0E6A",
+  "name": "ZC_SEND_PC_EXPROP",
+  "size": 0
+ },
+ {
+  "opcode": 3691,
+  "hex": "0x0E6B",
+  "name": "ZC_COLONY_OCCUPATION_INFO",
+  "size": 0
+ },
+ {
+  "opcode": 3692,
+  "hex": "0x0E6C",
+  "name": "CZ_REQ_RETURN_TO_CITY_FROM_COLONY_WAR",
+  "size": 22
+ },
+ {
+  "opcode": 3693,
+  "hex": "0x0E6D",
+  "name": "CZ_REQUEST_COLONYWAR_ENDTIME",
+  "size": 22
+ },
+ {
+  "opcode": 3694,
+  "hex": "0x0E6E",
+  "name": "ZC_RESPONSE_COLONYWAR_ENDTIME",
+  "size": 26
+ },
+ {
+  "opcode": 3695,
+  "hex": "0x0E6F",
+  "name": "ZC_SEND_COLONY_MARKET_FEE_PAYMENT_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3696,
+  "hex": "0x0E70",
+  "name": "CZ_REQ_COLONY_MARKET_FEE_PAYMENT",
+  "size": 42
+ },
+ {
+  "opcode": 3697,
+  "hex": "0x0E71",
+  "name": "ZC_SET_COLONY_TIME_CHEAT_FAIL",
+  "size": 10
+ },
+ {
+  "opcode": 3698,
+  "hex": "0x0E72",
+  "name": "ZC_SET_COLONY_TIME_CHEAT_SUCCESS",
+  "size": 10
+ },
+ {
+  "opcode": 3699,
+  "hex": "0x0E73",
+  "name": "ZC_USER_BATTLE_INFO_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3700,
+  "hex": "0x0E74",
+  "name": "ZC_COLONY_TAX_TOTAL_AMOUNT",
+  "size": 50
+ },
+ {
+  "opcode": 3701,
+  "hex": "0x0E75",
+  "name": "ZC_COLONY_TAX_RATE_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3702,
+  "hex": "0x0E76",
+  "name": "ZC_COLONY_TAX_LORD_READY",
+  "size": 99
+ },
+ {
+  "opcode": 3703,
+  "hex": "0x0E77",
+  "name": "ZC_COLONY_TAX_LORD_START",
+  "size": 38
+ },
+ {
+  "opcode": 3704,
+  "hex": "0x0E78",
+  "name": "ZC_COLONY_TAX_LORD_END",
+  "size": 14
+ },
+ {
+  "opcode": 3705,
+  "hex": "0x0E79",
+  "name": "ZC_COLONY_TAX_RATE_SET",
+  "size": 42
+ },
+ {
+  "opcode": 3706,
+  "hex": "0x0E7A",
+  "name": "CZ_COLONY_TAX_RATE_REQ_SET",
+  "size": 30
+ },
+ {
+  "opcode": 3707,
+  "hex": "0x0E7B",
+  "name": "ZC_COLONY_TAX_CHEQUE_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3708,
+  "hex": "0x0E7C",
+  "name": "CZ_COLONY_TAX_CHEQUE_REQ_LIST",
+  "size": 22
+ },
+ {
+  "opcode": 3709,
+  "hex": "0x0E7D",
+  "name": "CZ_COLONY_TAX_CHEQUE_REQ_SEND",
+  "size": 0
+ },
+ {
+  "opcode": 3710,
+  "hex": "0x0E7E",
+  "name": "CZ_COLONY_TAX_HISTORY_REQ_LIST",
+  "size": 22
+ },
+ {
+  "opcode": 3711,
+  "hex": "0x0E7F",
+  "name": "ZC_COLONY_TAX_HISTORY_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3712,
+  "hex": "0x0E80",
+  "name": "ZC_COLONY_TAX_PAYMENT_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3713,
+  "hex": "0x0E81",
+  "name": "CZ_COLONY_TAX_PAYMENT_REQ_RECV",
+  "size": 30
+ },
+ {
+  "opcode": 3714,
+  "hex": "0x0E82",
+  "name": "CZ_COLONY_TAX_PAYMENT_REQ_LIST",
+  "size": 22
+ },
+ {
+  "opcode": 3715,
+  "hex": "0x0E83",
+  "name": "CZ_REQUEST_RVR_ENDTIME",
+  "size": 22
+ },
+ {
+  "opcode": 3716,
+  "hex": "0x0E84",
+  "name": "ZC_RESPONSE_RVR_ENDTIME",
+  "size": 26
+ },
+ {
+  "opcode": 3717,
+  "hex": "0x0E85",
+  "name": "CZ_REGISTER_NEW_GUILD_EMBLEM",
+  "size": 20107
+ },
+ {
+  "opcode": 3718,
+  "hex": "0x0E86",
+  "name": "CZ_CHANGE_GUILD_EMBLEM",
+  "size": 20108
+ },
+ {
+  "opcode": 3719,
+  "hex": "0x0E87",
+  "name": "ZC_UPDATE_GUILD_EMBLEM",
+  "size": 24
+ },
+ {
+  "opcode": 3720,
+  "hex": "0x0E88",
+  "name": "CZ_REQUEST_CERTAIN_GUILD_EMBLEM",
+  "size": 32
+ },
+ {
+  "opcode": 3721,
+  "hex": "0x0E89",
+  "name": "ZC_RESPONSE_CERTAIN_GUILD_EMBLEM",
+  "size": 20040
+ },
+ {
+  "opcode": 3722,
+  "hex": "0x0E8A",
+  "name": "CZ_REQUEST_GUILD_EMBLEM_INFO",
+  "size": 32
+ },
+ {
+  "opcode": 3723,
+  "hex": "0x0E8B",
+  "name": "ZC_RESPONSE_GUILD_EMBLEM_INFO",
+  "size": 102
+ },
+ {
+  "opcode": 3724,
+  "hex": "0x0E8C",
+  "name": "CZ_REQUEST_GUILD_INDEX",
+  "size": 30
+ },
+ {
+  "opcode": 3725,
+  "hex": "0x0E8D",
+  "name": "ZC_RESPONSE_GUILD_INDEX",
+  "size": 24
+ },
+ {
+  "opcode": 3726,
+  "hex": "0x0E8E",
+  "name": "CZ_REPORT_GUILDEMBLEM",
+  "size": 86
+ },
+ {
+  "opcode": 3727,
+  "hex": "0x0E8F",
+  "name": "ZC_DELETE_GUILD_EMBLEM",
+  "size": 24
+ },
+ {
+  "opcode": 3728,
+  "hex": "0x0E90",
+  "name": "CZ_DELETE_GUILD_EMBLEM",
+  "size": 22
+ },
+ {
+  "opcode": 3729,
+  "hex": "0x0E91",
+  "name": "ZC_NXA_REQ_TICKET",
+  "size": 10
+ },
+ {
+  "opcode": 3730,
+  "hex": "0x0E92",
+  "name": "CZ_NXA_TICKET",
+  "size": 1046
+ },
+ {
+  "opcode": 3731,
+  "hex": "0x0E93",
+  "name": "CZ_NXA_REQ_BALANCE",
+  "size": 22
+ },
+ {
+  "opcode": 3732,
+  "hex": "0x0E94",
+  "name": "ZC_NXA_BALANCE",
+  "size": 40
+ },
+ {
+  "opcode": 3733,
+  "hex": "0x0E95",
+  "name": "CZ_NXA_REQ_ITEMLIST",
+  "size": 23
+ },
+ {
+  "opcode": 3734,
+  "hex": "0x0E96",
+  "name": "ZC_NXA_ITEMLIST",
+  "size": 0
+ },
+ {
+  "opcode": 3735,
+  "hex": "0x0E97",
+  "name": "CZ_NXA_REQ_PURCHASE",
+  "size": 27
+ },
+ {
+  "opcode": 3736,
+  "hex": "0x0E98",
+  "name": "ZC_NXA_PURCHASE",
+  "size": 4106
+ },
+ {
+  "opcode": 3737,
+  "hex": "0x0E99",
+  "name": "CZ_NXA_REQ_PICKUP_READY_ITEMS",
+  "size": 2071
+ },
+ {
+  "opcode": 3738,
+  "hex": "0x0E9A",
+  "name": "CZ_NXA_REQ_PURCHASE_CANCEL",
+  "size": 22
+ },
+ {
+  "opcode": 3739,
+  "hex": "0x0E9B",
+  "name": "ZC_NXA_SELLITEMLIST",
+  "size": 0
+ },
+ {
+  "opcode": 3740,
+  "hex": "0x0E9C",
+  "name": "CZ_REQ_PARTY_INFO",
+  "size": 22
+ },
+ {
+  "opcode": 3741,
+  "hex": "0x0E9D",
+  "name": "CZ_REQ_RETURN_ORIGIN_SERVER",
+  "size": 22
+ },
+ {
+  "opcode": 3742,
+  "hex": "0x0E9E",
+  "name": "CZ_ANS_GIVEUP_PREV_PLAYING_INDUN",
+  "size": 23
+ },
+ {
+  "opcode": 3743,
+  "hex": "0x0E9F",
+  "name": "ZC_FOLLOW_TO_ACTOR",
+  "size": 39
+ },
+ {
+  "opcode": 3744,
+  "hex": "0x0EA0",
+  "name": "ZC_STOP_FOLLOW_TO_ACTOR",
+  "size": 14
+ },
+ {
+  "opcode": 3745,
+  "hex": "0x0EA1",
+  "name": "ZC_SET_WEBSERVICE_URL",
+  "size": 266
+ },
+ {
+  "opcode": 3746,
+  "hex": "0x0EA2",
+  "name": "CZ_CREATE_GUILD_BY_WEB",
+  "size": 71
+ },
+ {
+  "opcode": 3747,
+  "hex": "0x0EA3",
+  "name": "CZ_GUILD_MEMBER_INVITE_BY_WEB",
+  "size": 95
+ },
+ {
+  "opcode": 3748,
+  "hex": "0x0EA4",
+  "name": "ZC_GUILD_MEMBER_INVITE_BY_WEB",
+  "size": 91
+ },
+ {
+  "opcode": 3749,
+  "hex": "0x0EA5",
+  "name": "CZ_WEEKLY_BOSS_INDUN_ENTER",
+  "size": 23
+ },
+ {
+  "opcode": 3750,
+  "hex": "0x0EA6",
+  "name": "CZ_FIELD_BOSS_INDUN_ENTER",
+  "size": 22
+ },
+ {
+  "opcode": 3751,
+  "hex": "0x0EA7",
+  "name": "CZ_SOLO_INDUN_ENTER",
+  "size": 34
+ },
+ {
+  "opcode": 3752,
+  "hex": "0x0EA8",
+  "name": "CZ_GUILD_MEMBER_INVITE_ACCEPT_BY_WEB",
+  "size": 102
+ },
+ {
+  "opcode": 3753,
+  "hex": "0x0EA9",
+  "name": "CZ_GUILD_APPLICATION_USER_ACCEPT",
+  "size": 127
+ },
+ {
+  "opcode": 3754,
+  "hex": "0x0EAA",
+  "name": "ZC_DECREASE_SILVER",
+  "size": 14
+ },
+ {
+  "opcode": 3755,
+  "hex": "0x0EAB",
+  "name": "CZ_POST_GUILE_EMBLEM",
+  "size": 20026
+ },
+ {
+  "opcode": 3756,
+  "hex": "0x0EAC",
+  "name": "CZ_REQUEST_CERTAIN_WEBSERVICE_URL",
+  "size": 24
+ },
+ {
+  "opcode": 3757,
+  "hex": "0x0EAD",
+  "name": "ZC_RESPONSE_CERTAIN_WEBSERVICE_URL",
+  "size": 268
+ },
+ {
+  "opcode": 3758,
+  "hex": "0x0EAE",
+  "name": "CZ_GUILD_AGIT_ENTER",
+  "size": 159
+ },
+ {
+  "opcode": 3759,
+  "hex": "0x0EAF",
+  "name": "ZC_RELOAD_SELL_LIST",
+  "size": 10
+ },
+ {
+  "opcode": 3760,
+  "hex": "0x0EB0",
+  "name": "ZC_NOTCIE_BROKEN_SYNC_MARKET_ITEM",
+  "size": 18
+ },
+ {
+  "opcode": 3761,
+  "hex": "0x0EB1",
+  "name": "CZ_BADPLAYER_REPORT",
+  "size": 158
+ },
+ {
+  "opcode": 3762,
+  "hex": "0x0EB2",
+  "name": "ZC_ERROR_INFO",
+  "size": 0
+ },
+ {
+  "opcode": 3763,
+  "hex": "0x0EB3",
+  "name": "ZC_SEND_JSON_DUMP",
+  "size": 0
+ },
+ {
+  "opcode": 3764,
+  "hex": "0x0EB4",
+  "name": "CZ_SEND_JSON_DUMP",
+  "size": 0
+ },
+ {
+  "opcode": 3765,
+  "hex": "0x0EB5",
+  "name": "CZ_CLIENT_REMOTE_LOG",
+  "size": 2584
+ },
+ {
+  "opcode": 3766,
+  "hex": "0x0EB6",
+  "name": "CZ_REQ_COMMON_SKILL_LIST",
+  "size": 22
+ },
+ {
+  "opcode": 3767,
+  "hex": "0x0EB7",
+  "name": "ZC_COMMON_SKILL_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3768,
+  "hex": "0x0EB8",
+  "name": "CZ_REG_EXP_ORB_ITEM",
+  "size": 34
+ },
+ {
+  "opcode": 3769,
+  "hex": "0x0EB9",
+  "name": "CZ_REQ_QUICKSLOT_LIST",
+  "size": 22
+ },
+ {
+  "opcode": 3770,
+  "hex": "0x0EBA",
+  "name": "ZC_REG_EXP_ORB_ITEM",
+  "size": 22
+ },
+ {
+  "opcode": 3771,
+  "hex": "0x0EBB",
+  "name": "ZC_REG_EXP_SUB_ORB_ITEM",
+  "size": 22
+ },
+ {
+  "opcode": 3772,
+  "hex": "0x0EBC",
+  "name": "ZC_FILL_EXP_ORB",
+  "size": 22
+ },
+ {
+  "opcode": 3773,
+  "hex": "0x0EBD",
+  "name": "ZC_FILL_EXP_SUB_ORB",
+  "size": 22
+ },
+ {
+  "opcode": 3774,
+  "hex": "0x0EBE",
+  "name": "ZC_FIXCAMERA",
+  "size": 26
+ },
+ {
+  "opcode": 3775,
+  "hex": "0x0EBF",
+  "name": "ZC_CANCEL_FIXCAMERA",
+  "size": 10
+ },
+ {
+  "opcode": 3776,
+  "hex": "0x0EC0",
+  "name": "CZ_SWAP_ITEM_IN_WAREHOUSE",
+  "size": 46
+ },
+ {
+  "opcode": 3777,
+  "hex": "0x0EC1",
+  "name": "ZC_SWAP_ITEM_IN_WAREHOUSE_FAIL",
+  "size": 18
+ },
+ {
+  "opcode": 3778,
+  "hex": "0x0EC2",
+  "name": "CZ_REQ_PCBANG_SHOP_UI",
+  "size": 26
+ },
+ {
+  "opcode": 3779,
+  "hex": "0x0EC3",
+  "name": "CZ_REQ_PCBANG_SHOP_CONNECT_REWARD",
+  "size": 86
+ },
+ {
+  "opcode": 3780,
+  "hex": "0x0EC4",
+  "name": "CZ_REQ_PCBANG_SHOP_TOTAL_REWARD",
+  "size": 26
+ },
+ {
+  "opcode": 3781,
+  "hex": "0x0EC5",
+  "name": "CZ_REQ_PCBANG_SHOP_PURCHASE",
+  "size": 30
+ },
+ {
+  "opcode": 3782,
+  "hex": "0x0EC6",
+  "name": "CZ_REQ_PCBANG_SHOP_RENTAL",
+  "size": 26
+ },
+ {
+  "opcode": 3783,
+  "hex": "0x0EC7",
+  "name": "CZ_REQ_PCBANG_SHOP_REFRESH",
+  "size": 22
+ },
+ {
+  "opcode": 3784,
+  "hex": "0x0EC8",
+  "name": "ZC_PCBANG_SHOP_COMMON",
+  "size": 66
+ },
+ {
+  "opcode": 3785,
+  "hex": "0x0EC9",
+  "name": "ZC_PCBANG_SHOP_MAIN",
+  "size": 0
+ },
+ {
+  "opcode": 3786,
+  "hex": "0x0ECA",
+  "name": "ZC_PCBANG_SHOP_POINTSHOP_CATALOG",
+  "size": 0
+ },
+ {
+  "opcode": 3787,
+  "hex": "0x0ECB",
+  "name": "ZC_PCBANG_SHOP_POINTSHOP_BUY_COUNT",
+  "size": 0
+ },
+ {
+  "opcode": 3788,
+  "hex": "0x0ECC",
+  "name": "ZC_PCBANG_SHOP_RENTAL",
+  "size": 0
+ },
+ {
+  "opcode": 3789,
+  "hex": "0x0ECD",
+  "name": "ZC_PCBANG_SHOP_GUIDE",
+  "size": 0
+ },
+ {
+  "opcode": 3790,
+  "hex": "0x0ECE",
+  "name": "ZC_PCBANG_SHOP_REWARD",
+  "size": 0
+ },
+ {
+  "opcode": 3791,
+  "hex": "0x0ECF",
+  "name": "ZC_PCBANG_STATE",
+  "size": 15
+ },
+ {
+  "opcode": 3792,
+  "hex": "0x0ED0",
+  "name": "ZC_PCBANG_POINT",
+  "size": 22
+ },
+ {
+  "opcode": 3793,
+  "hex": "0x0ED1",
+  "name": "CZ_SEND_BEAUTYSHOP_PURCHASE_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3794,
+  "hex": "0x0ED2",
+  "name": "CZ_REQ_BEAUTYSHOP_INFO",
+  "size": 23
+ },
+ {
+  "opcode": 3795,
+  "hex": "0x0ED3",
+  "name": "ZC_RES_BEAUTYSHOP_PURCHASED_HAIR_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3796,
+  "hex": "0x0ED4",
+  "name": "CZ_SEND_BEAUTYSHOP_TRYITON_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3797,
+  "hex": "0x0ED5",
+  "name": "CZ_SEND_BEAUTYSHOP_TRYITON_CANCEL",
+  "size": 22
+ },
+ {
+  "opcode": 3798,
+  "hex": "0x0ED6",
+  "name": "CZ_ITEMPROPCHANGE",
+  "size": 38
+ },
+ {
+  "opcode": 3799,
+  "hex": "0x0ED7",
+  "name": "CZ_ITEMPROPCHANGE_GEM_ADD",
+  "size": 26
+ },
+ {
+  "opcode": 3800,
+  "hex": "0x0ED8",
+  "name": "CZ_ITEMPROPCHANGE_GEM_DROP",
+  "size": 50
+ },
+ {
+  "opcode": 3801,
+  "hex": "0x0ED9",
+  "name": "CZ_ITEMPROPCHANGE_GEM_POP",
+  "size": 34
+ },
+ {
+  "opcode": 3802,
+  "hex": "0x0EDA",
+  "name": "CZ_ITEMPROPCHANGE_GEM_ALL_SLOT",
+  "size": 30
+ },
+ {
+  "opcode": 3803,
+  "hex": "0x0EDB",
+  "name": "CZ_ITEMPROPCHANGE_ICHOR_RANDOM_OPTION",
+  "size": 1198
+ },
+ {
+  "opcode": 3804,
+  "hex": "0x0EDC",
+  "name": "CZ_ITEMPROPCHANGE_ICHOR_RANDOM_OPTION_MAX_VALUE",
+  "size": 98
+ },
+ {
+  "opcode": 3805,
+  "hex": "0x0EDD",
+  "name": "CZ_ITEMPROPCHANGE_OPTION_CHANGE",
+  "size": 94
+ },
+ {
+  "opcode": 3806,
+  "hex": "0x0EDE",
+  "name": "CZ_ITEMPROPCHANGE_ENCHANT",
+  "size": 222
+ },
+ {
+  "opcode": 3807,
+  "hex": "0x0EDF",
+  "name": "CZ_ITEMPROPCHANGE_ENCHANT_MAX_VALUE",
+  "size": 158
+ },
+ {
+  "opcode": 3808,
+  "hex": "0x0EE0",
+  "name": "CZ_TOKEN_WARP",
+  "size": 86
+ },
+ {
+  "opcode": 3809,
+  "hex": "0x0EE1",
+  "name": "CZ_REGISTER_FAVORITE_MAP",
+  "size": 86
+ },
+ {
+  "opcode": 3810,
+  "hex": "0x0EE2",
+  "name": "CZ_UNREGISTER_FAVORITE_MAP",
+  "size": 86
+ },
+ {
+  "opcode": 3811,
+  "hex": "0x0EE3",
+  "name": "ZC_VERTICAL_MOTION",
+  "size": 23
+ },
+ {
+  "opcode": 3812,
+  "hex": "0x0EE4",
+  "name": "CZ_REQ_PLAY_FLUTING",
+  "size": 31
+ },
+ {
+  "opcode": 3813,
+  "hex": "0x0EE5",
+  "name": "ZC_PLAY_FLUTING",
+  "size": 24
+ },
+ {
+  "opcode": 3814,
+  "hex": "0x0EE6",
+  "name": "CZ_REQ_READY_FLUTING",
+  "size": 23
+ },
+ {
+  "opcode": 3815,
+  "hex": "0x0EE7",
+  "name": "ZC_READY_FLUTING",
+  "size": 15
+ },
+ {
+  "opcode": 3816,
+  "hex": "0x0EE8",
+  "name": "CZ_REQ_STOP_FLUTING",
+  "size": 31
+ },
+ {
+  "opcode": 3817,
+  "hex": "0x0EE9",
+  "name": "ZC_STOP_FLUTING",
+  "size": 23
+ },
+ {
+  "opcode": 3818,
+  "hex": "0x0EEA",
+  "name": "ZC_STOP_FLUTING_ALL",
+  "size": 14
+ },
+ {
+  "opcode": 3819,
+  "hex": "0x0EEB",
+  "name": "CZ_REQ_CLOSE_INSTRUMENT",
+  "size": 87
+ },
+ {
+  "opcode": 3820,
+  "hex": "0x0EEC",
+  "name": "ZC_READY_INSTRUMENT",
+  "size": 79
+ },
+ {
+  "opcode": 3821,
+  "hex": "0x0EED",
+  "name": "CZ_REQ_PLAY_INSTRUMENT",
+  "size": 100
+ },
+ {
+  "opcode": 3822,
+  "hex": "0x0EEE",
+  "name": "ZC_PLAY_INSTRUMENT",
+  "size": 93
+ },
+ {
+  "opcode": 3823,
+  "hex": "0x0EEF",
+  "name": "CZ_REQ_STOP_INSTRUMENT",
+  "size": 95
+ },
+ {
+  "opcode": 3824,
+  "hex": "0x0EF0",
+  "name": "ZC_STOP_INSTRUMENT",
+  "size": 87
+ },
+ {
+  "opcode": 3825,
+  "hex": "0x0EF1",
+  "name": "ZC_STOP_INSTRUMENT_ALL",
+  "size": 14
+ },
+ {
+  "opcode": 3826,
+  "hex": "0x0EF2",
+  "name": "ZC_RESERVE_PROPERTY",
+  "size": 0
+ },
+ {
+  "opcode": 3827,
+  "hex": "0x0EF3",
+  "name": "CZ_REQ_SOLO_DUNGEON_REWARD",
+  "size": 22
+ },
+ {
+  "opcode": 3828,
+  "hex": "0x0EF4",
+  "name": "CZ_REQ_SOLO_DUNGEON_RANKING_PAGE",
+  "size": 22
+ },
+ {
+  "opcode": 3829,
+  "hex": "0x0EF5",
+  "name": "ZC_SOLO_DUNGEON_STAGE_SCORE",
+  "size": 34
+ },
+ {
+  "opcode": 3830,
+  "hex": "0x0EF6",
+  "name": "ZC_SOLO_DUNGEON_RANKING",
+  "size": 0
+ },
+ {
+  "opcode": 3831,
+  "hex": "0x0EF7",
+  "name": "ZC_SOLO_DUNGEON_MY_RANKING",
+  "size": 0
+ },
+ {
+  "opcode": 3832,
+  "hex": "0x0EF8",
+  "name": "ZC_REDIS_RANKING_INFO",
+  "size": 0
+ },
+ {
+  "opcode": 3833,
+  "hex": "0x0EF9",
+  "name": "ZC_CUSTOM_WHEEL_ZOOM",
+  "size": 23
+ },
+ {
+  "opcode": 3834,
+  "hex": "0x0EFA",
+  "name": "ZC_MGAME_POSITION",
+  "size": 0
+ },
+ {
+  "opcode": 3835,
+  "hex": "0x0EFB",
+  "name": "ZC_ITEM_LOCK_STATE",
+  "size": 19
+ },
+ {
+  "opcode": 3836,
+  "hex": "0x0EFC",
+  "name": "ZC_ALTER_HIT_RADIUS",
+  "size": 26
+ },
+ {
+  "opcode": 3837,
+  "hex": "0x0EFD",
+  "name": "ZC_CASH_INVENTORY_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3838,
+  "hex": "0x0EFE",
+  "name": "CZ_NEXON_PAYMENT_PAGE",
+  "size": 22
+ },
+ {
+  "opcode": 3839,
+  "hex": "0x0EFF",
+  "name": "ZC_NEXON_PAYMENT_PAGE",
+  "size": 522
+ },
+ {
+  "opcode": 3840,
+  "hex": "0x0F00",
+  "name": "ZC_SOLD_ITEM_NOTICE",
+  "size": 158
+ },
+ {
+  "opcode": 3841,
+  "hex": "0x0F01",
+  "name": "CZ_REQ_GUILD_ASSET",
+  "size": 22
+ },
+ {
+  "opcode": 3842,
+  "hex": "0x0F02",
+  "name": "ZC_GUILD_BUILDING_OBJECT_ADD",
+  "size": 0
+ },
+ {
+  "opcode": 3843,
+  "hex": "0x0F03",
+  "name": "ZC_GUILD_BUILDING_OBJECT_REMOVE",
+  "size": 0
+ },
+ {
+  "opcode": 3844,
+  "hex": "0x0F04",
+  "name": "CZ_CHANGE_REPRESENTATION_CLASS",
+  "size": 26
+ },
+ {
+  "opcode": 3845,
+  "hex": "0x0F05",
+  "name": "CZ_REQ_COMMANDER_INFO",
+  "size": 24
+ },
+ {
+  "opcode": 3846,
+  "hex": "0x0F06",
+  "name": "ZC_CUSTOM_COMMANDER_INFO",
+  "size": 32
+ },
+ {
+  "opcode": 3847,
+  "hex": "0x0F07",
+  "name": "ZC_TRUST_INFO",
+  "size": 62
+ },
+ {
+  "opcode": 3848,
+  "hex": "0x0F08",
+  "name": "ZC_GUILD_COOLDOWN_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3849,
+  "hex": "0x0F09",
+  "name": "ZC_CLASS_RESET_POINT_INFO",
+  "size": 18
+ },
+ {
+  "opcode": 3850,
+  "hex": "0x0F0A",
+  "name": "ZC_EQUIP_CARD_INFO",
+  "size": 0
+ },
+ {
+  "opcode": 3851,
+  "hex": "0x0F0B",
+  "name": "ZC_EQUIP_GEM_INFO",
+  "size": 0
+ },
+ {
+  "opcode": 3852,
+  "hex": "0x0F0C",
+  "name": "ZC_FADE_IN",
+  "size": 14
+ },
+ {
+  "opcode": 3853,
+  "hex": "0x0F0D",
+  "name": "ZC_OBJECT_PROPERTY_BY_NAMES",
+  "size": 0
+ },
+ {
+  "opcode": 3854,
+  "hex": "0x0F0E",
+  "name": "CZ_REQ_LEARN_ABILITY",
+  "size": 0
+ },
+ {
+  "opcode": 3855,
+  "hex": "0x0F0F",
+  "name": "CZ_NOTICE_GUILD_APPLICATION_REQUEST",
+  "size": 32
+ },
+ {
+  "opcode": 3856,
+  "hex": "0x0F10",
+  "name": "ZC_START_IMITATING_ANIMATION",
+  "size": 18
+ },
+ {
+  "opcode": 3857,
+  "hex": "0x0F11",
+  "name": "ZC_STOP_IMITATING_ANIMATION",
+  "size": 14
+ },
+ {
+  "opcode": 3858,
+  "hex": "0x0F12",
+  "name": "CZ_START_IMITATING_ANIMATION_ACK",
+  "size": 22
+ },
+ {
+  "opcode": 3859,
+  "hex": "0x0F13",
+  "name": "CZ_FOLLOW_TO_ACTOR_ACK",
+  "size": 22
+ },
+ {
+  "opcode": 3860,
+  "hex": "0x0F14",
+  "name": "CZ_REQUEST_EVENT_USER_TYPE_INFO",
+  "size": 22
+ },
+ {
+  "opcode": 3861,
+  "hex": "0x0F15",
+  "name": "CZ_REQUEST_USED_MEDAL_TOTAL",
+  "size": 22
+ },
+ {
+  "opcode": 3862,
+  "hex": "0x0F16",
+  "name": "ZC_ZOMBIE_ALIVE",
+  "size": 10
+ },
+ {
+  "opcode": 3863,
+  "hex": "0x0F17",
+  "name": "CZ_ZOMBIE_ALIVE_ACK",
+  "size": 22
+ },
+ {
+  "opcode": 3864,
+  "hex": "0x0F18",
+  "name": "ZC_FRIENDLY_STATE",
+  "size": 11
+ },
+ {
+  "opcode": 3865,
+  "hex": "0x0F19",
+  "name": "ZC_ANCIENT_FRIENDLY_STATE",
+  "size": 11
+ },
+ {
+  "opcode": 3866,
+  "hex": "0x0F1A",
+  "name": "ZC_CHANGE_SKIN_COLOR",
+  "size": 18
+ },
+ {
+  "opcode": 3867,
+  "hex": "0x0F1B",
+  "name": "ZC_SET_FACE_RENDER_OPTION",
+  "size": 79
+ },
+ {
+  "opcode": 3869,
+  "hex": "0x0F1D",
+  "name": "CZ_DPK_QUEST_DESTORY_SESSIONOBJ",
+  "size": 286
+ },
+ {
+  "opcode": 3870,
+  "hex": "0x0F1E",
+  "name": "CZ_REQUEST_BLACK_MARKET_BID",
+  "size": 30
+ },
+ {
+  "opcode": 3871,
+  "hex": "0x0F1F",
+  "name": "CZ_REQUEST_BLACK_MARKET_BID_INFO",
+  "size": 22
+ },
+ {
+  "opcode": 3872,
+  "hex": "0x0F20",
+  "name": "ZC_NOTICE_FAILURE_IN_BIDDING",
+  "size": 14
+ },
+ {
+  "opcode": 3873,
+  "hex": "0x0F21",
+  "name": "ZC_NOTICE_BIDDING_SUCCESS",
+  "size": 30
+ },
+ {
+  "opcode": 3874,
+  "hex": "0x0F22",
+  "name": "ZC_NOTICE_DUPLICATE_BIDDING",
+  "size": 22
+ },
+ {
+  "opcode": 3875,
+  "hex": "0x0F23",
+  "name": "ZC_NOTICE_NOTICE_BLACK_MARKET_END_TO_USER",
+  "size": 22
+ },
+ {
+  "opcode": 3876,
+  "hex": "0x0F24",
+  "name": "ZC_CONFUSE_STATE",
+  "size": 15
+ },
+ {
+  "opcode": 3877,
+  "hex": "0x0F25",
+  "name": "ZC_ADDONUI_MSG",
+  "size": 0
+ },
+ {
+  "opcode": 3878,
+  "hex": "0x0F26",
+  "name": "CZ_COLONY_REWARD_REQ",
+  "size": 51
+ },
+ {
+  "opcode": 3879,
+  "hex": "0x0F27",
+  "name": "ZC_COLONY_REWARD_DETAILLIST_UPDATE",
+  "size": 22
+ },
+ {
+  "opcode": 3880,
+  "hex": "0x0F28",
+  "name": "ZC_COLONY_SECONDLEAGUE_REWARD_START",
+  "size": 38
+ },
+ {
+  "opcode": 3881,
+  "hex": "0x0F29",
+  "name": "ZC_COLONY_SECONDLEAGUE_REWARD_END",
+  "size": 38
+ },
+ {
+  "opcode": 3882,
+  "hex": "0x0F2A",
+  "name": "CZ_COLONY_TAXINQUIRELIST_REQ",
+  "size": 22
+ },
+ {
+  "opcode": 3883,
+  "hex": "0x0F2B",
+  "name": "ZC_COLONY_TAXINQUIRELIST_REQ",
+  "size": 0
+ },
+ {
+  "opcode": 3884,
+  "hex": "0x0F2C",
+  "name": "ZC_START_FIELDBOSS_WORLD_EVENT",
+  "size": 0
+ },
+ {
+  "opcode": 3885,
+  "hex": "0x0F2D",
+  "name": "ZC_END_FIELDBOSS_WORLD_EVENT",
+  "size": 10
+ },
+ {
+  "opcode": 3886,
+  "hex": "0x0F2E",
+  "name": "ZC_FIELDBOSS_REMOVE_ITEM",
+  "size": 14
+ },
+ {
+  "opcode": 3887,
+  "hex": "0x0F2F",
+  "name": "CZ_BID_FIELDBOSS_WORLD_EVENT",
+  "size": 26
+ },
+ {
+  "opcode": 3888,
+  "hex": "0x0F30",
+  "name": "ZC_WIN_FIELDBOSS_WORLD_EVENT_ITEM",
+  "size": 14
+ },
+ {
+  "opcode": 3889,
+  "hex": "0x0F31",
+  "name": "ZC_LOSE_FIELDBOSS_WORLD_EVENT_ITEM",
+  "size": 14
+ },
+ {
+  "opcode": 3890,
+  "hex": "0x0F32",
+  "name": "ZC_SILVER_GACHA_DECREASE_ITEM_COUNT",
+  "size": 26
+ },
+ {
+  "opcode": 3891,
+  "hex": "0x0F33",
+  "name": "CZ_REQUEST_SILVER_GACHA_GAMBLE",
+  "size": 35
+ },
+ {
+  "opcode": 3892,
+  "hex": "0x0F34",
+  "name": "CZ_REQUEST_SILVER_GACHA_INFO",
+  "size": 22
+ },
+ {
+  "opcode": 3893,
+  "hex": "0x0F35",
+  "name": "ZC_RESPONSE_SILVER_GACHA_INFO",
+  "size": 0
+ },
+ {
+  "opcode": 3894,
+  "hex": "0x0F36",
+  "name": "CZ_MAKE_ITEM_FROM_DRESS_ROOM",
+  "size": 150
+ },
+ {
+  "opcode": 3895,
+  "hex": "0x0F37",
+  "name": "ZC_START_CASUAL_GAMBLE",
+  "size": 0
+ },
+ {
+  "opcode": 3896,
+  "hex": "0x0F38",
+  "name": "ZC_CASUAL_GAMBLE_ITEM_GET",
+  "size": 18
+ },
+ {
+  "opcode": 3897,
+  "hex": "0x0F39",
+  "name": "CZ_REQUEST_CASUAL_GAMBLE",
+  "size": 22
+ },
+ {
+  "opcode": 3898,
+  "hex": "0x0F3A",
+  "name": "ZC_END_CASUAL_GAMBLE",
+  "size": 10
+ },
+ {
+  "opcode": 3899,
+  "hex": "0x0F3B",
+  "name": "CZ_REQUEST_COMMON_GAMBLE",
+  "size": 158
+ },
+ {
+  "opcode": 3900,
+  "hex": "0x0F3C",
+  "name": "ZC_COMMON_GAMBLE_ITEM_GET",
+  "size": 18
+ },
+ {
+  "opcode": 3901,
+  "hex": "0x0F3D",
+  "name": "ZC_WEEKLY_BOSS_RANK_INFO",
+  "size": 0
+ },
+ {
+  "opcode": 3902,
+  "hex": "0x0F3E",
+  "name": "ZC_WEEKLY_BOSS_RANK_MY_DAMAGE",
+  "size": 22
+ },
+ {
+  "opcode": 3903,
+  "hex": "0x0F3F",
+  "name": "ZC_WEEKLY_BOSS_ACCUMULATED_DAMAGE",
+  "size": 22
+ },
+ {
+  "opcode": 3904,
+  "hex": "0x0F40",
+  "name": "ZC_WEEKLY_BOSS_ABSOLUTE_REWARD_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3905,
+  "hex": "0x0F41",
+  "name": "ZC_WEEKLY_BOSS_RECEIVED_ABSOLUTE_REWARD_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3906,
+  "hex": "0x0F42",
+  "name": "CZ_REQUEST_WEEKLY_BOSS_ABSOLUTE_REWARD_LIST",
+  "size": 26
+ },
+ {
+  "opcode": 3907,
+  "hex": "0x0F43",
+  "name": "CZ_REQUEST_WEEKLY_BOSS_RECEIVE_ABSOLUTE_REWARD",
+  "size": 26
+ },
+ {
+  "opcode": 3908,
+  "hex": "0x0F44",
+  "name": "CZ_REQUEST_WEEKLY_BOSS_CLASS_RANKING_REWARD",
+  "size": 30
+ },
+ {
+  "opcode": 3909,
+  "hex": "0x0F45",
+  "name": "ZC_WEEKLY_BOSS_RECEIVED_RANKING_REWARD",
+  "size": 18
+ },
+ {
+  "opcode": 3910,
+  "hex": "0x0F46",
+  "name": "ZC_WEEKLY_BOSS_RANKING_REWARD_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3911,
+  "hex": "0x0F47",
+  "name": "ZC_WEEKLY_BOSS_CLASS_RANKING_REWARD_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3912,
+  "hex": "0x0F48",
+  "name": "CZ_REQUEST_WEEKLY_BOSS_RANKING_REWARD_LIST",
+  "size": 26
+ },
+ {
+  "opcode": 3913,
+  "hex": "0x0F49",
+  "name": "CZ_REQUEST_WEEKLY_BOSS_RECEIVE_RANKING_REWARD",
+  "size": 26
+ },
+ {
+  "opcode": 3914,
+  "hex": "0x0F4A",
+  "name": "CZ_REQUEST_WEEKLY_BOSS_ACCEPT_ABSOLUTE_REWARD",
+  "size": 34
+ },
+ {
+  "opcode": 3915,
+  "hex": "0x0F4B",
+  "name": "CZ_REQUEST_WEEKLY_BOSS_ACCEPT_ABSOLUTE_REWARD_ALL",
+  "size": 26
+ },
+ {
+  "opcode": 3916,
+  "hex": "0x0F4C",
+  "name": "CZ_REQUEST_WEEKLY_BOSS_ACCEPT_RANKING_REWARD",
+  "size": 30
+ },
+ {
+  "opcode": 3917,
+  "hex": "0x0F4D",
+  "name": "CZ_REQUEST_WEEKLY_BOSS_ACCEPT_CLASS_RANKING_REWARD",
+  "size": 34
+ },
+ {
+  "opcode": 3918,
+  "hex": "0x0F4E",
+  "name": "CZ_REQUEST_WEEKLY_BOSS_RANKING_INFO_LIST",
+  "size": 28
+ },
+ {
+  "opcode": 3919,
+  "hex": "0x0F4F",
+  "name": "CZ_REQUEST_WEEKLY_BOSS_NOW_WEEK_NUM",
+  "size": 22
+ },
+ {
+  "opcode": 3920,
+  "hex": "0x0F50",
+  "name": "CZ_REQUEST_WEEKLY_BOSS_START_TIME",
+  "size": 26
+ },
+ {
+  "opcode": 3921,
+  "hex": "0x0F51",
+  "name": "CZ_REQUEST_WEEKLY_BOSS_END_TIME",
+  "size": 26
+ },
+ {
+  "opcode": 3922,
+  "hex": "0x0F52",
+  "name": "CZ_REQUEST_WEEKLY_BOSS_PATTERN_INFO",
+  "size": 26
+ },
+ {
+  "opcode": 3923,
+  "hex": "0x0F53",
+  "name": "ZC_WEEKLY_BOSS_NOW_WEEK_NUM",
+  "size": 14
+ },
+ {
+  "opcode": 3924,
+  "hex": "0x0F54",
+  "name": "ZC_WEEKLY_BOSS_START_TIME",
+  "size": 26
+ },
+ {
+  "opcode": 3925,
+  "hex": "0x0F55",
+  "name": "ZC_WEEKLY_BOSS_END_TIME",
+  "size": 26
+ },
+ {
+  "opcode": 3926,
+  "hex": "0x0F56",
+  "name": "ZC_WEEKLY_BOSS_PATTERN_INFO",
+  "size": 0
+ },
+ {
+  "opcode": 3927,
+  "hex": "0x0F57",
+  "name": "ZC_WEEKLY_BOSS_RECEIVED_CLASS_RANKING_REWARD",
+  "size": 0
+ },
+ {
+  "opcode": 3928,
+  "hex": "0x0F58",
+  "name": "CZ_REQUEST_WEEKLY_BOSS_RECEIVE_CLASS_RANKING_REWARD",
+  "size": 26
+ },
+ {
+  "opcode": 3929,
+  "hex": "0x0F59",
+  "name": "CZ_REQUEST_WEEKLY_BOSS_ENABLE_CLASS_RANKING_SEASON",
+  "size": 26
+ },
+ {
+  "opcode": 3930,
+  "hex": "0x0F5A",
+  "name": "ZC_REQUEST_WEEKLY_BOSS_ENABLE_CLASS_RANKING_SEASON",
+  "size": 11
+ },
+ {
+  "opcode": 3931,
+  "hex": "0x0F5B",
+  "name": "CZ_REQUEST_DPS_START",
+  "size": 22
+ },
+ {
+  "opcode": 3932,
+  "hex": "0x0F5C",
+  "name": "ZC_REQUEST_DPS_START",
+  "size": 26
+ },
+ {
+  "opcode": 3933,
+  "hex": "0x0F5D",
+  "name": "CZ_MYTHIC_DUNGEON_REQUEST_RANK_INFO",
+  "size": 29
+ },
+ {
+  "opcode": 3934,
+  "hex": "0x0F5E",
+  "name": "CZ_MYTHIC_DUNGEON_REQUEST_PATTERN",
+  "size": 24
+ },
+ {
+  "opcode": 3935,
+  "hex": "0x0F5F",
+  "name": "ZC_MYTHIC_DUNGEON_RANK_INFO",
+  "size": 0
+ },
+ {
+  "opcode": 3936,
+  "hex": "0x0F60",
+  "name": "CZ_MYTHIC_DUNGEON_REQUEST_CURRENT_SEASON",
+  "size": 22
+ },
+ {
+  "opcode": 3937,
+  "hex": "0x0F61",
+  "name": "ZC_MYTHIC_DUNGEON_CURRENT_SEASON",
+  "size": 44
+ },
+ {
+  "opcode": 3938,
+  "hex": "0x0F62",
+  "name": "ZC_MYTHIC_DUNGEON_PATTERN_INFO",
+  "size": 0
+ },
+ {
+  "opcode": 3939,
+  "hex": "0x0F63",
+  "name": "ZC_FIELD_BOSS_PATTERN_INFO",
+  "size": 0
+ },
+ {
+  "opcode": 3940,
+  "hex": "0x0F64",
+  "name": "CZ_REQUEST_FIELD_BOSS_PATTERN_INFO",
+  "size": 38
+ },
+ {
+  "opcode": 3941,
+  "hex": "0x0F65",
+  "name": "CZ_REQUEST_FIELD_BOSS_RANKING_INFO",
+  "size": 38
+ },
+ {
+  "opcode": 3942,
+  "hex": "0x0F66",
+  "name": "ZC_FIELD_BOSS_RANKING_INFO",
+  "size": 0
+ },
+ {
+  "opcode": 3943,
+  "hex": "0x0F67",
+  "name": "CZ_REQUEST_BORUTA_REWARD",
+  "size": 30
+ },
+ {
+  "opcode": 3944,
+  "hex": "0x0F68",
+  "name": "ZC_SEND_BORUTA_RANK_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 3945,
+  "hex": "0x0F69",
+  "name": "CZ_REQUEST_BORUTA_RANK_LIST",
+  "size": 30
+ },
+ {
+  "opcode": 3946,
+  "hex": "0x0F6A",
+  "name": "CZ_REQUEST_ACCEPT_REWARD_INFO",
+  "size": 30
+ },
+ {
+  "opcode": 3947,
+  "hex": "0x0F6B",
+  "name": "ZC_RESPONSE_ACCEPT_REWARD_INFO",
+  "size": 15
+ },
+ {
+  "opcode": 3948,
+  "hex": "0x0F6C",
+  "name": "CZ_REQUEST_BORUTA_NOW_WEEK_NUM",
+  "size": 22
+ },
+ {
+  "opcode": 3949,
+  "hex": "0x0F6D",
+  "name": "ZC_RESPONSE_BORUTA_NOW_WEEK_NUM",
+  "size": 14
+ },
+ {
+  "opcode": 3950,
+  "hex": "0x0F6E",
+  "name": "CZ_REQUEST_BORUTA_START_TIME",
+  "size": 26
+ },
+ {
+  "opcode": 3951,
+  "hex": "0x0F6F",
+  "name": "ZC_BORUTA_START_TIME",
+  "size": 26
+ },
+ {
+  "opcode": 3952,
+  "hex": "0x0F70",
+  "name": "CZ_REQUEST_BORUTA_END_TIME",
+  "size": 26
+ },
+ {
+  "opcode": 3953,
+  "hex": "0x0F71",
+  "name": "ZC_BORUTA_END_TIME",
+  "size": 26
+ },
+ {
+  "opcode": 3954,
+  "hex": "0x0F72",
+  "name": "CZ_RECEIVE_PERSONAL_RANK_REWARD",
+  "size": 38
+ },
+ {
+  "opcode": 3955,
+  "hex": "0x0F73",
+  "name": "CZ_ADD_PARTY_INFO",
+  "size": 310
+ },
+ {
+  "opcode": 3956,
+  "hex": "0x0F74",
+  "name": "CZ_UPDATE_PARTY_INFO",
+  "size": 310
+ },
+ {
+  "opcode": 3957,
+  "hex": "0x0F75",
+  "name": "CZ_REMOVE_PARTY_INFO",
+  "size": 22
+ },
+ {
+  "opcode": 3958,
+  "hex": "0x0F76",
+  "name": "CZ_REQUEST_FIND_PARTY_JOIN",
+  "size": 87
+ },
+ {
+  "opcode": 3959,
+  "hex": "0x0F77",
+  "name": "ZC_CONFIRM_FIND_PARTY_JOIN",
+  "size": 103
+ },
+ {
+  "opcode": 3960,
+  "hex": "0x0F78",
+  "name": "CZ_CONFIRM_FIND_PARTY_JOIN",
+  "size": 88
+ },
+ {
+  "opcode": 3961,
+  "hex": "0x0F79",
+  "name": "CZ_HOUSING_OPEN_EDIT_MODE",
+  "size": 10
+ },
+ {
+  "opcode": 3962,
+  "hex": "0x0F7A",
+  "name": "CZ_HOUSING_CLOSE_EDIT_MODE",
+  "size": 10
+ },
+ {
+  "opcode": 3963,
+  "hex": "0x0F7B",
+  "name": "CZ_HOUSING_REQUEST_GRID_ARRANGED_FURNITURE",
+  "size": 22
+ },
+ {
+  "opcode": 3964,
+  "hex": "0x0F7C",
+  "name": "CZ_HOUSING_REQUEST_ARRANGED_FURNITURE",
+  "size": 22
+ },
+ {
+  "opcode": 3965,
+  "hex": "0x0F7D",
+  "name": "ZC_HOUSING_READY_GRID",
+  "size": 0
+ },
+ {
+  "opcode": 3966,
+  "hex": "0x0F7E",
+  "name": "ZC_HOUSING_READY_ARRANGED_FURNITURE",
+  "size": 0
+ },
+ {
+  "opcode": 3967,
+  "hex": "0x0F7F",
+  "name": "ZC_HOUSING_ANSWER_ARRANGED_FURNITURE",
+  "size": 0
+ },
+ {
+  "opcode": 3968,
+  "hex": "0x0F80",
+  "name": "ZC_HOUSING_START_ARRANGEMENT_FURNITURE",
+  "size": 14
+ },
+ {
+  "opcode": 3969,
+  "hex": "0x0F81",
+  "name": "CZ_HOUSING_REQUEST_ARRANGEMENT_FURNITURE",
+  "size": 0
+ },
+ {
+  "opcode": 3970,
+  "hex": "0x0F82",
+  "name": "CZ_HOUSING_CANCEL_ARRANGEMENT_FURNITURE",
+  "size": 23
+ },
+ {
+  "opcode": 3971,
+  "hex": "0x0F83",
+  "name": "CZ_HOUSING_REQUEST_REMOVE_FURNITURE",
+  "size": 30
+ },
+ {
+  "opcode": 3972,
+  "hex": "0x0F84",
+  "name": "CZ_HOUSING_REQUEST_REMOVE_FURNITURE_ALOT",
+  "size": 0
+ },
+ {
+  "opcode": 3973,
+  "hex": "0x0F85",
+  "name": "CZ_HOUSING_REQUEST_REMOVE_ALL_FURNITURE",
+  "size": 22
+ },
+ {
+  "opcode": 3974,
+  "hex": "0x0F86",
+  "name": "ZC_HOUSING_ANSWER_REMOVE_FURNITURE",
+  "size": 18
+ },
+ {
+  "opcode": 3975,
+  "hex": "0x0F87",
+  "name": "CZ_HOUSING_REQUEST_ENABLE_MOVE_FURNITURE",
+  "size": 30
+ },
+ {
+  "opcode": 3976,
+  "hex": "0x0F88",
+  "name": "ZC_HOUSING_ANSWER_ENABLE_MOVE_FURNITURE",
+  "size": 18
+ },
+ {
+  "opcode": 3977,
+  "hex": "0x0F89",
+  "name": "CZ_HOUSING_REQUEST_MOVE_FURNITURE",
+  "size": 0
+ },
+ {
+  "opcode": 3978,
+  "hex": "0x0F8A",
+  "name": "CZ_HOUSING_REQUEST_GUILD_AGIT_INFO",
+  "size": 158
+ },
+ {
+  "opcode": 3979,
+  "hex": "0x0F8B",
+  "name": "ZC_HOUSING_ANSWER_GUILD_AGIT_INFO",
+  "size": 154
+ },
+ {
+  "opcode": 3980,
+  "hex": "0x0F8C",
+  "name": "CZ_HOUSING_REQUEST_GUILD_AGIT_EXTENSION",
+  "size": 150
+ },
+ {
+  "opcode": 3981,
+  "hex": "0x0F8D",
+  "name": "CZ_HOUSING_REQUEST_GUILD_LAB_USE_RESEARCH",
+  "size": 27
+ },
+ {
+  "opcode": 3982,
+  "hex": "0x0F8E",
+  "name": "CZ_HOUSING_REQUEST_GUILD_LAB_LEVEL_UP",
+  "size": 27
+ },
+ {
+  "opcode": 3983,
+  "hex": "0x0F8F",
+  "name": "CZ_HOUSING_REQUEST_GUILD_LAB_RESEARCH_LEVEL_UP",
+  "size": 26
+ },
+ {
+  "opcode": 3984,
+  "hex": "0x0F90",
+  "name": "CZ_HOUSING_REQUEST_GUILD_CONTRIBUTION_TO_MILEAGE",
+  "size": 26
+ },
+ {
+  "opcode": 3985,
+  "hex": "0x0F91",
+  "name": "CZ_HOUSING_REQUEST_GUILD_MILEAGE_TO_CONTRIBUTION",
+  "size": 26
+ },
+ {
+  "opcode": 3986,
+  "hex": "0x0F92",
+  "name": "CZ_HOUSING_REQUEST_GUILD_CONTIRUBTION_DISTRIBUTE",
+  "size": 0
+ },
+ {
+  "opcode": 3987,
+  "hex": "0x0F93",
+  "name": "CZ_HOUSING_REQUEST_GUILD_POINT_UP",
+  "size": 166
+ },
+ {
+  "opcode": 3988,
+  "hex": "0x0F94",
+  "name": "CZ_HOUSING_REQUEST_HOUSING_SHOP_TRADE",
+  "size": 0
+ },
+ {
+  "opcode": 3989,
+  "hex": "0x0F95",
+  "name": "ZC_HOUSING_CREATE_BG_FURNITURE",
+  "size": 31
+ },
+ {
+  "opcode": 3990,
+  "hex": "0x0F96",
+  "name": "ZC_HOUSING_MOVE_BG_FURNITURE",
+  "size": 27
+ },
+ {
+  "opcode": 3991,
+  "hex": "0x0F97",
+  "name": "ZC_HOUSING_REMOVE_BG_FURNITURE",
+  "size": 14
+ },
+ {
+  "opcode": 3992,
+  "hex": "0x0F98",
+  "name": "CZ_HOUSING_PAGE_SAVE",
+  "size": 90
+ },
+ {
+  "opcode": 3993,
+  "hex": "0x0F99",
+  "name": "CZ_HOUSING_PAGE_LOAD",
+  "size": 26
+ },
+ {
+  "opcode": 3994,
+  "hex": "0x0F9A",
+  "name": "CZ_HOUSING_PAGE_DELETE",
+  "size": 26
+ },
+ {
+  "opcode": 3995,
+  "hex": "0x0F9B",
+  "name": "CZ_PERSONAL_HOUSING_REQUEST_LEAVE",
+  "size": 22
+ },
+ {
+  "opcode": 3996,
+  "hex": "0x0F9C",
+  "name": "CZ_PERSONAL_HOUSING_REQUEST_BUY_BACKGROUND",
+  "size": 26
+ },
+ {
+  "opcode": 3997,
+  "hex": "0x0F9D",
+  "name": "CZ_PERSONAL_HOUSING_REQUEST_APPLY_BACKGROUND",
+  "size": 26
+ },
+ {
+  "opcode": 3998,
+  "hex": "0x0F9E",
+  "name": "CZ_HOUSING_REQUEST_PREVIEW",
+  "size": 39
+ },
+ {
+  "opcode": 3999,
+  "hex": "0x0F9F",
+  "name": "ZC_HOUSING_ANSWER_PREVIEW",
+  "size": 0
+ },
+ {
+  "opcode": 4000,
+  "hex": "0x0FA0",
+  "name": "CZ_HOUSING_REQUEST_POST_HOUSE_WARP",
+  "size": 34
+ },
+ {
+  "opcode": 4001,
+  "hex": "0x0FA1",
+  "name": "CZ_PERSONAL_HOUSING_REQUEST_GROUP_LIST",
+  "size": 22
+ },
+ {
+  "opcode": 4002,
+  "hex": "0x0FA2",
+  "name": "ZC_PERSONAL_HOUSING_ANSWER_GROUP_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 4003,
+  "hex": "0x0FA3",
+  "name": "ZC_REBUILD_POPUP",
+  "size": 10
+ },
+ {
+  "opcode": 4004,
+  "hex": "0x0FA4",
+  "name": "ZC_ANCIENT_CARD_ADD",
+  "size": 0
+ },
+ {
+  "opcode": 4005,
+  "hex": "0x0FA5",
+  "name": "ZC_ANCIENT_CARD_REMOVE",
+  "size": 30
+ },
+ {
+  "opcode": 4006,
+  "hex": "0x0FA6",
+  "name": "ZC_ANCIENT_CARD_COMBINE",
+  "size": 0
+ },
+ {
+  "opcode": 4007,
+  "hex": "0x0FA7",
+  "name": "ZC_ANCIENT_CARD_EVOLVE",
+  "size": 0
+ },
+ {
+  "opcode": 4008,
+  "hex": "0x0FA8",
+  "name": "ZC_ANCIENT_CARD_LOCK",
+  "size": 31
+ },
+ {
+  "opcode": 4009,
+  "hex": "0x0FA9",
+  "name": "ZC_ANCIENT_CARD_UPDATE",
+  "size": 0
+ },
+ {
+  "opcode": 4010,
+  "hex": "0x0FAA",
+  "name": "ZC_ANCIENT_CARD_RESET",
+  "size": 22
+ },
+ {
+  "opcode": 4011,
+  "hex": "0x0FAB",
+  "name": "ZC_ANCIENT_CARD_LOAD",
+  "size": 0
+ },
+ {
+  "opcode": 4012,
+  "hex": "0x0FAC",
+  "name": "ZC_ANCIENT_CARD_EXP_UP",
+  "size": 42
+ },
+ {
+  "opcode": 4013,
+  "hex": "0x0FAD",
+  "name": "ZC_ANCIENT_MONSTER_SUMMON",
+  "size": 42
+ },
+ {
+  "opcode": 4014,
+  "hex": "0x0FAE",
+  "name": "ZC_ANCIENT_MONSTER_DEAD",
+  "size": 30
+ },
+ {
+  "opcode": 4015,
+  "hex": "0x0FAF",
+  "name": "CZ_ANCIENT_CARD_SELL",
+  "size": 30
+ },
+ {
+  "opcode": 4016,
+  "hex": "0x0FB0",
+  "name": "CZ_ANCIENT_CARD_SWAP",
+  "size": 34
+ },
+ {
+  "opcode": 4017,
+  "hex": "0x0FB1",
+  "name": "CZ_ANCIENT_MON_ALLKILL",
+  "size": 22
+ },
+ {
+  "opcode": 4018,
+  "hex": "0x0FB2",
+  "name": "CZ_ANCIENT_CARD_COMBINE",
+  "size": 0
+ },
+ {
+  "opcode": 4019,
+  "hex": "0x0FB3",
+  "name": "CZ_ANCIENT_CARD_EVOLVE",
+  "size": 0
+ },
+ {
+  "opcode": 4020,
+  "hex": "0x0FB4",
+  "name": "CZ_ANCIENT_CARD_LOCK",
+  "size": 30
+ },
+ {
+  "opcode": 4021,
+  "hex": "0x0FB5",
+  "name": "CZ_FORCE_SKILL_RANGE",
+  "size": 54
+ },
+ {
+  "opcode": 4022,
+  "hex": "0x0FB6",
+  "name": "CZ_VARIABLE_RANGE_RESULT",
+  "size": 38
+ },
+ {
+  "opcode": 4023,
+  "hex": "0x0FB7",
+  "name": "CZ_CANCEL_PAIR_ANIMATION",
+  "size": 22
+ },
+ {
+  "opcode": 4024,
+  "hex": "0x0FB8",
+  "name": "ZC_SET_DAYLIGHT_INFO",
+  "size": 0
+ },
+ {
+  "opcode": 4025,
+  "hex": "0x0FB9",
+  "name": "ZC_DAYLIGHT_SYNCHRONIZE_TIME",
+  "size": 14
+ },
+ {
+  "opcode": 4026,
+  "hex": "0x0FBA",
+  "name": "ZC_DAYLIGHT_FIXED",
+  "size": 36
+ },
+ {
+  "opcode": 4027,
+  "hex": "0x0FBB",
+  "name": "CZ_SELECTED_LANGUAGE",
+  "size": 24
+ },
+ {
+  "opcode": 4028,
+  "hex": "0x0FBC",
+  "name": "CZ_ACCEPT_FIELD_DUNGEON_REJOIN",
+  "size": 22
+ },
+ {
+  "opcode": 4029,
+  "hex": "0x0FBD",
+  "name": "CZ_UDP_MOVE_INFO",
+  "size": 80
+ },
+ {
+  "opcode": 4030,
+  "hex": "0x0FBE",
+  "name": "ZC_UDP_MOVE_INFO",
+  "size": 79
+ },
+ {
+  "opcode": 4031,
+  "hex": "0x0FBF",
+  "name": "ZC_UDP_MULTI_PACKET",
+  "size": 12810
+ },
+ {
+  "opcode": 4032,
+  "hex": "0x0FC0",
+  "name": "ZC_MAIN_SECTOR_INFO",
+  "size": 0
+ },
+ {
+  "opcode": 4033,
+  "hex": "0x0FC1",
+  "name": "ZC_ADD_CHATBALLOON_SKIN",
+  "size": 0
+ },
+ {
+  "opcode": 4034,
+  "hex": "0x0FC2",
+  "name": "CZ_SET_CHATBALLOON_SKIN",
+  "size": 26
+ },
+ {
+  "opcode": 4035,
+  "hex": "0x0FC3",
+  "name": "ZC_SET_CHATBALLOON_SKIN",
+  "size": 34
+ },
+ {
+  "opcode": 4036,
+  "hex": "0x0FC4",
+  "name": "ZC_UPDATE_CHATBALLOON_SKIN",
+  "size": 10
+ },
+ {
+  "opcode": 4037,
+  "hex": "0x0FC5",
+  "name": "ZC_AUTOSELLER_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 4038,
+  "hex": "0x0FC6",
+  "name": "ZC_AUTOSELLER_TITLE",
+  "size": 91
+ },
+ {
+  "opcode": 4039,
+  "hex": "0x0FC7",
+  "name": "CZ_DO_CLIENT_MOVE_CHECK",
+  "size": 22
+ },
+ {
+  "opcode": 4040,
+  "hex": "0x0FC8",
+  "name": "ZC_IS_SUMMONING_MONSTER",
+  "size": 15
+ },
+ {
+  "opcode": 4041,
+  "hex": "0x0FC9",
+  "name": "ZC_IS_SUMMON_SORCERER_MONSTER",
+  "size": 15
+ },
+ {
+  "opcode": 4042,
+  "hex": "0x0FCA",
+  "name": "CZ_SUMMON_PET",
+  "size": 38
+ },
+ {
+  "opcode": 4043,
+  "hex": "0x0FCB",
+  "name": "CZ_SELECT_GROUND_POS_START",
+  "size": 22
+ },
+ {
+  "opcode": 4044,
+  "hex": "0x0FCC",
+  "name": "CZ_SELECT_GROUND_POS_END",
+  "size": 22
+ },
+ {
+  "opcode": 4045,
+  "hex": "0x0FCD",
+  "name": "CZ_REQ_DAMAGEFONT_SKIN",
+  "size": 26
+ },
+ {
+  "opcode": 4046,
+  "hex": "0x0FCE",
+  "name": "CZ_SET_DAMAGEFONT_SKIN",
+  "size": 30
+ },
+ {
+  "opcode": 4047,
+  "hex": "0x0FCF",
+  "name": "ZC_RES_DAMAGEFONT_SKIN",
+  "size": 30
+ },
+ {
+  "opcode": 4048,
+  "hex": "0x0FD0",
+  "name": "CZ_REQ_DAMAGEEFFECT_SKIN",
+  "size": 26
+ },
+ {
+  "opcode": 4049,
+  "hex": "0x0FD1",
+  "name": "CZ_SET_DAMAGEEFFECT_SKIN",
+  "size": 30
+ },
+ {
+  "opcode": 4050,
+  "hex": "0x0FD2",
+  "name": "ZC_RES_DAMAGEEFFECT_SKIN",
+  "size": 30
+ },
+ {
+  "opcode": 4051,
+  "hex": "0x0FD3",
+  "name": "CZ_SUMMON_CUPOLE",
+  "size": 30
+ },
+ {
+  "opcode": 4052,
+  "hex": "0x0FD4",
+  "name": "CZ_CUPOLE_SLOT_SWAP",
+  "size": 34
+ },
+ {
+  "opcode": 4053,
+  "hex": "0x0FD5",
+  "name": "ZC_SUMMON_CUPOLE",
+  "size": 30
+ },
+ {
+  "opcode": 4054,
+  "hex": "0x0FD6",
+  "name": "ZC_UNSUMMON_CUPOLE",
+  "size": 30
+ },
+ {
+  "opcode": 4055,
+  "hex": "0x0FD7",
+  "name": "CZ_CUPOLE_FAVORITE",
+  "size": 27
+ },
+ {
+  "opcode": 4056,
+  "hex": "0x0FD8",
+  "name": "ZC_CUPOLE_FAVORITE",
+  "size": 0
+ },
+ {
+  "opcode": 4057,
+  "hex": "0x0FD9",
+  "name": "CZ_REQUEST_GODDESS_ROULETT",
+  "size": 26
+ },
+ {
+  "opcode": 4058,
+  "hex": "0x0FDA",
+  "name": "CZ_REQUEST_GODDESS_ROULETT_STATE",
+  "size": 26
+ },
+ {
+  "opcode": 4059,
+  "hex": "0x0FDB",
+  "name": "ZC_OVERHEAT_RESET_TIME",
+  "size": 26
+ },
+ {
+  "opcode": 4060,
+  "hex": "0x0FDC",
+  "name": "CZ_PERSONAL_HOUSING_SHOP_PAYMENT",
+  "size": 0
+ },
+ {
+  "opcode": 4061,
+  "hex": "0x0FDD",
+  "name": "CZ_START_SERVER_TRACING",
+  "size": 22
+ },
+ {
+  "opcode": 4062,
+  "hex": "0x0FDE",
+  "name": "CZ_PERSONAL_HOUSING_BOARD_LOG",
+  "size": 2082
+ },
+ {
+  "opcode": 4063,
+  "hex": "0x0FDF",
+  "name": "ZC_TAUNT_START",
+  "size": 23
+ },
+ {
+  "opcode": 4064,
+  "hex": "0x0FE0",
+  "name": "ZC_TAUNT_END",
+  "size": 14
+ },
+ {
+  "opcode": 4065,
+  "hex": "0x0FE1",
+  "name": "CZ_CHECK_USE_NAME",
+  "size": 470
+ },
+ {
+  "opcode": 4066,
+  "hex": "0x0FE2",
+  "name": "CZ_REQ_FIELD_BOSS_EXIST",
+  "size": 22
+ },
+ {
+  "opcode": 4067,
+  "hex": "0x0FE3",
+  "name": "ZC_RESPONSE_FIELD_BOSS_EXIST",
+  "size": 0
+ },
+ {
+  "opcode": 4068,
+  "hex": "0x0FE4",
+  "name": "CZ_ACCOUNT_ABILITY_LEVELUP",
+  "size": 90
+ },
+ {
+  "opcode": 4069,
+  "hex": "0x0FE5",
+  "name": "CZ_ACCOUNT_ABILITY_RESET",
+  "size": 86
+ },
+ {
+  "opcode": 4070,
+  "hex": "0x0FE6",
+  "name": "ZC_BREATH_ATTACK_TARGET_CAHSE",
+  "size": 78
+ },
+ {
+  "opcode": 4071,
+  "hex": "0x0FE7",
+  "name": "CZ_BREATH_ATTACK_TARGET_CAHSE_RESULT",
+  "size": 294
+ },
+ {
+  "opcode": 4072,
+  "hex": "0x0FE8",
+  "name": "CZ_OPEN_SHOP_LOG",
+  "size": 55
+ },
+ {
+  "opcode": 4073,
+  "hex": "0x0FE9",
+  "name": "CZ_SELECT_PARTY_BUFF",
+  "size": 26
+ },
+ {
+  "opcode": 4074,
+  "hex": "0x0FEA",
+  "name": "CZ_SELECT_SOLO_BUFF",
+  "size": 30
+ },
+ {
+  "opcode": 4075,
+  "hex": "0x0FEB",
+  "name": "CZ_REPUTATION_SHOP_TRADE",
+  "size": 0
+ },
+ {
+  "opcode": 4076,
+  "hex": "0x0FEC",
+  "name": "ZC_RELIC_RP_CHANGE",
+  "size": 14
+ },
+ {
+  "opcode": 4077,
+  "hex": "0x0FED",
+  "name": "CZ_REQUEST_RANK_SYSTEM_TIME_TABLE",
+  "size": 26
+ },
+ {
+  "opcode": 4078,
+  "hex": "0x0FEE",
+  "name": "ZC_RESPONSE_RANK_SYSTEM_TIME_TABLE",
+  "size": 0
+ },
+ {
+  "opcode": 4079,
+  "hex": "0x0FEF",
+  "name": "CZ_REQUEST_RANK_SYSTEM_RANK_LIST",
+  "size": 42
+ },
+ {
+  "opcode": 4080,
+  "hex": "0x0FF0",
+  "name": "ZC_RESPONSE_RANK_SYSTEM_RANK_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 4081,
+  "hex": "0x0FF1",
+  "name": "CZ_REQUEST_RANK_SYSTEM_MY_DATA",
+  "size": 42
+ },
+ {
+  "opcode": 4082,
+  "hex": "0x0FF2",
+  "name": "ZC_RESPONSE_RANK_SYSTEM_MY_DATA",
+  "size": 0
+ },
+ {
+  "opcode": 4083,
+  "hex": "0x0FF3",
+  "name": "ZC_RANK_SYSTEM_RECEIVED_REWARD_INFO_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 4084,
+  "hex": "0x0FF4",
+  "name": "ZC_RANK_SYSTEM_RECEIVED_REWARD_INFO",
+  "size": 38
+ },
+ {
+  "opcode": 4085,
+  "hex": "0x0FF5",
+  "name": "CZ_REQUEST_DRAW_TOSHERO_EMBLEM",
+  "size": 26
+ },
+ {
+  "opcode": 4086,
+  "hex": "0x0FF6",
+  "name": "ZC_RESPONSE_DRAW_TOSHERO_EMBLEM",
+  "size": 0
+ },
+ {
+  "opcode": 4087,
+  "hex": "0x0FF7",
+  "name": "CZ_UDP_HOLEPUNCH",
+  "size": 22
+ },
+ {
+  "opcode": 4088,
+  "hex": "0x0FF8",
+  "name": "ZC_UDP_HOLEPUNCH_ACK",
+  "size": 10
+ },
+ {
+  "opcode": 4089,
+  "hex": "0x0FF9",
+  "name": "CZ_REQ_CHALLENGE_AUTOMATCH_UI_OPEN",
+  "size": 26
+ },
+ {
+  "opcode": 4090,
+  "hex": "0x0FFA",
+  "name": "ZC_MONSTER_CANCEL_CASTING_UI",
+  "size": 26
+ },
+ {
+  "opcode": 4091,
+  "hex": "0x0FFB",
+  "name": "CZ_DIALOG_SELECT_MULTIPLE",
+  "size": 0
+ },
+ {
+  "opcode": 4092,
+  "hex": "0x0FFC",
+  "name": "CZ_REQ_RAID_AUTOMATCH_UI_OPEN",
+  "size": 26
+ },
+ {
+  "opcode": 4093,
+  "hex": "0x0FFD",
+  "name": "CZ_REQ_RAID_SOLO_UI_OPEN",
+  "size": 26
+ },
+ {
+  "opcode": 4094,
+  "hex": "0x0FFE",
+  "name": "CZ_REQ_TOSHERO_ENTER",
+  "size": 26
+ },
+ {
+  "opcode": 4095,
+  "hex": "0x0FFF",
+  "name": "CZ_REQ_EARRING_RAID_ENTER",
+  "size": 26
+ },
+ {
+  "opcode": 4096,
+  "hex": "0x1000",
+  "name": "CZ_REQ_DEMON_LAIR_ENTER",
+  "size": 26
+ },
+ {
+  "opcode": 4097,
+  "hex": "0x1001",
+  "name": "CZ_REQ_PILGRIM_ENTER",
+  "size": 26
+ },
+ {
+  "opcode": 4098,
+  "hex": "0x1002",
+  "name": "CZ_REQ_LEVEL_DUNGEON_ENTER",
+  "size": 26
+ },
+ {
+  "opcode": 4099,
+  "hex": "0x1003",
+  "name": "CZ_REQ_USE_RAID_AUTO_SWEEP",
+  "size": 26
+ },
+ {
+  "opcode": 4100,
+  "hex": "0x1004",
+  "name": "CZ_REQ_BRIDGE_WAILING",
+  "size": 26
+ },
+ {
+  "opcode": 4101,
+  "hex": "0x1005",
+  "name": "CZ_REQUEST_CARD_PRESET",
+  "size": 26
+ },
+ {
+  "opcode": 4102,
+  "hex": "0x1006",
+  "name": "ZC_RESPONSE_CARD_PRESET",
+  "size": 0
+ },
+ {
+  "opcode": 4103,
+  "hex": "0x1007",
+  "name": "CZ_SET_CARD_PRESET",
+  "size": 0
+ },
+ {
+  "opcode": 4104,
+  "hex": "0x1008",
+  "name": "CZ_SET_CARD_PRESET_TITLE",
+  "size": 90
+ },
+ {
+  "opcode": 4105,
+  "hex": "0x1009",
+  "name": "ZC_TOSHERO_INFO",
+  "size": 58
+ },
+ {
+  "opcode": 4106,
+  "hex": "0x100A",
+  "name": "ZC_TOSHERO_POINT_INFO",
+  "size": 14
+ },
+ {
+  "opcode": 4107,
+  "hex": "0x100B",
+  "name": "ZC_TOSHERO_BUFFSHOP_INFO",
+  "size": 0
+ },
+ {
+  "opcode": 4108,
+  "hex": "0x100C",
+  "name": "CZ_TOSHERO_BUY_BUFF",
+  "size": 26
+ },
+ {
+  "opcode": 4109,
+  "hex": "0x100D",
+  "name": "CZ_TOSHERO_SELL_BUFF",
+  "size": 26
+ },
+ {
+  "opcode": 4110,
+  "hex": "0x100E",
+  "name": "CZ_TOSHERO_SELECT_BUFF",
+  "size": 26
+ },
+ {
+  "opcode": 4111,
+  "hex": "0x100F",
+  "name": "CZ_TOSHERO_UPGRADE_BUFF",
+  "size": 26
+ },
+ {
+  "opcode": 4112,
+  "hex": "0x1010",
+  "name": "CZ_TOSHERO_DESELECT_BUFF",
+  "size": 22
+ },
+ {
+  "opcode": 4113,
+  "hex": "0x1011",
+  "name": "CZ_TOSHERO_COMBINE_THREE_BUFF",
+  "size": 46
+ },
+ {
+  "opcode": 4114,
+  "hex": "0x1012",
+  "name": "CZ_TOSHERO_CHANGE_ATTRIBUTE",
+  "size": 26
+ },
+ {
+  "opcode": 4115,
+  "hex": "0x1013",
+  "name": "CZ_TOSHERO_RUN_LOTTERY",
+  "size": 26
+ },
+ {
+  "opcode": 4116,
+  "hex": "0x1014",
+  "name": "CZ_TOSHERO_REINFORCE",
+  "size": 30
+ },
+ {
+  "opcode": 4117,
+  "hex": "0x1015",
+  "name": "CZ_TOSHERO_CHANGE_EQUIP_OPTION",
+  "size": 34
+ },
+ {
+  "opcode": 4118,
+  "hex": "0x1016",
+  "name": "CZ_TOSHERO_READY",
+  "size": 26
+ },
+ {
+  "opcode": 4119,
+  "hex": "0x1017",
+  "name": "ZC_START_RANGE_PREVIEW",
+  "size": 151
+ },
+ {
+  "opcode": 4120,
+  "hex": "0x1018",
+  "name": "ZC_END_RANGE_PREVIEW",
+  "size": 74
+ },
+ {
+  "opcode": 4121,
+  "hex": "0x1019",
+  "name": "ZC_CLEAR_RANGE_PREVIEW",
+  "size": 10
+ },
+ {
+  "opcode": 4122,
+  "hex": "0x101A",
+  "name": "ZC_FIX_DIRECTION",
+  "size": 78
+ },
+ {
+  "opcode": 4123,
+  "hex": "0x101B",
+  "name": "ZC_FIX_DIRECTION_END",
+  "size": 14
+ },
+ {
+  "opcode": 4124,
+  "hex": "0x101C",
+  "name": "CZ_REQ_TOGGLE_ABILITY",
+  "size": 26
+ },
+ {
+  "opcode": 4125,
+  "hex": "0x101D",
+  "name": "ZC_MY_CHARACTER_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 4126,
+  "hex": "0x101E",
+  "name": "CZ_REG_CHANGE_CHARACTER_SLOT",
+  "size": 30
+ },
+ {
+  "opcode": 4127,
+  "hex": "0x101F",
+  "name": "CZ_DEREG_CHANGE_CHARACTER_SLOT",
+  "size": 34
+ },
+ {
+  "opcode": 4128,
+  "hex": "0x1020",
+  "name": "ZC_START_CHARACTER_CHANGE",
+  "size": 26
+ },
+ {
+  "opcode": 4129,
+  "hex": "0x1021",
+  "name": "ZC_FINISH_CHARACTER_CHANGE",
+  "size": 30
+ },
+ {
+  "opcode": 4130,
+  "hex": "0x1022",
+  "name": "CZ_REQ_CHARACTER_CHANGE",
+  "size": 34
+ },
+ {
+  "opcode": 4131,
+  "hex": "0x1023",
+  "name": "ZC_CHARACTER_CHANGE_REGIST_COMPLETE",
+  "size": 22
+ },
+ {
+  "opcode": 4132,
+  "hex": "0x1024",
+  "name": "ZC_CHARACTER_CHANGE_DEREGIST_COMPLETE",
+  "size": 14
+ },
+ {
+  "opcode": 4133,
+  "hex": "0x1025",
+  "name": "ZC_MY_CHARACTER_DECK_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 4134,
+  "hex": "0x1026",
+  "name": "CZ_REQ_FAVORITE_INDUN_SET",
+  "size": 55
+ },
+ {
+  "opcode": 4135,
+  "hex": "0x1027",
+  "name": "ZC_EQUIP_DUMMY_FOR_SKILL",
+  "size": 22
+ },
+ {
+  "opcode": 4136,
+  "hex": "0x1028",
+  "name": "CZ_REQUEST_AETHER_GEM_REINFORCE",
+  "size": 38
+ },
+ {
+  "opcode": 4137,
+  "hex": "0x1029",
+  "name": "ZC_SET_AURA_INFO",
+  "size": 279
+ },
+ {
+  "opcode": 4138,
+  "hex": "0x102A",
+  "name": "CZ_OPEN_HELP",
+  "size": 86
+ },
+ {
+  "opcode": 4139,
+  "hex": "0x102B",
+  "name": "CZ_REQ_UNKNOWN_SANTUARTY_BUFF",
+  "size": 346
+ },
+ {
+  "opcode": 4140,
+  "hex": "0x102C",
+  "name": "ZC_SEND_CURRENT_JOIN_MGAME_NAME",
+  "size": 266
+ },
+ {
+  "opcode": 4141,
+  "hex": "0x102D",
+  "name": "CZ_REQ_SUMMON_RIDE_PET",
+  "size": 26
+ },
+ {
+  "opcode": 4142,
+  "hex": "0x102E",
+  "name": "CZ_REQ_SELECT_RIDE_PET",
+  "size": 26
+ },
+ {
+  "opcode": 4143,
+  "hex": "0x102F",
+  "name": "CZ_ANS_GIVEUP_PREV_PLAYING_INDUN_PARTY",
+  "size": 23
+ },
+ {
+  "opcode": 4144,
+  "hex": "0x1030",
+  "name": "CZ_LOCK_COLONY_ZONE_ENTER",
+  "size": 24
+ },
+ {
+  "opcode": 4145,
+  "hex": "0x1031",
+  "name": "CZ_DICE",
+  "size": 27
+ },
+ {
+  "opcode": 4146,
+  "hex": "0x1032",
+  "name": "ZC_SET_PLAYER_CONTENTS_RECORD_RESULT",
+  "size": 150
+ },
+ {
+  "opcode": 4147,
+  "hex": "0x1033",
+  "name": "ZC_SEND_TEAM_BATTLE_LEAGUE_RESULT_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 4148,
+  "hex": "0x1034",
+  "name": "ZC_SEND_TEAM_BATTLE_LEAGUE_DETAIL_DAMAGE_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 4149,
+  "hex": "0x1035",
+  "name": "ZC_SEND_TEAM_BATTLE_LEAGUE_DETAIL_HEAL_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 4150,
+  "hex": "0x1036",
+  "name": "ZC_TEAM_BATTLE_LEAGUE_OBSERVE_RELEASE_LOCK_MOVE_KEY",
+  "size": 10
+ },
+ {
+  "opcode": 4151,
+  "hex": "0x1037",
+  "name": "ZC_START_COMBO_INPUT_CMD",
+  "size": 0
+ },
+ {
+  "opcode": 4152,
+  "hex": "0x1038",
+  "name": "ZC_END_COMBO_INPUT_CMD",
+  "size": 14
+ },
+ {
+  "opcode": 4153,
+  "hex": "0x1039",
+  "name": "CZ_END_COMBO_INPUT",
+  "size": 27
+ },
+ {
+  "opcode": 4154,
+  "hex": "0x103A",
+  "name": "ZC_START_ESCAPE_INPUT_CMD",
+  "size": 0
+ },
+ {
+  "opcode": 4155,
+  "hex": "0x103B",
+  "name": "ZC_END_ESCAPE_INPUT_CMD",
+  "size": 14
+ },
+ {
+  "opcode": 4156,
+  "hex": "0x103C",
+  "name": "CZ_CONTENTS_ALERT_MOVE",
+  "size": 22
+ },
+ {
+  "opcode": 4157,
+  "hex": "0x103D",
+  "name": "ZC_TIMING_GAUGE_START",
+  "size": 54
+ },
+ {
+  "opcode": 4158,
+  "hex": "0x103E",
+  "name": "ZC_TIMING_GAUGE_END",
+  "size": 15
+ },
+ {
+  "opcode": 4159,
+  "hex": "0x103F",
+  "name": "ZC_CHARGING_GAUGE_START",
+  "size": 59
+ },
+ {
+  "opcode": 4160,
+  "hex": "0x1040",
+  "name": "ZC_CHARGING_GAUGE_END",
+  "size": 15
+ },
+ {
+  "opcode": 4161,
+  "hex": "0x1041",
+  "name": "ZC_INTERACTION_RIDE",
+  "size": 555
+ },
+ {
+  "opcode": 4162,
+  "hex": "0x1042",
+  "name": "ZC_INTERACTION_COOL_TIME",
+  "size": 23
+ },
+ {
+  "opcode": 4163,
+  "hex": "0x1043",
+  "name": "ZC_SQUAD_INFO",
+  "size": 0
+ },
+ {
+  "opcode": 4164,
+  "hex": "0x1044",
+  "name": "CZ_INVITE_SQUAD_MEMBER",
+  "size": 91
+ },
+ {
+  "opcode": 4165,
+  "hex": "0x1045",
+  "name": "ZC_INVITE_SQUAD_MEMBER",
+  "size": 217
+ },
+ {
+  "opcode": 4166,
+  "hex": "0x1046",
+  "name": "CZ_RESPONSE_INVITED_SQUAD",
+  "size": 88
+ },
+ {
+  "opcode": 4167,
+  "hex": "0x1047",
+  "name": "CZ_LEAVE_SQUAD",
+  "size": 95
+ },
+ {
+  "opcode": 4168,
+  "hex": "0x1048",
+  "name": "CZ_CREATE_SQUAD",
+  "size": 91
+ },
+ {
+  "opcode": 4169,
+  "hex": "0x1049",
+  "name": "CZ_DISBAND_SQUAD",
+  "size": 26
+ },
+ {
+  "opcode": 4170,
+  "hex": "0x104A",
+  "name": "CZ_REQ_EARRING_RAID_PARTY_SKILL",
+  "size": 26
+ },
+ {
+  "opcode": 4171,
+  "hex": "0x104B",
+  "name": "ZC_CUSTOM_CAMERA_ZOOM",
+  "size": 22
+ },
+ {
+  "opcode": 4172,
+  "hex": "0x104C",
+  "name": "ZC_SHOW_SCENE_MODEL_LOCAL",
+  "size": 19
+ },
+ {
+  "opcode": 4173,
+  "hex": "0x104D",
+  "name": "ZC_ADD_PAD_VISIBLE_OPTION",
+  "size": 16
+ },
+ {
+  "opcode": 4174,
+  "hex": "0x104E",
+  "name": "ZC_REMOVE_PAD_VISIBLE_OPTION",
+  "size": 14
+ },
+ {
+  "opcode": 4175,
+  "hex": "0x104F",
+  "name": "ZC_MGAME_USER_DAMAGE_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 4176,
+  "hex": "0x1050",
+  "name": "ZC_SEND_TRIBULATION_INFO",
+  "size": 0
+ },
+ {
+  "opcode": 4177,
+  "hex": "0x1051",
+  "name": "CZ_REQ_TRIBULATION_INFO",
+  "size": 539
+ },
+ {
+  "opcode": 4178,
+  "hex": "0x1052",
+  "name": "CZ_SEND_SELECTED_TRIBULATION_INFO",
+  "size": 0
+ },
+ {
+  "opcode": 4179,
+  "hex": "0x1053",
+  "name": "ZC_SEND_SELECTED_TRIBULATION_INFO",
+  "size": 0
+ },
+ {
+  "opcode": 4180,
+  "hex": "0x1054",
+  "name": "ZC_SEND_TRIBULATION_CLEAR",
+  "size": 282
+ },
+ {
+  "opcode": 4181,
+  "hex": "0x1055",
+  "name": "CZ_SAVE_CLASS_SNAPSHOT",
+  "size": 52
+ },
+ {
+  "opcode": 4182,
+  "hex": "0x1056",
+  "name": "CZ_RENAME_CLASS_SNAPSHOT",
+  "size": 50
+ },
+ {
+  "opcode": 4183,
+  "hex": "0x1057",
+  "name": "CZ_UNEQUIP_ITEM_ALL",
+  "size": 22
+ },
+ {
+  "opcode": 4184,
+  "hex": "0x1058",
+  "name": "CZ_APPLY_CLASS_SNAPSHOT",
+  "size": 26
+ },
+ {
+  "opcode": 4185,
+  "hex": "0x1059",
+  "name": "CZ_REMOVE_CLASS_SNAPSHOT",
+  "size": 26
+ },
+ {
+  "opcode": 4186,
+  "hex": "0x105A",
+  "name": "CZ_REQ_RUNSCRIPT",
+  "size": 22
+ },
+ {
+  "opcode": 4187,
+  "hex": "0x105B",
+  "name": "CZ_REQ_TRANSLATE_MSG",
+  "size": 2107
+ },
+ {
+  "opcode": 4188,
+  "hex": "0x105C",
+  "name": "ZC_SEND_TRANSLATED_MSG",
+  "size": 2111
+ },
+ {
+  "opcode": 4189,
+  "hex": "0x105D",
+  "name": "ZC_SET_SOUND_MUTE",
+  "size": 16
+ },
+ {
+  "opcode": 4190,
+  "hex": "0x105E",
+  "name": "ZC_SET_MUSIC_MUTE",
+  "size": 16
+ },
+ {
+  "opcode": 4191,
+  "hex": "0x105F",
+  "name": "ZC_BREAK_SHIELD",
+  "size": 14
+ },
+ {
+  "opcode": 4192,
+  "hex": "0x1060",
+  "name": "ZC_SHOW_MON_CASTING_UI",
+  "size": 538
+ },
+ {
+  "opcode": 4193,
+  "hex": "0x1061",
+  "name": "CZ_REQ_RAID_GIVE_UP",
+  "size": 26
+ },
+ {
+  "opcode": 4194,
+  "hex": "0x1062",
+  "name": "CZ_REQ_APPLY_HUD_SKIN",
+  "size": 26
+ },
+ {
+  "opcode": 4195,
+  "hex": "0x1063",
+  "name": "CZ_REQ_CURRENT_HUD_SKIN",
+  "size": 23
+ },
+ {
+  "opcode": 4196,
+  "hex": "0x1064",
+  "name": "ZC_SEND_MODE_HUD_SKIN",
+  "size": 15
+ },
+ {
+  "opcode": 4197,
+  "hex": "0x1065",
+  "name": "ZC_SEND_APPLY_HUD_SKIN_MYSELF",
+  "size": 18
+ },
+ {
+  "opcode": 4198,
+  "hex": "0x1066",
+  "name": "ZC_SEND_APPLY_HUD_SKIN_PARTY",
+  "size": 26
+ },
+ {
+  "opcode": 4199,
+  "hex": "0x1067",
+  "name": "ZC_SEND_APPLY_HUD_SKIN_OTHER",
+  "size": 18
+ },
+ {
+  "opcode": 4200,
+  "hex": "0x1068",
+  "name": "CZ_REQ_FIELD_BOSS_INDUN_REENTER_CHECK",
+  "size": 26
+ },
+ {
+  "opcode": 4201,
+  "hex": "0x1069",
+  "name": "ZC_SEND_FIELD_BOSS_INDUN_REENTER_CHECK",
+  "size": 19
+ },
+ {
+  "opcode": 4202,
+  "hex": "0x106A",
+  "name": "CZ_REQ_FULLSCREEN_MOVE_NPC",
+  "size": 2200
+ },
+ {
+  "opcode": 4203,
+  "hex": "0x106B",
+  "name": "ZC_VERTIGO_GAMES_USER_BALANCE",
+  "size": 30
+ },
+ {
+  "opcode": 4204,
+  "hex": "0x106C",
+  "name": "CZ_BUY_VERTIGO_GAMES_PRODUCT",
+  "size": 170
+ },
+ {
+  "opcode": 4205,
+  "hex": "0x106D",
+  "name": "ZC_CHANGE_QUICKSLOT_INIT",
+  "size": 1046
+ },
+ {
+  "opcode": 4206,
+  "hex": "0x106E",
+  "name": "CZ_REQ_QUICKSLOT_REFRESH",
+  "size": 22
+ },
+ {
+  "opcode": 4207,
+  "hex": "0x106F",
+  "name": "ZC_SET_AURA_INTENSIVE_INFO",
+  "size": 18
+ },
+ {
+  "opcode": 4208,
+  "hex": "0x1070",
+  "name": "ZC_UPDATE_SKL_SPDRATE_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 4209,
+  "hex": "0x1071",
+  "name": "ZC_CHARACTER_INDUN_INFO_RESPONSE",
+  "size": 0
+ },
+ {
+  "opcode": 4210,
+  "hex": "0x1072",
+  "name": "ZC_ON_AFTER_IMAGE",
+  "size": 38
+ },
+ {
+  "opcode": 4211,
+  "hex": "0x1073",
+  "name": "ZC_OFF_AFTER_IMAGE",
+  "size": 14
+ },
+ {
+  "opcode": 4212,
+  "hex": "0x1074",
+  "name": "ZC_SEND_NONE_TARGETING_LIST",
+  "size": 0
+ },
+ {
+  "opcode": 4213,
+  "hex": "0x1075",
+  "name": "ZC_UNITY_GROUND_EFFECT",
+  "size": 59
+ },
+ {
+  "opcode": 4214,
+  "hex": "0x1076",
+  "name": "ZC_MON_LEADER_SHOW_ICON",
+  "size": 531
+ },
+ {
+  "opcode": 4215,
+  "hex": "0x1077",
+  "name": "ZC_SET_FACE_STATE",
+  "size": 526
+ },
+ {
+  "opcode": 4216,
+  "hex": "0x1078",
+  "name": "ZC_UPDATE_FAINT",
+  "size": 30
+ },
+ {
+  "opcode": 4218,
+  "hex": "0x107A",
+  "name": "CZ_REQUEST_DIALOG_UI",
+  "size": 26
+ },
+ {
+  "opcode": 4219,
+  "hex": "0x107B",
+  "name": "CZ_USE_INVITE_EVENT_CODE",
+  "size": 54
+ },
+ {
+  "opcode": 4220,
+  "hex": "0x107C",
+  "name": "CZ_GET_INVITE_EVENT_REWARD",
+  "size": 26
+ },
+ {
+  "opcode": 4221,
+  "hex": "0x107D",
+  "name": "ZC_ONLY_ROTATE_MODE",
+  "size": 787
+ },
+ {
+  "opcode": 4222,
+  "hex": "0x107E",
+  "name": "ZC_PLAY_FULLSCREEN_EFFECT",
+  "size": 274
+ },
+ {
+  "opcode": 4223,
+  "hex": "0x107F",
+  "name": "CZ_REQ_DEMONLAIR_STATUS_INFO",
+  "size": 26
+ },
+ {
+  "opcode": 4224,
+  "hex": "0x1080",
+  "name": "CZ_APPLY_DEMONLAIR_BUFF_AND_PENALTY",
+  "size": 38
+ },
+ {
+  "opcode": 4225,
+  "hex": "0x1081",
+  "name": "CZ_REQ_CRAFT_TIME_REDUCE_BUFF",
+  "size": 26
+ },
+ {
+  "opcode": 4226,
+  "hex": "0x1082",
+  "name": "CZ_REQ_GUILD_AGIT_MOVE",
+  "size": 26
+ },
+ {
+  "opcode": 4227,
+  "hex": "0x1083",
+  "name": "CZ_REQ_GUILD_TOWER_REMOVE",
+  "size": 26
+ },
+ {
+  "opcode": 4228,
+  "hex": "0x1084",
+  "name": "CZ_REQ_GUILD_QUEST_REWARD_INFO",
+  "size": 26
+ },
+ {
+  "opcode": 4229,
+  "hex": "0x1085",
+  "name": "ZC_SEND_GUILD_QUEST_REWARD_INFO",
+  "size": 0
+ },
+ {
+  "opcode": 4230,
+  "hex": "0x1086",
+  "name": "CZ_CHECK_GUILD_TICKET_RESET",
+  "size": 26
+ },
+ {
+  "opcode": 4231,
+  "hex": "0x1087",
+  "name": "ZC_COOLDOWN_CHANGED_BATCH",
+  "size": 0
+ },
+ {
+  "opcode": 15901,
+  "hex": "0x3E1D",
+  "name": "CS_LOGIN",
+  "size": 411
+ },
+ {
+  "opcode": 15902,
+  "hex": "0x3E1E",
+  "name": "SC_NORMAL",
+  "size": 0
+ },
+ {
+  "opcode": 15903,
+  "hex": "0x3E1F",
+  "name": "SC_FROM_INTEGRATE",
+  "size": 0
+ },
+ {
+  "opcode": 15904,
+  "hex": "0x3E20",
+  "name": "CS_REQ_ADD_FRIEND",
+  "size": 74
+ },
+ {
+  "opcode": 15905,
+  "hex": "0x3E21",
+  "name": "CS_REQ_BLOCK_FRIEND",
+  "size": 74
+ },
+ {
+  "opcode": 15906,
+  "hex": "0x3E22",
+  "name": "CS_FRIEND_CMD",
+  "size": 32
+ },
+ {
+  "opcode": 15907,
+  "hex": "0x3E23",
+  "name": "CS_FRIEND_SET_ADDINFO",
+  "size": 168
+ },
+ {
+  "opcode": 15908,
+  "hex": "0x3E24",
+  "name": "CS_CHAT",
+  "size": 0
+ },
+ {
+  "opcode": 15909,
+  "hex": "0x3E25",
+  "name": "CS_GROUP_CHAT_INVITE",
+  "size": 114
+ },
+ {
+  "opcode": 15910,
+  "hex": "0x3E26",
+  "name": "CS_GROUP_CHAT_INVITE_BY_TAG",
+  "size": 26
+ },
+ {
+  "opcode": 15911,
+  "hex": "0x3E27",
+  "name": "CS_ALLOW_GROUP_CHAT_TAG_INVITE",
+  "size": 50
+ },
+ {
+  "opcode": 15912,
+  "hex": "0x3E28",
+  "name": "CS_REFRESH_GROUP_CHAT",
+  "size": 10
+ },
+ {
+  "opcode": 15913,
+  "hex": "0x3E29",
+  "name": "CS_CREATE_GROUP_CHAT",
+  "size": 10
+ },
+ {
+  "opcode": 15914,
+  "hex": "0x3E2A",
+  "name": "CS_REQ_CHAT_HISTORY",
+  "size": 26
+ },
+ {
+  "opcode": 15915,
+  "hex": "0x3E2B",
+  "name": "CS_REQ_OUT_ROOM",
+  "size": 18
+ },
+ {
+  "opcode": 15916,
+  "hex": "0x3E2C",
+  "name": "CS_REQ_RELATED_PC_SESSION",
+  "size": 24
+ },
+ {
+  "opcode": 15917,
+  "hex": "0x3E2D",
+  "name": "CS_REDIS_SKILLPOINT",
+  "size": 26
+ },
+ {
+  "opcode": 15918,
+  "hex": "0x3E2E",
+  "name": "CS_PARTY_CLIENT_INFO_SEND",
+  "size": 0
+ },
+ {
+  "opcode": 15919,
+  "hex": "0x3E2F",
+  "name": "CS_NORMAL_GAME_START",
+  "size": 10
+ },
+ {
+  "opcode": 15920,
+  "hex": "0x3E30",
+  "name": "CS_REQUEST_PVP_RANKING",
+  "size": 92
+ },
+ {
+  "opcode": 15921,
+  "hex": "0x3E31",
+  "name": "CS_REQUEST_ALL_SEASON_TOP_PVP_RANKING",
+  "size": 84
+ },
+ {
+  "opcode": 15922,
+  "hex": "0x3E32",
+  "name": "CS_INVITE_PARTY_PVP",
+  "size": 14
+ },
+ {
+  "opcode": 15923,
+  "hex": "0x3E33",
+  "name": "CS_ACCEPT_PARTY_PVP",
+  "size": 23
+ },
+ {
+  "opcode": 15924,
+  "hex": "0x3E34",
+  "name": "CS_LIKE_IT",
+  "size": 96
+ },
+ {
+  "opcode": 15925,
+  "hex": "0x3E35",
+  "name": "CS_UNLIKE_IT",
+  "size": 32
+ },
+ {
+  "opcode": 15926,
+  "hex": "0x3E36",
+  "name": "CS_LIKE_IT_CONFIRM",
+  "size": 24
+ },
+ {
+  "opcode": 15927,
+  "hex": "0x3E37",
+  "name": "CS_ADD_RELATION_SCORE",
+  "size": 96
+ },
+ {
+  "opcode": 15928,
+  "hex": "0x3E38",
+  "name": "CS_GET_LIKE_COUNT",
+  "size": 24
+ },
+ {
+  "opcode": 15929,
+  "hex": "0x3E39",
+  "name": "CS_REQ_MEMBER_LOGOUT_TIME",
+  "size": 10
+ },
+ {
+  "opcode": 15930,
+  "hex": "0x3E3A",
+  "name": "CS_INVITE_GROUPCHAT_ACCEPT",
+  "size": 135
+ },
+ {
+  "opcode": 15931,
+  "hex": "0x3E3B",
+  "name": "SC_LOGIN_OK",
+  "size": 10
+ },
+ {
+  "opcode": 15932,
+  "hex": "0x3E3C",
+  "name": "CS_DICE",
+  "size": 15
+ },
+ {
+  "opcode": 15933,
+  "hex": "0x3E3D",
+  "name": "SC_SYSTEM_MSG",
+  "size": 0
+ }
+]

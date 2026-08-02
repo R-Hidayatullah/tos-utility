@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- For tos_proxy.py, NOT for the emulator. The proxy maps each local port to
+     a specific upstream (7001 to the real login server, 7002 to the real zone
+     server), so these two numbers have to match its UPSTREAMS table exactly.
+
+     The emulator's own list is ../serverlist.xml and uses different ports.
+     tos_relay.exe needs neither: it generates a list from its own listen
+     ports and serves that. -->
+<serverlist>
+	<server GROUP_ID="1001" TRAFFIC="0" ENTER_LIMIT="100" NAME="[Proxy] tosemu" Server0_IP="127.0.0.1" Server0_Port="7001" Server1_IP="127.0.0.1" Server1_Port="7002"/>
+</serverlist>
